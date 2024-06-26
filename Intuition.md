@@ -34,6 +34,7 @@ where \\(O^{T}\\) is the transpose of \\(O\\), and \\(𝟙\\) is the \\(2 \\time
 	\\label{eq:Correspondence}
 	e^{i \\theta} \\left(a + i b\\right) \\ \\sim\\  \\rho\\!\\left(\\theta\\right) \\left(a \\vec{1} + b \\vec{i}\\right)\\,.
 \\end{equation}
+<br><br>
 
 This simple example allows us to build some tools for the future. We first expand the correspondence above, Eq.&nbsp;\\eqref{eq:Correspondence}, using Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula}, and the \\(2\\)-dimensional rotation matrix, Eq.&nbsp;\\eqref{eq:2D Rotation Matrix},
 \\begin{equation}
