@@ -4,6 +4,31 @@ window.MathJax = {
     tags: 'ams'
   }
 };
+MathJax = {
+  startup: {
+    ready() {
+      const Configuration = MathJax._.input.tex.Configuration.Configuration;
+      const CommandMap = MathJax._.input.tex.SymbolMap.CommandMap;
+      new CommandMap('sections', {
+        nextSection: 'NextSection',
+        setSection: 'SetSection',
+      }, {
+        NextSection(parser, name) {
+          MathJax.config.section++;
+          parser.tags.counter = parser.tags.allCounter = 0;
+        },
+        SetSection(parser, name) {
+          const n = parser.GetArgument(name);
+          MathJax.config.section = parseInt(n);
+        }
+      });
+      Configuration.create(
+        'sections', {handler: {macro: ['sections']}}
+      );
+      MathJax.startup.defaultReady();
+    }
+  }
+};
 </script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -11,6 +36,7 @@ window.MathJax = {
 # I. Preamble
 
 ## 1. Introduction
+<span style="display: hidden">\(\setSection{1}\)</span>
 
 This set of articles was written to serve several purposes. The first is my urge to write. There is a nice feeling in sharing knowledge with others, initiating a discussion, or just revisiting nice ideas. I had this urge to write, especially on a topic very close to my heart, for a few years now - even before I started to work in the video games industry - and finally I took the time to fulfill it. I am very pleased, because it allowed me to better understand things I thought I understand, but apparently I only partially knew. I recommend you to do the same with a simple topic - you will be surprised!
 
