@@ -3,6 +3,7 @@
 <div style="display:none">
 layout: page
 title: "I. Preamble"
+description: "I. Preamble"
 permalink: https://07u.github.io/skills-github-pages/Preamble
 </div>
 
