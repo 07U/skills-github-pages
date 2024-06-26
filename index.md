@@ -1,5 +1,7 @@
 <script src="load-mathjax.js" async></script>
 
+[Link](https://github.com/07U/skills-github-pages/edit/main/Preamble)
+
 # I. Preamble
 
 ## 1. Introduction
