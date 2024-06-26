@@ -1,5 +1,10 @@
 <script src="load-mathjax.js" async></script>
 
+\begin{equation}
+	\label{eq:SO(2) Definition}
+	SO\!\left(2\right) = \Set{\!O = \begin{pmatrix} a & b \\ c & d \end{pmatrix} | a,b,c,d \in \mathbb{R}\,,\ O^{T} O = \mathbbm{1}\,,\ \det\!\left[O\right] = 1\!}\,,
+\end{equation}
+
 # I. Preamble
 
 ## 1. Introduction
