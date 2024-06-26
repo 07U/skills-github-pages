@@ -1,24 +1,7 @@
-<script src="load-mathjax.js" async></script>
-
-\begin{equation}x+1\label{e1}\end{equation}
-
-\begin{equation}x+2\qquad\label{e2}\end{equation}
-
-<div style="display:none">\(\setSection{2}\)</div>
-
-\begin{equation}x+3\label{e3}\end{equation}
-
-\begin{equation}x+4\label{e4}\end{equation}
-
-<div style="display:none">\(\setSection{4}\)</div>
-
-\begin{equation}x+5\label{e5}\end{equation}
-
-References to \eqref{e1} and \eqref{e4}
-
 # I. Preamble
 
 ## 1. Introduction
+<div style="display:none">\(\setSection{1}\)</div>
 
 This set of articles was written to serve several purposes. The first is my urge to write. There is a nice feeling in sharing knowledge with others, initiating a discussion, or just revisiting nice ideas. I had this urge to write, especially on a topic very close to my heart, for a few years now - even before I started to work in the video games industry - and finally I took the time to fulfill it. I am very pleased, because it allowed me to better understand things I thought I understand, but apparently I only partially knew. I recommend you to do the same with a simple topic - you will be surprised!
 
@@ -59,5 +42,7 @@ with the conjugation operation negating \\(i\\), \\(j\\), and \\(k\\). Hence, th
 	\label{eq:Unit Quaternion Transformation}
 	p \longmapsto q p q^{\*}\\,.
 \end{equation}
+
+---
 
 [^1]: Please do it after you read this text, as it makes it obsolete in some sense haha
