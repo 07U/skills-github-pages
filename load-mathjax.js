@@ -1,6 +1,37 @@
-window.MathJax = {
+MathJax = {
+  loader: {load: ['[tex]/tagformat']},
+  section: 1,
   tex: {
-    tags: 'ams'
+    tags: 'ams',
+    packages: {'[+]': ['tagformat', 'sections']},
+    tagformat: {
+      number: (n) => MathJax.config.section + '.' + n
+    }
+  },
+  startup: {
+    ready() {
+      const Configuration = MathJax._.input.tex.Configuration.Configuration;
+      const CommandMap = MathJax._.input.tex.SymbolMap.CommandMap;
+      new CommandMap('sections', {
+        setSection: 'SetSection',
+      }, {
+        SetSection(parser, name) {
+          const n = parser.GetArgument(name);
+          MathJax.config.section = parseInt(n);
+          parser.tags.counter = parser.tags.allCounter = 0;
+        }
+      });
+      Configuration.create(
+        'sections', {handler: {macro: ['sections']}}
+      );
+      MathJax.startup.defaultReady();
+      MathJax.startup.input[0].preFilters.add(({math}) => {
+        if (math.inputData.recompile) MathJax.config.section = math.inputData.recompile.section;
+      });
+      MathJax.startup.input[0].postFilters.add(({math}) => {
+        if (math.inputData.recompile) math.inputData.recompile.section = MathJax.config.section;
+      });
+   }
   }
 };
 
