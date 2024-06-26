@@ -2,7 +2,7 @@
 
 Before we dive into analyzing quaternions in Part&nbsp;\\ref{part:Establishing Basic Concepts}, we review in Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers} what is already known to us about complex numbers, and their relation to rotations. In Sec.&nbsp;\\ref{sec:A Glimpse Into The Future} we are going to familiarize ourselves with some advanced topics, which will be covered in more details in Part&nbsp;\\ref{part:The Connection To 3D Rotations}.
 
-This part is going to serves as a comparison point. All of the results and definitions presented later in the text, in the context of quaternions, can be applied also to the complex numbers, with more ease. Hence, I encourage you to always come back here and try to understand the definitions in the context of complex numbers, even when not instructed to do so in the text.
+\\(\phantom{\quad}\\)This part is going to serves as a comparison point. All of the results and definitions presented later in the text, in the context of quaternions, can be applied also to the complex numbers, with more ease. Hence, I encourage you to always come back here and try to understand the definitions in the context of complex numbers, even when not instructed to do so in the text.
 
 Let us start.
 
