@@ -4,7 +4,7 @@ Before we dive into analyzing quaternions in Part&nbsp;\\ref{part:Establishing B
 
 \\(\phantom{\quad}\\)This part is going to serves as a comparison point. All of the results and definitions presented later in the text, in the context of quaternions, can be applied also to the complex numbers, with more ease. Hence, I encourage you to always come back here and try to understand the definitions in the context of complex numbers, even when not instructed to do so in the text.
 
-Let us start.
+\\(\phantom{\quad}\\)Let us start.
 
 # 5. Rotations With Complex Numbers
 <div style="display:none">\(\setSection{5}\)</div>
@@ -35,7 +35,7 @@ where \\(O^{T}\\) is the transpose of \\(O\\), and \\(𝟙\\) is the \\(2 \\time
 	e^{i \\theta} \\left(a + i b\\right) \\ \\sim\\  \\rho\\!\\left(\\theta\\right) \\left(a \\vec{1} + b \\vec{i}\\right)\\,.
 \\end{equation}
 
-This simple example allows us to build some tools for the future. We first expand the correspondence above, Eq.&nbsp;\\eqref{eq:Correspondence}, using Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula}, and the \\(2\\)-dimensional rotation matrix, Eq.&nbsp;\\eqref{eq:2D Rotation Matrix},
+\\(\phantom{\quad}\\)This simple example allows us to build some tools for the future. We first expand the correspondence above, Eq.&nbsp;\\eqref{eq:Correspondence}, using Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula}, and the \\(2\\)-dimensional rotation matrix, Eq.&nbsp;\\eqref{eq:2D Rotation Matrix},
 \\begin{equation}
 	\\label{eq:Correspondence Expanded}
 	\\left(\\cos\\!\\left(\\theta\\right) \\hat{1} + \\sin\\!\\left(\\theta\\right) \\hat{i}\\right) \\left(a 1 + b i\\right) \\ \\sim\\  \\begin{pmatrix} \\cos\\!\\left(\\theta\\right) & -\\sin\\!\\left(\\theta\\right) \\\\ \\sin\\!\\left(\\theta\\right) & \\cos\\!\\left(\\theta\\right) \\end{pmatrix} \\left(a \\vec{1} + b \\vec{i}\\right)\\,.
@@ -45,9 +45,8 @@ There are several "different" spaces here to consider (spanned by and related to
 * The right term of the left hand side, the "scalars" space, is the complex plane, \\(\\mathbb{C}^{1}\\).
 * The left term of the right hand side, the "matrix" space, is the \\(2 \\times 2\\) matrix depiction of a rotation transformation.
 * The right term of the right hand side, the "vectors" space, is the regular \\(2D\\) Euclidean space, \\(\\mathbb{R}^{2}\\), defined in Eq.&nbsp;\\eqref{eq:2D Basis}.
-<br><br>
 
-Eq.&nbsp;\\eqref{eq:2D Basis} defines the relation between the complex plane and the \\(2\\)-dimensional Euclidean space. What is the relation between the "hat" space and the \\(2 \\times 2\\) matrices one? It is given by
+\\(\phantom{\quad}\\)Eq.&nbsp;\\eqref{eq:2D Basis} defines the relation between the complex plane and the \\(2\\)-dimensional Euclidean space. What is the relation between the "hat" space and the \\(2 \\times 2\\) matrices one? It is given by
 \\begin{equation}
 	\\label{eq:SO(2) Basis}
 	\\hat{1} \\ \\sim\\  𝟙 \\equiv \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\,,\\quad \\hat{i} \\ \\sim\\  -\\epsilon \\equiv -\\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}\\,,
@@ -63,26 +62,26 @@ with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.
 
 \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\) acts as a great example to introduce some definitions and common terms. This similarity to \\(i^{2} = -1\\) is an important property, which is a part of the definition of...
 
-A *representation*, \\(D\\), is a linear map from one set of elements to another set of matrices, which has to preserve some operation.[^5] In all of our examples, the operations would be multiplication of either scalars or matrices, and the linearity would be in relation to multiplication by a real scalar. Mathematically, the definition is as follows: let \\(\\alpha\\) be a real scalar, and \\(a\\) and \\(b\\) be complex numbers, quaternions, or matrices. A representation \\(D\\) must satisfy
+\\(\phantom{\quad}\\)A *representation*, \\(D\\), is a linear map from one set of elements to another set of matrices, which has to preserve some operation.[^5] In all of our examples, the operations would be multiplication of either scalars or matrices, and the linearity would be in relation to multiplication by a real scalar. Mathematically, the definition is as follows: let \\(\\alpha\\) be a real scalar, and \\(a\\) and \\(b\\) be complex numbers, quaternions, or matrices. A representation \\(D\\) must satisfy
 \\begin{align}
 	\\label{eq:Representation Linearity} D\\!\\left(\\alpha \\cdot a\\right) & = \\alpha D\\!\\left(a\\right)\\,,\\\\ \\label{eq:Representation Homomorphism} D\\!\\left(a \\cdot b\\right) & = D\\!\\left(a\\right) \\cdot D\\!\\left(b\\right)\\,.
 \\end{align}
 
-In our complex numbers example, what was presented as a "similarity" in Eq.&nbsp;\\eqref{eq:SO(2) Basis}, is actually a representation. It even has a special name - it is the *Fundamental* representation of \\(SO\\!\\left(2\\right)\\)
+\\(\phantom{\quad}\\)In our complex numbers example, what was presented as a "similarity" in Eq.&nbsp;\\eqref{eq:SO(2) Basis}, is actually a representation. It even has a special name - it is the *Fundamental* representation of \\(SO\\!\\left(2\\right)\\)
 \\begin{equation}
 	\\label{eq:i Fundamental Representation}
 	D\\!\\left(1\\right) = 𝟙 \\equiv \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\,,\\quad D\\!\\left(i\\right) = -\\epsilon \\equiv \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\,.
 \\end{equation}
 It is no surprise then that \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\) just like \\(i^{2} = -1\\) - the representation is the mapping that allows us to discuss similar structures with different elements.
 
-The \\(2 \\times 2\\) form of Euler's formula, Eq.&nbsp;\\eqref{eq:2x2 Euler Formula}, can now be rewritten as
+\\(\phantom{\quad}\\)The \\(2 \\times 2\\) form of Euler's formula, Eq.&nbsp;\\eqref{eq:2x2 Euler Formula}, can now be rewritten as
 \\begin{equation}
 	\\label{eq:Fundamental Representation of Euler's Formula}
 	e^{D\\!\\left(i \\theta\\right)} = e^{D\\!\\left(i\\right) \\theta} = \\cos\\!\\left(\\theta\\right) D\\!\\left(1\\right) + \\sin\\!\\left(\\theta\\right) D\\!\\left(i\\right)\\,.
 \\end{equation}
 Notice that the linearity, Eq.&nbsp;\\eqref{eq:Representation Linearity}, and the multiplication-preservation property, Eq.&nbsp;\\eqref{eq:Representation Homomorphism}, allow us to just insert \\(D\\) in the original Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula}, and get Eq.&nbsp;\\eqref{eq:Fundamental Representation of Euler's Formula}.
 
-Usually, the concept of representations is presented later on. This intuition part, though, is a great setting to introduce what is one of the toughest concepts to understand. We end this part with a question: which one of the following maps is a representation (if any)?
+\\(\phantom{\quad}\\)Usually, the concept of representations is presented later on. This intuition part, though, is a great setting to introduce what is one of the toughest concepts to understand. We end this part with a question: which one of the following maps is a representation (if any)?
 \\begin{gather}
 	D_{1}\\!\\left(1\\right) = D_{1}\\!\\left(i\\right) = 𝟙\\,,\\\\	D_{2}\\!\\left(1\\right) = 𝟙\\,,\\ D_{2}\\!\\left(i\\right) = \\epsilon\\,,\\\\ D_{3}\\!\\left(1\\right) = -\\epsilon\\,,\\ D_{3}\\!\\left(i\\right) = 𝟙\\,,\\\\ D_{4}\\!\\left(1\\right) = \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 1 \\end{pmatrix}\\,,\\ D_{4}\\!\\left(i\\right) = \\begin{pmatrix} 0 & 0 & 0 & -1 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\end{pmatrix}\\,.
 \\end{gather}
