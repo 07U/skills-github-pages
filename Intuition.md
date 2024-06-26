@@ -64,8 +64,7 @@ with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.
 
 A *representation*, \\(D\\), is a linear map from one set of elements to another set of matrices, which has to preserve some operation.[^5] In all of our examples, the operations would be multiplication of either scalars or matrices, and the linearity would be in relation to multiplication by a real scalar. Mathematically, the definition is as follows: let \\(\\alpha\\) be a real scalar, and \\(a\\) and \\(b\\) be complex numbers, quaternions, or matrices. A representation \\(D\\) must satisfy
 \\begin{aligned}
-	D\\!\\left(\\alpha \\cdot a\\right) & = \\alpha D\\!\\left(a\\right)\\,,\\\\
-	D\\!\\left(a \\cdot b\\right) & = D\\!\\left(a\\right) \\cdot D\\!\\left(b\\right)\\,.
+	D\\!\\left(\\alpha \\cdot a\\right) \& = \\alpha D\\!\\left(a\\right)\\,,\\\\ D\\!\\left(a \\cdot b\\right) \& = D\\!\\left(a\\right) \\cdot D\\!\\left(b\\right)\\,.
 \\end{aligned}
 
 In our complex numbers example, what was presented as a "similarity" in Eq.&nbsp;\\eqref{eq:SO(2) Basis}, is actually a representation. It even has a special name - it is the *Fundamental* representation of \\(SO\\!\\left(2\\right)\\)
