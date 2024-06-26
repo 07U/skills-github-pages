@@ -2,7 +2,7 @@
 
 \begin{equation}
 	\label{eq:SO(2) Definition}
-	SO\\!\left(2\right) = \Set{\\!O = \begin{pmatrix} a & b \\\\ c & d \end{pmatrix} | a,b,c,d \in \mathbb{R}\\,,\\ O^{T} O = \mathbb{1}\\,,\\ \det\\!\left[O\right] = 1\\!}\\,,
+	SO\\!\left(2\right) = \Set{\\!O = \begin{pmatrix} a & b \\\\ c & d \end{pmatrix} | a,b,c,d \in \mathbb{R}\\,,\\ O^{T} O = \Bbm{1}\\,,\\ \det\\!\left[O\right] = 1\\!}\\,,
 \end{equation}
 
 # I. Preamble
