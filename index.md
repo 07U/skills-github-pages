@@ -9,8 +9,11 @@ window.MathJax = {
   loader: {load: ['[tex]/tagformat']},
   tex: {packages: {'[+]': ['tagformat']}}
 };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-window.MathJax = {
+MathJax = {
   startup: {
     ready() {
       const Configuration = MathJax._.input.tex.Configuration.Configuration;
@@ -35,9 +38,6 @@ window.MathJax = {
     }
   }
 };
-</script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 # I. Preamble
 
