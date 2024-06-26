@@ -1,4 +1,44 @@
-<script src="load-mathjax.js" async></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+MathJax = {
+  loader: {load: ['[tex]/tagformat']},
+  section: 1,
+  tex: {
+    tags: 'ams',
+    packages: {'[+]': ['tagformat', 'sections']},
+    tagformat: {
+      number: (n) => MathJax.config.section + '.' + n
+    }
+  },
+  startup: {
+    ready() {
+      const Configuration = MathJax._.input.tex.Configuration.Configuration;
+      const CommandMap = MathJax._.input.tex.SymbolMap.CommandMap;
+      new CommandMap('sections', {
+        nextSection: 'NextSection'
+      }, {
+        NextSection(parser, name) {
+          MathJax.config.section++;
+          parser.tags.counter = parser.tags.allCounter = 0;
+        }
+      });
+      Configuration.create(
+        'sections', {handler: {macro: ['sections']}}
+      );
+      MathJax.startup.defaultReady();
+    }
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+\begin{equation}x+1\label{e1}\end{equation}
+
+<div style="display:none">\\(\nextSection\\)</div>
+
+\begin{equation}x+1\label{e2}\end{equation}
+
+References to \eqref{e1} and \eqref{e2}
 
 # I. Preamble
 
