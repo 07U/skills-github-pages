@@ -7,7 +7,7 @@ title: Welcome to my blog
 \\(\tau\\)
 
 \\begin\{equation\}
-  e^\{\dot\{\tau\}\} = 1 + 0\,.
+  e^\{\dot\{\tau\}\} = 1 + 0\\,.
 \\end\{equation\}
 
 Nice work setting the theme! ✨
