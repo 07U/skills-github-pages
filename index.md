@@ -4,6 +4,12 @@ window.MathJax = {
     tags: 'ams'
   }
 };
+
+window.MathJax = {
+  loader: {load: ['[tex]/tagformat']},
+  tex: {packages: {'[+]': ['tagformat']}}
+};
+
 MathJax = {
   startup: {
     ready() {
