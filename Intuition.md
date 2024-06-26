@@ -41,15 +41,10 @@ This simple example allows us to build some tools for the future. We first expan
 	\\left(\\cos\\!\\left(\\theta\\right) \\hat{1} + \\sin\\!\\left(\\theta\\right) \\hat{i}\\right) \\left(a 1 + b i\\right) \\ \\sim\\  \\begin{pmatrix} \\cos\\!\\left(\\theta\\right) & -\\sin\\!\\left(\\theta\\right) \\\\ \\sin\\!\\left(\\theta\\right) & \\cos\\!\\left(\\theta\\right) \\end{pmatrix} \\left(a \\vec{1} + b \\vec{i}\\right)\\,.
 \\end{equation}
 There are several "different" spaces here to consider (spanned by and related to the multiplicative identity, \\(1\\), and the imaginary number, \\(i\\)):
-\\begin{itemize}
-	\\item The left term of the left hand side, the "hat" space, is the complex depiction of a rotation transformation.
-
-  \\item The right term of the left hand side, the "scalars" space, is the complex plane, \\(\\mathbb{C}^{1}\\).
-
-  \\item The left term of the right hand side, the "matrix" space, is the \\(2 \\times 2\\) matrix depiction of a rotation transformation.
-
-  \\item The right term of the right hand side, the "vectors" space, is the regular \\(2D\\) Euclidean space, \\(\\mathbb{R}^{2}\\), defined in Eq.&nbsp;\\eqref{eq:2D Basis}.
-\\end{itemize}
+* The left term of the left hand side, the "hat" space, is the complex depiction of a rotation transformation.
+* The right term of the left hand side, the "scalars" space, is the complex plane, \\(\\mathbb{C}^{1}\\).
+* The left term of the right hand side, the "matrix" space, is the \\(2 \\times 2\\) matrix depiction of a rotation transformation.
+* The right term of the right hand side, the "vectors" space, is the regular \\(2D\\) Euclidean space, \\(\\mathbb{R}^{2}\\), defined in Eq.&nbsp;\\eqref{eq:2D Basis}.
 
 Eq.&nbsp;\\eqref{eq:2D Basis} defines the relation between the complex plane and the \\(2\\)-dimensional Euclidean space. What is the relation between the "hat" space and the \\(2 \\times 2\\) matrices one? It is given by
 \\begin{equation}
