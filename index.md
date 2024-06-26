@@ -37,7 +37,7 @@ with some quaternion \\(q\\). Don't worry, we will go over the definition of qua
 	\label{eq:Quaternion Inverse}
 	q q^{-1} = 1\\,,
 \end{equation}
-the global scale does not play any role. It is thus customary and makes total sense to consider only unit-quaternions, \\(\textit{i.e.}\\) those that satisfy
+the global scale does not play any role. It is thus customary and makes total sense to consider only unit-quaternions, *i.e.* those that satisfy
 \begin{equation}
 	\label{eq:Unit Quaternion Inverse}
 	\left|q\right|^{2} = q q^{\*} = 1 \quad\longleftrightarrow\quad q^{-1} = q^{\*}\\,,
