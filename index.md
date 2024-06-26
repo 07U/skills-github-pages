@@ -12,7 +12,7 @@ This set of articles was written to serve several purposes. The first is my urge
 
 Speaking about the video games industry, the second purpose for writing the following set of articles is to allow video game programmers to better understand the concept of quaternions. Be it new developers who do not have years of experience with this mathematical structure, and look for an explanation to why they ``work''; or be it experienced engineers that use it as a black box, because someone already wrote the math library in the previous century, and anyway the code is unreadable.
 
-A lot of people try to understand (and explain) quaternions in \\(4D\\). As an excellent former lecturer of mine describes it - our brain was designed to make us run from lions in the Savanna, and not for comprehending the \\(4^{\textit{th}}\\) dimension. I would like to show that although quaternions are \\(4\\)-dimensional objects, we do not need the \\(4^{\textit{th}}\\) dimension in order to fully understand how they rotate \\(3D\\) spaces.
+A lot of people try to understand (and explain) quaternions in \\(4D\\). As an excellent former lecturer of mine describes it - our brain was designed to make us run from lions in the Savanna, and not for comprehending the \\(4^{\text{th}}\\) dimension. I would like to show that although quaternions are \\(4\\)-dimensional objects, we do not need the \\(4^{\text{th}}\\) dimension in order to fully understand how they rotate \\(3D\\) spaces.
 
 Okay, but why is it on LinkedIn? Well, I wanted to ``publish'' it somewhere, and the concepts that are going to be reviewed are well known in the scientific community. However, in a practical industry like the video games one, some of the concepts covered here may not be familiar to some. I would also like to allow for a potential discussion about the text, and a social media as LinkedIn looks like a good platform to have one with other professionals. Lastly, I hope that the algorithm I present at the end of this series could be helpful, even if just on the conceptual level, for other developers.
 
@@ -37,7 +37,7 @@ with some quaternion \\(q\\). Don't worry, we will go over the definition of qua
 	\label{eq:Quaternion Inverse}
 	q q^{-1} = 1\\,,
 \end{equation}
-the global scale does not play any role. It is thus customary and makes total sense to consider only unit-quaternions, \textit{i.e.} those that satisfy
+the global scale does not play any role. It is thus customary and makes total sense to consider only unit-quaternions, \\(\textit{i.e.}\\) those that satisfy
 \begin{equation}
 	\label{eq:Unit Quaternion Inverse}
 	\left|q\right|^{2} = q q^{\*} = 1 \quad\longleftrightarrow\quad q^{-1} = q^{\*}\\,,
