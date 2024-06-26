@@ -1,6 +1,6 @@
 <script src="load-mathjax.js" async></script>
 
-[Link](https://github.com/07U/skills-github-pages/edit/main/Preamble)
+[I. Preamble](https://07u.github.io/skills-github-pages/Preamble)
 
 # I. Preamble
 
