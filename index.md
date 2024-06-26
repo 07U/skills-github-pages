@@ -13,27 +13,26 @@ window.MathJax = {
 </script>
 <script>
 MathJax = {
+  section: 1,
+  tex: {
+    tagformat: {
+      number: (n) => MathJax.config.section + '.' + n,
+      id: (tag) => 'eqn-id:' + tag
+    }
+  },
   startup: {
     ready() {
-      const Configuration = MathJax._.input.tex.Configuration.Configuration;
-      const CommandMap = MathJax._.input.tex.SymbolMap.CommandMap;
-      new CommandMap('sections', {
-        nextSection: 'NextSection',
-        setSection: 'SetSection',
-      }, {
-        NextSection(parser, name) {
-          MathJax.config.section++;
-          parser.tags.counter = parser.tags.allCounter = 0;
-        },
-        SetSection(parser, name) {
-          const n = parser.GetArgument(name);
-          MathJax.config.section = parseInt(n);
+      MathJax.startup.defaultReady();
+      MathJax.startup.input[0].preFilters.add(({math}) => {
+        if (math.inputData.recompile) {
+          MathJax.config.section = math.inputData.recompile.section;
         }
       });
-      Configuration.create(
-        'sections', {handler: {macro: ['sections']}}
-      );
-      MathJax.startup.defaultReady();
+      MathJax.startup.input[0].postFilters.add(({math}) => {
+        if (math.inputData.recompile) {
+          math.inputData.recompile.section = MathJax.config.section;
+        }
+      });
     }
   }
 };
@@ -44,7 +43,6 @@ MathJax = {
 # I. Preamble
 
 ## 1. Introduction
-\\(\setSection{1}\\)
 
 This set of articles was written to serve several purposes. The first is my urge to write. There is a nice feeling in sharing knowledge with others, initiating a discussion, or just revisiting nice ideas. I had this urge to write, especially on a topic very close to my heart, for a few years now - even before I started to work in the video games industry - and finally I took the time to fulfill it. I am very pleased, because it allowed me to better understand things I thought I understand, but apparently I only partially knew. I recommend you to do the same with a simple topic - you will be surprised!
 
