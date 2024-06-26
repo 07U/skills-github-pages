@@ -1,11 +1,3 @@
-<script src="load-mathjax.js" async></script>
-
-Quaternions - An Explanation From All Angles
-\begin{equation}
-	\label{eq:SO(2) Definition}
-	SO\\!\left(2\right) = \Set{\\!O = \begin{pmatrix} a & b \\\\ c & d \end{pmatrix} | a,b,c,d \in \mathbb{R}\\,,\\ O^{T} O = 𝟙\\,,\\ \det\\!\left[O\right] = 1\\!}\\,,
-\end{equation}
-
 # I. Preamble
 
 ## 1. Introduction
