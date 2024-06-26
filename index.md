@@ -1,4 +1,3 @@
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script>
 MathJax = {
   loader: {load: ['[tex]/tagformat']},
@@ -26,7 +25,13 @@ MathJax = {
         'sections', {handler: {macro: ['sections']}}
       );
       MathJax.startup.defaultReady();
-    }
+      MathJax.startup.input[0].preFilters.add(({math}) => {
+        if (math.inputData.recompile) MathJax.config.section = math.inputData.recompile.section;
+      });
+      MathJax.startup.input[0].postFilters.add(({math}) => {
+        if (math.inputData.recompile) math.inputData.recompile.section = MathJax.config.section;
+      });
+   }
   }
 };
 </script>
@@ -34,9 +39,17 @@ MathJax = {
 
 \begin{equation}x+1\label{e1}\end{equation}
 
+\begin{equation}x+2\qquad\eqref{e3}\label{e2}\end{equation}
+
 <div style="display:none">\\(\nextSection\\)</div>
 
-\begin{equation}x+1\label{e2}\end{equation}
+\begin{equation}x+3\label{e3}\end{equation}
+
+\begin{equation}x+4\label{e4}\end{equation}
+
+<div style="display:none">\\(\nextSection\\)</div>
+
+\begin{equation}x+5\label{e5}\end{equation}
 
 References to \eqref{e1} and \eqref{e2}
 
