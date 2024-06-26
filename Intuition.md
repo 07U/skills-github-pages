@@ -56,7 +56,7 @@ Eq.&nbsp;\\eqref{eq:2D Basis} defines the relation between the complex plane and
 	\\label{eq:SO(2) Basis}
 	\\hat{1} \\ \\sim\\  𝟙 \\equiv \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\,,\\quad \\hat{i} \\ \\sim\\  -\\epsilon \\equiv -\\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}\\,,
 \\end{equation}
-with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.wikipedia.org/wiki/Levi-Civita_symbol#Two_dimensions). It is easy to see that \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\), in the same way as \\(i^{2} = -1\\). It is thus tempting, and actually useful, to take the exponent of \\(-\\epsilon\\),[^4]{It is assumed that the reader is familiar with these kind of operations.} to get the \\(2 \\times 2\\) form of Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula},
+with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.wikipedia.org/wiki/Levi-Civita_symbol#Two_dimensions). It is easy to see that \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\), in the same way as \\(i^{2} = -1\\). It is thus tempting, and actually useful, to take the exponent of \\(-\\epsilon\\),[^4] to get the \\(2 \\times 2\\) form of Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula},
 \\begin{equation}
 	\\label{eq:2x2 Euler Formula}
 	e^{-\\epsilon \\theta} = \\cos\\!\\left(\\theta\\right) 𝟙 + \\sin\\!\\left(\\theta\\right) \\left(-\\epsilon\\right) \\equiv \\rho\\!\\left(\\theta\\right)\\,.
@@ -67,7 +67,7 @@ with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.
 
 \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\) acts as a great example to introduce some definitions and common terms. This similarity to \\(i^{2} = -1\\) is an important property, which is a part of the definition of...
 
-A *representation*, \\(D\\), is a linear map from one set of elements to another set of matrices, which has to preserve some operation.[^5]{A comment for the experts: this is the first concept that gets presented, so there is an attempt to stay in the "intuition stage". Hence, no buzz words are used, and the discussion is kept at an extremely high level.} In all of our examples, the operations would be multiplication of either scalars or matrices, and the linearity would be in relation to multiplication by a real scalar. Mathematically, the definition is as follows: let \\(\\alpha\\) be a real scalar, and \\(a\\) and \\(b\\) be complex numbers, quaternions, or matrices. A representation \\(D\\) must satisfy
+A *representation*, \\(D\\), is a linear map from one set of elements to another set of matrices, which has to preserve some operation.[^5] In all of our examples, the operations would be multiplication of either scalars or matrices, and the linearity would be in relation to multiplication by a real scalar. Mathematically, the definition is as follows: let \\(\\alpha\\) be a real scalar, and \\(a\\) and \\(b\\) be complex numbers, quaternions, or matrices. A representation \\(D\\) must satisfy
 \\begin{align}
 	\\label{eq:Representation Linearity}
 	D\\!\\left(\\alpha \\cdot a\\right) & = \\alpha D\\!\\left(a\\right)\\,,\\\\
@@ -96,3 +96,8 @@ Usually, the concept of representations is presented later on. This intuition pa
 	D_{3}\\!\\left(1\\right) = -\\epsilon\\,,\\ D_{3}\\!\\left(i\\right) = 𝟙\\,,\\\\
 	D_{4}\\!\\left(1\\right) = \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0  \\\\ 0 & 0 & 0 & 1 \\end{pmatrix}\\,,\\ D_{4}\\!\\left(i\\right) = \\begin{pmatrix} 0 & 0 & 0 & -1 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & 0  \\\\ 1 & 0 & 0 & 0 \\end{pmatrix}\\,.
 			\\end{gather}
+
+---
+
+[^4]: It is assumed that the reader is familiar with these kind of operations.
+[^5]: A comment for the experts: this is the first concept that gets presented, so there is an attempt to stay in the "intuition stage". Hence, no buzz words are used, and the discussion is kept at an extremely high level.
