@@ -25,25 +25,25 @@ The text is also not going to cover the more general subject of \href{https://en
 This was about what the text expects of you, and what you should not expect of it. The main goal of this text is to place the quaternions inside a fictional MRI machine, and see into their mechanism for rotations. As a reminder, with this mechanism, a vector \\(\vec{v} = \left(x, y, z\right)\\) is rotated by defining the purely imaginary quaternion
 \begin{equation}
 	\label{eq:Quaternion Vector}
-	p = x i + y j + z k\,,
+	p = x i + y j + z k\\,,
 \end{equation}
 and applying the sandwich product
 \begin{equation}
 	\label{eq:Quaternion Transformation}
-	p \longmapsto q p q^{-1}\,,
+	p \longmapsto q p q^{-1}\\,,
 \end{equation}
 with some quaternion \\(q\\). Don't worry, we will go over the definition of quaternion multiplications again. I would like to state at this stage, though, that because, by definition,
 \begin{equation}
 	\label{eq:Quaternion Inverse}
-	q q^{-1} = 1\,,
+	q q^{-1} = 1\\,,
 \end{equation}
 the global scale does not play any role. It is thus customary and makes total sense to consider only unit-quaternions, \textit{i.e.} those that satisfy
 \begin{equation}
 	\label{eq:Unit Quaternion Inverse}
-	\left|q\right|^{2} = q q^{*} = 1 \quad\longleftrightarrow\quad q^{-1} = q^{*}\,,
+	\left|q\right|^{2} = q q^{*} = 1 \quad\longleftrightarrow\quad q^{-1} = q^{*}\\,,
 \end{equation}
 with the conjugation operation negating \\(i\\), \\(j\\), and \\(k\\). Hence, the main goal for us would be to observe the matrix-code that runs\footnote{Pun was not intended.}
 \begin{equation}
 	\label{eq:Unit Quaternion Transformation}
-	p \longmapsto q p q^{*}\,.
+	p \longmapsto q p q^{*}\\,.
 \end{equation}
