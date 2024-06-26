@@ -20,6 +20,7 @@ MathJax = {
         SetSection(parser, name) {
           const n = parser.GetArgument(name);
           MathJax.config.section = parseInt(n);
+          parser.tags.counter = parser.tags.allCounter = 0;
         }
       });
       Configuration.create(
