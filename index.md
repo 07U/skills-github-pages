@@ -42,13 +42,13 @@ MathJax = {
 
 \begin{equation}x+2\qquad\eqref{e3}\label{e2}\end{equation}
 
-<div style="display:none">\\(\nextSection\\)</div>
+<div style="display:none">\(\nextSection\)</div>
 
 \begin{equation}x+3\label{e3}\end{equation}
 
 \begin{equation}x+4\label{e4}\end{equation}
 
-<div style="display:none">\\(\nextSection\\)</div>
+<div style="display:none">\(\nextSection\)</div>
 
 \begin{equation}x+5\label{e5}\end{equation}
 
