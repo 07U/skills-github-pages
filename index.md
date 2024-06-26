@@ -1,8 +1,6 @@
 <script src="load-mathjax.js" async></script>
 
-[I. Preamble](https://07u.github.io/skills-github-pages/Preamble)
-
-# I. Preamble
+# [I. Preamble](https://07u.github.io/skills-github-pages/Preamble)
 
 ## 1. Introduction
 <div style="display:none">\(\setSection{1}\)</div>
