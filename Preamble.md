@@ -1,8 +1,10 @@
 <script src="load-mathjax.js" async></script>
 
+<div style="display:none">
 layout: page
 title: "I. Preamble"
 permalink: https://07u.github.io/skills-github-pages/Preamble
+</div>
 
 # 1. Introduction
 <div style="display:none">\(\setSection{1}\)</div>
