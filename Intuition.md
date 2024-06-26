@@ -64,7 +64,7 @@ with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.
 
 A *representation*, \\(D\\), is a linear map from one set of elements to another set of matrices, which has to preserve some operation.[^5] In all of our examples, the operations would be multiplication of either scalars or matrices, and the linearity would be in relation to multiplication by a real scalar. Mathematically, the definition is as follows: let \\(\\alpha\\) be a real scalar, and \\(a\\) and \\(b\\) be complex numbers, quaternions, or matrices. A representation \\(D\\) must satisfy
 \\begin{aligned}
-	\\label{eq:Representation Linearity} D\\!\\left(\\alpha \\cdot a\\right) \& = \\alpha D\\!\\left(a\\right)\\,,\\\\ \\label{eq:Representation Homomorphism} D\\!\\left(a \\cdot b\\right) \& = D\\!\\left(a\\right) \\cdot D\\!\\left(b\\right)\\,.
+	\\label{eq:Representation Linearity} D\\!\\left(\\alpha \\cdot a\\right) & = \\alpha D\\!\\left(a\\right)\\,,\\\\ \\label{eq:Representation Homomorphism} D\\!\\left(a \\cdot b\\right) & = D\\!\\left(a\\right) \\cdot D\\!\\left(b\\right)\\,.
 \\end{aligned}
 
 In our complex numbers example, what was presented as a "similarity" in Eq.&nbsp;\\eqref{eq:SO(2) Basis}, is actually a representation. It even has a special name - it is the *Fundamental* representation of \\(SO\\!\\left(2\\right)\\)
@@ -83,10 +83,7 @@ Notice that the linearity, Eq.&nbsp;\\eqref{eq:Representation Linearity}, and th
 
 Usually, the concept of representations is presented later on. This intuition part, though, is a great setting to introduce what is one of the toughest concepts to understand. We end this part with a question: which one of the following maps is a representation (if any)?
 \\begin{gathered}
-	D_{1}\\!\\left(1\\right) = D_{1}\\!\\left(i\\right) = 𝟙\\,,\\\\
-	D_{2}\\!\\left(1\\right) = 𝟙\\,,\\ D_{2}\\!\\left(i\\right) = \\epsilon\\,,\\\\
-	D_{3}\\!\\left(1\\right) = -\\epsilon\\,,\\ D_{3}\\!\\left(i\\right) = 𝟙\\,,\\\\
-	D_{4}\\!\\left(1\\right) = \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0  \\\\ 0 & 0 & 0 & 1 \\end{pmatrix}\\,,\\ D_{4}\\!\\left(i\\right) = \\begin{pmatrix} 0 & 0 & 0 & -1 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & 0  \\\\ 1 & 0 & 0 & 0 \\end{pmatrix}\\,.
+	D_{1}\\!\\left(1\\right) = D_{1}\\!\\left(i\\right) = 𝟙\\,,\\\\	D_{2}\\!\\left(1\\right) = 𝟙\\,,\\ D_{2}\\!\\left(i\\right) = \\epsilon\\,,\\\\ D_{3}\\!\\left(1\\right) = -\\epsilon\\,,\\ D_{3}\\!\\left(i\\right) = 𝟙\\,,\\\\ D_{4}\\!\\left(1\\right) = \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 1 \\end{pmatrix}\\,,\\ D_{4}\\!\\left(i\\right) = \\begin{pmatrix} 0 & 0 & 0 & -1 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\end{pmatrix}\\,.
 \\end{gathered}
 
 ---
