@@ -15,11 +15,11 @@ MathJax = {
       const Configuration = MathJax._.input.tex.Configuration.Configuration;
       const CommandMap = MathJax._.input.tex.SymbolMap.CommandMap;
       new CommandMap('sections', {
-        nextSection: 'NextSection'
+        setSection: 'SetSection',
       }, {
-        NextSection(parser, name) {
-          MathJax.config.section++;
-          parser.tags.counter = parser.tags.allCounter = 0;
+        SetSection(parser, name) {
+          const n = parser.GetArgument(name);
+          MathJax.config.section = parseInt(n);
         }
       });
       Configuration.create(
@@ -40,19 +40,19 @@ MathJax = {
 
 \begin{equation}x+1\label{e1}\end{equation}
 
-\begin{equation}x+2\qquad\eqref{e3}\label{e2}\end{equation}
+\begin{equation}x+2\qquad\label{e2}\end{equation}
 
-<div style="display:none">\(\nextSection\)</div>
+<div style="display:none">\(\setSection{2}\)</div>
 
 \begin{equation}x+3\label{e3}\end{equation}
 
 \begin{equation}x+4\label{e4}\end{equation}
 
-<div style="display:none">\(\nextSection\)</div>
+<div style="display:none">\(\setSection{4}\)</div>
 
 \begin{equation}x+5\label{e5}\end{equation}
 
-References to \eqref{e1} and \eqref{e2}
+References to \eqref{e1} and \eqref{e4}
 
 # I. Preamble
 
