@@ -42,7 +42,7 @@ MathJax = {
 # I. Preamble
 
 ## 1. Introduction
-<span style="display: hidden">\\(\setSection{1}\\)</span>
+\\(\setSection{1}\\)
 
 This set of articles was written to serve several purposes. The first is my urge to write. There is a nice feeling in sharing knowledge with others, initiating a discussion, or just revisiting nice ideas. I had this urge to write, especially on a topic very close to my heart, for a few years now - even before I started to work in the video games industry - and finally I took the time to fulfill it. I am very pleased, because it allowed me to better understand things I thought I understand, but apparently I only partially knew. I recommend you to do the same with a simple topic - you will be surprised!
 
