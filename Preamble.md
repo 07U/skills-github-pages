@@ -68,6 +68,6 @@ with the conjugation operation negating \(i\), \(j\), and \(k\). Hence, the main
 
 ---
 
-<p align="justify">[^1]: Please do it after you read this text, as it makes it obsolete in some sense haha</p>
-<p align="justify">[^2]: Pun was not intended.</p>
-<p align="justify">[^3]: There are claims on the internet that a quaternion with a negative real part performs a rotation according to the left-hand rule, but that is not quite accurate.</p>
+[^1]: <p align="justify">Please do it after you read this text, as it makes it obsolete in some sense haha</p>
+[^2]: <p align="justify">Pun was not intended.</p>
+[^3]: <p align="justify">There are claims on the internet that a quaternion with a negative real part performs a rotation according to the left-hand rule, but that is not quite accurate.</p>
