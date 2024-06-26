@@ -2,7 +2,7 @@
 
 # 1. Introduction
 <div style="display:none">\(\setSection{1}\)</div>
-```markdown
+
 This set of articles was written to serve several purposes. The first is my urge to write. There is a nice feeling in sharing knowledge with others, initiating a discussion, or just revisiting nice ideas. I had this urge to write, especially on a topic very close to my heart, for a few years now - even before I started to work in the video games industry - and finally I took the time to fulfill it. I am very pleased, because it allowed me to better understand things I thought I understand, but apparently I only partially knew. I recommend you to do the same with a simple topic - you will be surprised!
 {: .text-justify}
 
@@ -14,7 +14,6 @@ This set of articles was written to serve several purposes. The first is my urge
 
 \\(\phantom{\quad}\\)Okay, but why is it on LinkedIn? Well, I wanted to "publish" it somewhere, and the concepts that are going to be reviewed are well known in the scientific community. However, in a practical industry like the video games one, some of the concepts covered here may not be familiar to some. I would also like to allow for a potential discussion about the text, and a social media as LinkedIn looks like a good platform to have one with other professionals. Lastly, I hope that the algorithm I present at the end of this series could be helpful, even if just on the conceptual level, for other developers.</p>
 {: .text-justify}
-```
 
 # 2. Prerequisites And Goals
 <div style="display:none">\(\setSection{2}\)</div>
