@@ -5,38 +5,6 @@ window.MathJax = {
   }
 };
 </script>
-<script>
-window.MathJax = {
-  loader: {load: ['[tex]/tagformat']},
-  tex: {packages: {'[+]': ['tagformat']}}
-};
-</script>
-<script>
-MathJax = {
-  section: 1,
-  tex: {
-    tagformat: {
-      number: (n) => MathJax.config.section + '.' + n,
-      id: (tag) => 'eqn-id:' + tag
-    }
-  },
-  startup: {
-    ready() {
-      MathJax.startup.defaultReady();
-      MathJax.startup.input[0].preFilters.add(({math}) => {
-        if (math.inputData.recompile) {
-          MathJax.config.section = math.inputData.recompile.section;
-        }
-      });
-      MathJax.startup.input[0].postFilters.add(({math}) => {
-        if (math.inputData.recompile) {
-          math.inputData.recompile.section = MathJax.config.section;
-        }
-      });
-    }
-  }
-};
-</script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
