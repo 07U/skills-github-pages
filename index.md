@@ -10,7 +10,7 @@ window.MathJax = {
   tex: {packages: {'[+]': ['tagformat']}}
 };
 
-MathJax = {
+window.MathJax = {
   startup: {
     ready() {
       const Configuration = MathJax._.input.tex.Configuration.Configuration;
