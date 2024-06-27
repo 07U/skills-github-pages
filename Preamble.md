@@ -1,6 +1,8 @@
 <script src="load-mathjax.js" async></script>
 
-# 1. Introduction
+# I Preamble
+
+## 1 Introduction
 <div style="display:none">\(\setSection{1}\)</div>
 
 This set of articles was written to serve several purposes. The first is my urge to write. There is a nice feeling in sharing knowledge with others, initiating a discussion, or just revisiting nice ideas. I had this urge to write, especially on a topic very close to my heart, for a few years now - even before I started to work in the video games industry - and finally I took the time to fulfill it. I am very pleased, because it allowed me to better understand things I thought I understand, but apparently I only partially knew. I recommend you to do the same with a simple topic - you will be surprised!
@@ -11,7 +13,7 @@ This set of articles was written to serve several purposes. The first is my urge
 
 &nbsp;&nbsp;&nbsp;&nbsp;Okay, but why is it on LinkedIn? Well, I wanted to "publish" it somewhere, and the concepts that are going to be reviewed are well known in the scientific community. However, in a practical industry like the video games one, some of the concepts covered here may not be familiar to some. I would also like to allow for a potential discussion about the text, and a social media as LinkedIn looks like a good platform to have one with other professionals. Lastly, I hope that the algorithm I present at the end of this series could be helpful, even if just on the conceptual level, for other developers.
 
-# 2. Prerequisites And Goals
+## 2 Prerequisites And Goals
 <div style="display:none">\(\setSection{2}\)</div>
 
 This text does not serve as an introduction to [Linear Algebra](https://en.wikipedia.org/wiki/Linear_algebra), [Complex Numbers](https://en.wikipedia.org/wiki/Complex_number), [Group Theory](https://en.wikipedia.org/wiki/Group_theory), [Representation Theory](https://en.wikipedia.org/wiki/Representation_theory), or even [Quaternions](https://en.wikipedia.org/wiki/Quaternion). The assumption is that the reader is familiar at least with linear algebra and complex numbers, and could understand new ideas as they are presented or used. Explicit derivations are not shown, and in order to arrive to the end result, one needs to know the theory behind the [Taylor series](https://en.wikipedia.org/wiki/Taylor_series), especially the [expansion of the exponential function](https://en.wikipedia.org/wiki/Exponential_function#Formal_definition), as well as the properties of the basic [trigonometric functions](https://en.wikipedia.org/wiki/Trigonometric_functions). There is an attempt referring to external sources, mostly Wikipedia (as is done in this paragraph), for further reading in case one of the terms is not known to the reader.
@@ -50,7 +52,7 @@ with the conjugation operation negating \\(i\\), \\(j\\), and \\(k\\). Hence, th
 
 &nbsp;&nbsp;&nbsp;&nbsp;As stated before, nothing here is new. I do hope that it will provide a refreshing point of view to some readers, and help others. The derivations are also not rigorous, as I hope the small details skipped are easily reproducible by the reader, and because I wanted to release the text at some point. With that said, this is the internet - if something is missing, or some jump is too big, please write to me and I will make sure to improve and clarify the text. The amount of rigor is kept to some low threshold also because LinkedIn does not support mathematical expressions, and the creation and maintenance of any such expression involves some more work on my side.
 
-# 3. Overview
+## 3 Overview
 <div style="display:none">\(\setSection{3}\)</div>
 
 Part&nbsp;\\ref{part:Intuition} serves as an appetizer for what is yet to come, and builds new concepts on top of previous knowledge. In Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers} we review complex numbers and their relation to \\(2D\\) rotations. We then make a small leap, in Sec.&nbsp;\\ref{sec:A Glimpse Into The Future}, and use the complex numbers example to define an extremely important concept - the *representation* - which would allow us to look at quaternions with new and powerful glasses.
@@ -61,7 +63,7 @@ Part&nbsp;\\ref{part:Intuition} serves as an appetizer for what is yet to come, 
 
 &nbsp;&nbsp;&nbsp;&nbsp;But we are not done yet! Part&nbsp;\\ref{part:On The Adjoint Representation} serves as the ultimate part. Sec.&nbsp;\\ref{sec:Deriving The Explicit Rotation Matrix Form} applies all the knowledge we have gained, showing explicitly how a \\(3\\)-dimensional rotation matrix emerges out of a quaternion. Sec.&nbsp;\\ref{sec:A Branchless Matrix-To-Quaternion Translation} discusses the inverse process of extracting a quaternion out of a rotation matrix, and presents a branchless implementation for doing this.
 
-# 4. Acknowledgments
+## 4 Acknowledgments
 <div style="display:none">\(\setSection{4}\)</div>
 
 I would like to thank [profile](https://www.linkedin.com/).
