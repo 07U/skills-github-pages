@@ -1,10 +1,10 @@
 <script src="load-mathjax.js" async></script>
 
 # [I Preamble](https://07u.github.io/skills-github-pages/Preamble)
-&nbsp;&nbsp;## [1 Introduction](https://07u.github.io/skills-github-pages/Preamble#1-introduction)
-&nbsp;&nbsp;## [2 Prerequisites And Goals](https://07u.github.io/skills-github-pages/Preamble#2-prerequisites-and-goals)
-&nbsp;&nbsp;## [3 Overview](https://07u.github.io/skills-github-pages/Preamble#3-overview)
-&nbsp;&nbsp;## [4 Acknowledgments](https://07u.github.io/skills-github-pages/Preamble#4-acknowledgments)
+## [&nbsp;&nbsp;1 Introduction](https://07u.github.io/skills-github-pages/Preamble#1-introduction)
+## [&nbsp;&nbsp;2 Prerequisites And Goals](https://07u.github.io/skills-github-pages/Preamble#2-prerequisites-and-goals)
+## [&nbsp;&nbsp;3 Overview](https://07u.github.io/skills-github-pages/Preamble#3-overview)
+## [&nbsp;&nbsp;4 Acknowledgments](https://07u.github.io/skills-github-pages/Preamble#4-acknowledgments)
 
 # [II Intuition](https://07u.github.io/skills-github-pages/Intuition)
 &nbsp;&nbsp;## [5 Rotations With Complex Numbers](https://07u.github.io/skills-github-pages/Intuition#5-rotations-with-complex-numbers)
