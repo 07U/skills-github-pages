@@ -178,7 +178,7 @@ Of course, this is highly open to interpretation, and could be implemented in nu
 
 &nbsp;&nbsp;&nbsp;&nbsp;The following piece of code realizes the ideas of this section. It extracts the quaternion, up to a global sign. This global sign is important in case one would like to treat the quaternion not as a group element, but rather as a vector (*i.e.*, for linear interpolation purposes), and can be easily taken into account. The presented implementation is *not* the most efficient out of the ones I could come up with. I was trying to keep it somewhat readable (hence the use of the ternary operator), while showing the potential of bit-wise operations (which may or may not help performance). I noticed that performance highly depends on the compiler in use. Sometimes the disassembly written by the compiler was not as optimized as I would have hoped, and there is a considerable variance between compilers. I am looking forward to be amazed by the community, and the cleverness of fellow programmers!
 
-\\begin{lstlisting}
+```c++
 struct Quaternion
 {
 	// It is easier, in this example, to place w at the end of the struct.
@@ -237,4 +237,4 @@ Quaternion ToQuaternion(const Matrix& O)
 
   return q;
 }
-\\end{lstlisting}
+```
