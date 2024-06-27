@@ -8,6 +8,7 @@ Before we dive into analyzing quaternions in Part&nbsp;\\ref{part:Establishing B
 
 &nbsp;&nbsp;&nbsp;&nbsp;Let us start.
 
+<br>
 ## 5 Rotations With Complex Numbers
 <div style="display:none">\(\setSection{5}\)</div>
 
@@ -59,6 +60,7 @@ with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.
 	e^{-\\epsilon \\theta} = \\cos\\!\\left(\\theta\\right) 𝟙 + \\sin\\!\\left(\\theta\\right) \\left(-\\epsilon\\right) \\equiv \\rho\\!\\left(\\theta\\right)\\,.
 \\end{equation}
 
+<br>
 ## 6 A Glimpse Into The Future
 <div style="display:none">\(\setSection{6}\)</div>
 
