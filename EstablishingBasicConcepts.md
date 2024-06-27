@@ -5,8 +5,8 @@
 In Part&nbsp;\\ref{part:Intuition}, we reviewed the intuitive connection between complex numbers (specifically the imaginary number, \\(i\\)) and \\(2D\\) rotations in linear algebra.
 
 &nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;\\ref{sec:Groups}, the mathematical structure of Groups is going to be discussed. We also start analyzing quaternions, and derive an analogous result to Euler's formula in Sec.&nbsp;\\ref{sec:Fun With Quaternions}.
-
 <br>
+
 ### 7 Groups
 <div style="display:none">\(\setSection{7}\)</div>
 
@@ -59,8 +59,8 @@ There is a lot to say about this form. More specifically, we are going to encoun
 	Q_{8} = \\Set{\\!\\pm \\underline{1},\\ \\pm \\underline{i},\\ \\pm \\underline{j},\\ \\pm \\underline{k} | \\underline{i}^{2} = \\underline{j}^{2} = \\underline{k}^{2} = \\underline{i} \\underline{j} \\underline{k} = -\\underline{1}\\!}\\,.
 \\end{equation}
 We use the underline mark for the sake of brevity. Later in the text, we are going to use the complex \\(i\\) next to the quaternion \\(\\underline{i}\\), so there is an attempt to prevent any potential source of confusion.
-
 <br>
+
 ### 8 Fun With Quaternions
 <div style="display:none">\(\setSection{8}\)</div>
 
@@ -84,8 +84,8 @@ with \\(\\alpha\\) a real parameter, and \\(\\hat{n}\\) a real unit vector. Usin
 	e^{\\vec{I} \\cdot \\vec{\\alpha}} = \\cos\\!\\left(\\alpha\\right) + \\vec{I} \\cdot \\hat{n} \\sin\\!\\left(\\alpha\\right)\\,.
 \\end{equation}
 Setting \\(\\hat{n}^{T} = \\begin{pmatrix} 0 & 1 & 0 \\end{pmatrix}\\),[^10] one recovers Euler's formula. Nice! But what do this formula and \\(q\\) represent?
-
 <br>
+
 #### 8.2 Quaternions As Matrices
 
 In Sec.&nbsp;\\ref{sec:A Glimpse Into The Future} of the intuition part, Part&nbsp;\\ref{part:Intuition}, we defined the concept of representations. At the end of it, few maps were presented, some of which are legitimate representations. If you had your suspicions then (or have them now) that there are infinitely many representations, you are not mistaken. Without getting too deep into Representation Theory, consider the complex numbers once more. We saw that they rotate the \\(2\\)-dimensional Euclidean plane. What about a \\(3\\)-dimensional Euclidean space? We can always ignore one of the dimensions, for example the \\(z\\) direction, and choose
@@ -101,8 +101,8 @@ Throughout the text, starting now, the size of \\(𝟙\\) is determined by the c
 	\\!\\!D\\!\\left(\\underline{1}\\right) = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{i}\\right) = \\begin{pmatrix} 0 & i \\\\ i & 0 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{j}\\right) = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{k}\\right) = \\begin{pmatrix} i & 0 \\\\ 0 & -i \\end{pmatrix}\\,.\\!\\!
 \\end{equation}
 \\(D\\!\\left(\\underline{1}\\right) = 𝟙\\) and \\(D\\!\\left(\\underline{j}\\right) = -\\epsilon\\), recovering the complex representation, defined in Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers}. We could have chosen larger matrices, but why not keep it minimal? As an exercise, try to think of a strictly real representation that maps to \\(4 \\times 4\\) matrices.
-
 <br>
+
 #### 8.3 What Is A Quaternion Exponentiation?
 
 We have arrived to the final step of our exponentiation derivation - transforming the QuaterniEuler's formula, Eq.&nbsp;\\eqref{eq:QuaterniEuler's Formula}, into matrix form. We define the general direction
@@ -120,8 +120,8 @@ Prepare to say Abracadabra, because here comes the magic. Defining
 	a & = \\cos\\!\\left(\\alpha\\right)\\,, \\\\ b & = \\sin\\!\\left(\\alpha\\right) \\cos\\!\\left(\\theta\\right)\\,, \\\\ c & = \\sin\\!\\left(\\alpha\\right) \\sin\\!\\left(\\theta\\right) \\sin\\!\\left(\\varphi\\right)\\,, \\\\ d & = \\sin\\!\\left(\\alpha\\right) \\sin\\!\\left(\\theta\\right) \\cos\\!\\left(\\varphi\\right)\\,,
 \\end{align}
 we get a matrix that exactly matches the definition of an \\(SU\\!\\left(2\\right)\\) matrix, as is defined in Eq.&nbsp;\\eqref{eq:SU(2) Matrix}!
-
 <br>
+
 ### 9 Closing Remarks
 <div style="display:none">\(\setSection{9}\)</div>
 
