@@ -11,13 +11,13 @@ In Part&nbsp;\\ref{part:Intuition}, we reviewed the intuitive connection between
 <div style="display:none">\(\setSection{7}\)</div>
 
 Groups are extremely intuitive to understand, and are relatively simple mathematical structures. Here is the definition: a [*group*](https://en.wikipedia.org/wiki/Group_(mathematics)) is a pair of a set \\(G\\) and an operation \\(\\cdot\\),[^6] with the following properties:
-1. Closure - for any two elements \\(g_{1}, g_{2} \\in G\\):
+1. Closure - for any two elements \\(g\_{1}, g\_{2} \\in G\\):
 	\\begin{equation}
-		g_{1} \\cdot g_{2} \\in G\\,.
+		g\_{1} \\cdot g\_{2} \\in G\\,.
 	\\end{equation}
-2. Associativity - for any three elements \\(g_{1}, g_{2}, g_{3} \\in G\\):
+2. Associativity - for any three elements \\(g\_{1}, g\_{2}, g\_{3} \\in G\\):
 	\\begin{equation}
-		\\left(g_{1} \\cdot g_{2}\\right) \\cdot  g_{3} = g_{1} \\cdot \\left(g_{2} \\cdot g_{3}\\right)\\,.
+		\\left(g\_{1} \\cdot g\_{2}\\right) \\cdot  g\_{3} = g\_{1} \\cdot \\left(g\_{2} \\cdot g\_{3}\\right)\\,.
 	\\end{equation}
 3. Identity - \\(G\\) contains an element \\(e\\), such that for all \\(g \\in G\\):
 	\\begin{equation}
@@ -35,14 +35,14 @@ If you choose not to master Group Theory, and just want to jump into the juicy s
 &nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers}, we already encountered \\(SO\\!\\left(2\\right)\\). Let us give the general definition for any integer \\(N\\). The [Special Orthogonal](https://en.wikipedia.org/wiki/Orthogonal_group#Special_orthogonal_group) group is
 \\begin{equation}
 	\\label{eq:SO(N) Definition}
-	SO\\!\\left(N\\right) = \\Set{\\!O \\in M\\!\\left(N, \\mathbb{R}\\right) | O^{T} O = 𝟙_{N \\times N}\\,,\\ \\det\\!\\left[O\\right] = 1\\!}\\,.
+	SO\\!\\left(N\\right) = \\Set{\\!O \\in M\\!\\left(N, \\mathbb{R}\\right) | O^{T} O = 𝟙\_{N \\times N}\\,,\\ \\det\\!\\left[O\\right] = 1\\!}\\,.
 \\end{equation}
 \\(SO\\!\\left(N\\right)\\) describes rotations in the \\(N\\)-dimensional Euclidean space. The goal of this text is to establish the connection between quaternions and \\(SO\\!\\left(3\\right)\\).
 
 &nbsp;&nbsp;&nbsp;&nbsp;Another important group, which is presented here with no clear reason, is the [Special Unitary](https://en.wikipedia.org/wiki/Special_unitary_group) group. Its definition is
 \\begin{equation}
 	\\label{eq:SU(N) Definition}
-	SU\\!\\left(N\\right) = \\Set{\\!U \\in M\\!\\left(N, \\mathbb{C}\\right) | U^{\\dagger} U = 𝟙_{N \\times N}\\,,\\ \\det\\!\\left[U\\right] = 1\\!}\\,.
+	SU\\!\\left(N\\right) = \\Set{\\!U \\in M\\!\\left(N, \\mathbb{C}\\right) | U^{\\dagger} U = 𝟙\_{N \\times N}\\,,\\ \\det\\!\\left[U\\right] = 1\\!}\\,.
 \\end{equation}
 Notice! \\(SU\\!\\left(N\\right)\\) is composed of complex \\(N \\times N\\) matrices! The \\(\\dagger\\) represents \\(T\\ast\\), meaning both taking the transpose of the matrix and the complex conjugate of its elements. What does this family of matrices represent? We do not care. Not currently, and not ever - as we are *not* interested in complex spaces. We are interested in rotations, which are applied in real spaces, with real coordinates. The complex plane is merely a tool, as the generalization of the complex numbers - the quaternions - are merely a tool. We are not interested in their operation on their respective spaces, but solely in the Euclidean space.
 
@@ -56,7 +56,7 @@ There is a lot to say about this form. More specifically, we are going to encoun
 &nbsp;&nbsp;&nbsp;&nbsp;Speaking of quaternions, did you know that they compose a group themselves? The group definition serves as a place to also define (or remind the reader of) the basis of the quaternion space and multiplication rules. The *discrete* quaternion group, of size \\(8\\) elements, is
 \\begin{equation}
 	\\label{eq:Quaternion Group Definition}
-	Q_{8} = \\Set{\\!\\pm \\underline{1},\\ \\pm \\underline{i},\\ \\pm \\underline{j},\\ \\pm \\underline{k} | \\underline{i}^{2} = \\underline{j}^{2} = \\underline{k}^{2} = \\underline{i} \\underline{j} \\underline{k} = -\\underline{1}\\!}\\,.
+	Q\_{8} = \\Set{\\pm \\underline{1},\\ \\pm \\underline{i},\\ \\pm \\underline{j},\\ \\pm \\underline{k} | \\underline{i}^{2} = \\underline{j}^{2} = \\underline{k}^{2} = \\underline{i} \\underline{j} \\underline{k} = -\\underline{1}}\\,.
 \\end{equation}
 We use the underline mark for the sake of brevity. Later in the text, we are going to use the complex \\(i\\) next to the quaternion \\(\\underline{i}\\), so there is an attempt to prevent any potential source of confusion.
 <br>
