@@ -58,7 +58,7 @@ There is a lot to say about this form. More specifically, we are going to encoun
 \\end{equation}
 We use the underline mark for the sake of brevity. Later in the text, we are going to use the complex \\(i\\) next to the quaternion \\(\\underline{i}\\), so there is an attempt to prevent any potential source of confusion.
 
-#8 Fun With Quaternions
+## 8 Fun With Quaternions
 <div style="display:none">\(\setSection{8}\)</div>
 
 ### 8.1 Intuition?
