@@ -98,7 +98,7 @@ Throughout the text, starting now, the size of \\(𝟙\\) is determined by the c
 \\end{equation}
 \\(D\\!\\left(\\underline{1}\\right) = 𝟙\\) and \\(D\\!\\left(\\underline{j}\\right) = -\\epsilon\\), recovering the complex representation, defined in Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers}. We could have chosen larger matrices, but why not keep it minimal? As an exercise, try to think of a strictly real representation that maps to \\(4 \\times 4\\) matrices.
 
-#### 8.3 What Is A Quaternion Exponentiation?}\\label{ssec:What Is A Quaternion Exponentiation?}
+#### 8.3 What Is A Quaternion Exponentiation?
 
 We have arrived to the final step of our exponentiation derivation - transforming the QuaterniEuler's formula, Eq.&nbsp;\\eqref{eq:QuaterniEuler's Formula}, into matrix form. We define the general direction
 \\begin{equation}
