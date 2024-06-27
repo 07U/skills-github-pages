@@ -73,7 +73,7 @@ With this dot-product, we clearly see that \\(Q\\), now as a vector, is normaliz
 	\\label{eq:Q Vector Normalization Condition}
 	\\left|Q\\right|^{2} = Q \\cdot Q = \\frac{1}{2} \\mathrm{Tr}\\!\\left[Q Q^{\\dagger}\\right] = w^{2} + x^{2} + y^{2} + z^{2} = 1\\,.
 \\end{equation}
-Notice the subtle difference between Eq.&nbsp;[\\((14.7)\\)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#mjx-eqn%3Aeq%3AQ_Transformation_Normalization_Condition)\\eqref{eq:Q Transformation Normalization Condition} and Eq.&nbsp;\\eqref{eq:Q Vector Normalization Condition}: the former guarantees that as a transformation, \\(Q\\) does not affect scales; while the latter guarantees that as a vector, \\(Q\\) has a unit norm.
+Notice the subtle difference between Eq.&nbsp;[\\(\\left(14.7\\right)\\)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#mjx-eqn%3Aeq%3AQ_Transformation_Normalization_Condition)\\eqref{eq:Q Transformation Normalization Condition} and Eq.&nbsp;\\eqref{eq:Q Vector Normalization Condition}: the former guarantees that as a transformation, \\(Q\\) does not affect scales; while the latter guarantees that as a vector, \\(Q\\) has a unit norm.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The tensor \\(Q\\) can be written as a \\(4D\\) vector, by sticking its columns one above the other
 \\begin{equation}
