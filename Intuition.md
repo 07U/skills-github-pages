@@ -1,6 +1,6 @@
 <script src="load-mathjax.js" async></script> 
 
-# I Intuition
+# II Intuition
 
 Before we dive into analyzing quaternions in Part&nbsp;\\ref{part:Establishing Basic Concepts}, we review in Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers} what is already known to us about complex numbers, and their relation to rotations. In Sec.&nbsp;\\ref{sec:A Glimpse Into The Future} we are going to familiarize ourselves with some advanced topics, which will be covered in more details in Part&nbsp;\\ref{part:The Connection To 3D Rotations}.
 
