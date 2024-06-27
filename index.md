@@ -3,9 +3,9 @@
 <h1>
   <p align = "center">Author: Oz Davidi</p>
 </h1>
-<h2>
+<h3>
   <p align = "center"><a src = "https://www.linkedin.com/in/Oz-Davidi/">https://www.linkedin.com/in/Oz-Davidi</a></p>
-</h2>
+</h3>
 <br>
 
 # [I Preamble](https://07u.github.io/skills-github-pages/Preamble)
