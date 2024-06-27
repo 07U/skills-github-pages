@@ -1,6 +1,6 @@
 <script src="load-mathjax.js" async></script> 
 
-## \\(\\text{IV}\\) The Connection To \\(3D\\) Rotations
+## \\(\\text{IV}\\ \\) The Connection To \\(3D\\) Rotations
 
 In Part&nbsp;\\ref{part:Intuition}, we had established a connection between the imaginary complex number and the elements of \\(SO\\!\\left(2\\right)\\). In Part&nbsp;\\ref{part:Establishing Basic Concepts}, a connection between imaginary quaternions and the \\(SU\\!\\left(2\\right)\\) group was established: we first chose a matrix *representation* for the quaternion base elements, and then inserted it in the [exponential map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) to get a \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) matrix. I was teasing you that the imaginary quaternions, \\(\\underline{i}\\), \\(\\underline{j}\\) and \\(\\underline{k}\\), are the *generators* of \\(SU\\!\\left(2\\right)\\), hopefully not leaving you too confused.
 
