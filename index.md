@@ -26,10 +26,10 @@
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.3 What Is A Quaternion Exponentiation?](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#83-what-is-a-quaternion-exponentiation)
 ## &nbsp;&nbsp;&nbsp;&nbsp;[9 Closing Remarks](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#9-closing-remarks)
 
-# [IV The Connection To 3D Rotations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations)
+# [IV The Connection To \\(3D\\) Rotations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations)
 ## &nbsp;&nbsp;&nbsp;&nbsp;[10 Representations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#10-representations)
-## &nbsp;&nbsp;&nbsp;&nbsp;[11 The SU(2) Algebra And Generators](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#11-the-su2-algebra-and-generators)
-## &nbsp;&nbsp;&nbsp;&nbsp;[12 The Connection Between SU(2) And SO(3)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#12-the-connection-between-su2-and-so3)
+## &nbsp;&nbsp;&nbsp;&nbsp;[11 The \\(SU\\!\\left(2\\right)\\) Algebra And Generators](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#11-the-su2-algebra-and-generators)
+## &nbsp;&nbsp;&nbsp;&nbsp;[12 The Connection Between \\(SU\\!\\left(2\\right)\\) And \\(SO\\!\\left(3\\right)\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#12-the-connection-between-su2-and-so3)
 ## &nbsp;&nbsp;&nbsp;&nbsp;[13 Summary](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#13-summary)
 
 # [V On The Adjoint Representation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation)
