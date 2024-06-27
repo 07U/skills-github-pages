@@ -1,6 +1,6 @@
 <script src="load-mathjax.js" async></script> 
 
-## II Intuition
+## \\(\\text{II}\\) Intuition
 
 Before we dive into analyzing quaternions in Part&nbsp;\\ref{part:Establishing Basic Concepts}, we review in Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers} what is already known to us about complex numbers, and their relation to rotations. In Sec.&nbsp;\\ref{sec:A Glimpse Into The Future} we are going to familiarize ourselves with some advanced topics, which will be covered in more details in Part&nbsp;\\ref{part:The Connection To 3D Rotations}.
 
@@ -9,7 +9,7 @@ Before we dive into analyzing quaternions in Part&nbsp;\\ref{part:Establishing B
 &nbsp;&nbsp;&nbsp;&nbsp;Let us start.
 <br>
 
-### 5 Rotations With Complex Numbers
+### \\(\\boldsymbol{5}\\) Rotations With Complex Numbers
 <div style="display:none">\(\setSection{5}\)</div>
 
 [Euler](https://en.wikipedia.org/wiki/Leonhard_Euler) already posted his famous [Euler's Formula](https://en.wikipedia.org/wiki/Euler%27s_formula) on LinkedIn,
@@ -61,7 +61,7 @@ with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.
 \\end{equation}
 <br>
 
-### 6 A Glimpse Into The Future
+### \\(\\boldsymbol{6}\\) A Glimpse Into The Future
 <div style="display:none">\(\setSection{6}\)</div>
 
 \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\) acts as a great example to introduce some definitions and common terms. This similarity to \\(i^{2} = -1\\) is an important property, which is a part of the definition of...
