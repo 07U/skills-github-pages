@@ -66,7 +66,7 @@ Part&nbsp;[II](https://07u.github.io/skills-github-pages/Intuition) serves as an
 ### 4 Acknowledgments
 <div style="display:none">\(\setSection{4}\)</div>
 
-I would like to thank [profile](https://www.linkedin.com/).
+Want your LinkedIn profile to appear here? Please join the conversation and contribute! At the end of each part, there is a back reference to the post on LinkedIn regarding that part. Please add your comments and insights there.
 
 ---
 
