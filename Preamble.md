@@ -1,6 +1,6 @@
 <script src="load-mathjax.js" async></script>
 
-## \\(\\text{I}\\) Preamble
+## \\(\\text{I}\\ \\) Preamble
 
 ### \\(1\\ \\) Introduction
 <div style="display:none">\(\setSection{1}\)</div>
