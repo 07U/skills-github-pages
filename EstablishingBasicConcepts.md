@@ -136,8 +136,18 @@ As a unit-quaternion, it has \\(3\\) degrees of freedom, but they represent a \\
 &nbsp;&nbsp;&nbsp;&nbsp;So, although the final result of the exponent expression can be written as a quaternion, and can act on quaternions, we do not need the *whole* quaternion space - and attached complications - to interpret it. In my humble opinion, this is the simpler way to think about this subject.
 
 &nbsp;&nbsp;&nbsp;&nbsp;We think about (the imaginary elements of) quaternions not as \\(SU\\!\\left(2\\right)\\) group *elements*, but as its *generators*. Brace yourself - we are going to dive deeper in Part&nbsp;\\ref{part:The Connection To 3D Rotations}.
+<br><br><br>
 
 ---
+<br>
+
+# Comments
+
+Discussion.
+<br><br><br>
+
+---
+<br>
 
 [^6]: The \\(\\cdot\\) is just a placeholder, and the operation is not necessarily multiplication (although in all of our examples, it is). There are groups where the operation is addition, and in general it could be any operation that satisfies the group properties.
 [^7]: The concept of a [*field*](https://en.wikipedia.org/wiki/Field_(mathematics)) will not be cover here as well. We are going to replace the generic \\(\\mathbb{F}\\) with the real numbers, \\(\\mathbb{R}\\), or the complex numbers, \\(\\mathbb{C}\\).
