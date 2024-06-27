@@ -195,10 +195,10 @@ struct Matrix
 Quaternion ToQuaternion(const Matrix& O)
 {
 	Quaternion q;
-	q.x = + O.m00 - O.m11 - O.m22; // Tr[i \\ast O].
-	q.y = - O.m00 + O.m11 - O.m22; // Tr[j \\ast O].
-	q.z = - O.m00 - O.m11 + O.m22; // Tr[k \\ast O].
-	q.w = + O.m00 + O.m11 + O.m22; // Tr[1 \\ast O].
+	q.x = + O.m00 - O.m11 - O.m22; // Tr[i * O].
+	q.y = - O.m00 + O.m11 - O.m22; // Tr[j * O].
+	q.z = - O.m00 - O.m11 + O.m22; // Tr[k * O].
+	q.w = + O.m00 + O.m11 + O.m22; // Tr[1 * O].
 
   // Determine the needed transformation, according to the sign of the
 	// "trace".
@@ -211,29 +211,29 @@ Quaternion ToQuaternion(const Matrix& O)
 	// of the "new w" - the parameter we extract out of the diagonal.
 	const unsigned int i = index0 | (((index1 & index2 & index3) + 1) / 2);
 
-  float\\ast const p = &q.x;
+  float* const p = &q.x;
 	// Extracting the "new w".
 	p[i] = std::sqrt(1.0f + p[i]);
 	const float normalization = 0.5f / p[i];
-	p[i] \\ast= 0.5f;
+	p[i] *= 0.5f;
 
   // Determine the signs of the off-diagonal elements, according to the
 	// value of i.
 	const int sign01 = (i & 0b10) - 1;
 	const int sign20 = ((i & 0b01) << 1) - 1;
-	const int sign12 = sign01 \\ast sign20;
+	const int sign12 = sign01 * sign20;
 
   // There is a pattern to the permutation of quaternion elements in
 	// their multiplication table. It is incorporated in index manipulations.
 
   // i ^ 0b10 is the transformation 0 <-> 2 and 1 <-> 3.
-	p[i ^ 0b10] = normalization \\ast (O.m02 - sign20 \\ast O.m20);
+	p[i ^ 0b10] = normalization * (O.m02 - sign20 * O.m20);
 
   // i ^ 0b01 is the transformation 0 <-> 1 and 2 <-> 3.
-	p[i ^ 0b01] = normalization \\ast (O.m10 - sign01 \\ast O.m01);
+	p[i ^ 0b01] = normalization * (O.m10 - sign01 * O.m01);
 
   // i ^ 0b11 is the transformation 0 <-> 3 and 1 <-> 2.
-	p[i ^ 0b11] = normalization \\ast (O.m21 - sign12 \\ast O.m12);
+	p[i ^ 0b11] = normalization * (O.m21 - sign12 * O.m12);
 
   return q;
 }
