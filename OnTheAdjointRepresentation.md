@@ -63,7 +63,7 @@ The goal of the previous subsection was to become convinced that a quaternion ca
 	Q_{\\alpha \\dot{\\alpha}} \\longmapsto \\sum_{\\beta = 1}^{2} \\sum_{\\dot{\\beta} = 1}^{2} U_{\\alpha \\beta} U^{\\ast}_{\\dot{\\alpha} \\dot{\\beta}} Q_{\\beta \\dot{\\beta}}\\,.
 \\end{equation}
 
-&nbsp;&nbsp;&nbsp;&nbsp;\\(Q\\) is also a vector in a \\(4\\)-dimensional vector space, spanned by \\(\\Set{\\!𝟙,X_{1},X_{2},X_{3}\\!}\\). The dot-product between two vectors in this space, \\(M\\) and \\(N\\), is the same one presented in Sec.&nbsp;\\ref{sec:The Connection Between SU(2) And SO(3)},
+&nbsp;&nbsp;&nbsp;&nbsp;\\(Q\\) is also a vector in a \\(4\\)-dimensional vector space, spanned by \\(\\Set{𝟙,X_{1},X_{2},X_{3}}\\). The dot-product between two vectors in this space, \\(M\\) and \\(N\\), is the same one presented in Sec.&nbsp;\\ref{sec:The Connection Between SU(2) And SO(3)},
 \\begin{equation}
 	\\label{eq:Dot Product}
 	M \\cdot N = \\frac{1}{2} \\mathrm{Tr}\\!\\left[M N^{\\dagger}\\right]\\,.
