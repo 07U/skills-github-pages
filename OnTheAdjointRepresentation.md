@@ -241,8 +241,18 @@ Quaternion ToQuaternion(const Matrix& O)
     return q;
 }
 ```
+<br><br><br>
 
 ---
+<br>
+
+# Comments
+
+Discussion.
+<br><br><br>
+
+---
+<br>
 
 [^17]: This section is mostly about the algorithm, implemented in \\(C\\text{++}\\) at the end, so we use zero-based indices.
 [^18]: \\(\\tau\\) is the *Cyclicality Constant*[^19][^20].
