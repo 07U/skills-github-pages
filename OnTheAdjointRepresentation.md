@@ -32,7 +32,7 @@ S \\longmapsto e^{U V U^{\\dagger}} = \\cdots = U e^{V} U^{\\dagger} = U S U^{\\
 \\end{equation}
 As expected, this is just a change of basis transformation for \\(S\\) (as it was for \\(V\\)).
 
-&nbsp;&nbsp;&nbsp;&nbsp;In a similar way, remember that exponentiating the imaginary subspace of the quaternion space results in a unit-quaternion (Eq.&nbsp;[(14.7)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#mjx-eqn%3Aeq%3AQ_Transformation_Normalization_Condition)\\eqref{eq:QuaterniEuler's Formula} in Sec.&nbsp;\\ref{ssec:Intuition?})
+&nbsp;&nbsp;&nbsp;&nbsp;In a similar way, remember that exponentiating the imaginary subspace of the quaternion space results in a unit-quaternion (Eq.&nbsp;\\eqref{eq:QuaterniEuler's Formula} in Sec.&nbsp;\\ref{ssec:Intuition?})
 \\begin{equation}
 	\\label{eq:QuaterniEuler's Formula Theta}
 	q = e^{\\frac{1}{2} \\vec{I} \\cdot \\vec{\\theta}} = \\cos\\!\\left(\\frac{\\theta}{2}\\right) \\underline{1} + \\vec{I} \\cdot \\hat{n} \\sin\\!\\left(\\frac{\\theta}{2}\\right)\\,,
@@ -73,7 +73,7 @@ With this dot-product, we clearly see that \\(Q\\), now as a vector, is normaliz
 	\\label{eq:Q Vector Normalization Condition}
 	\\left|Q\\right|^{2} = Q \\cdot Q = \\frac{1}{2} \\mathrm{Tr}\\!\\left[Q Q^{\\dagger}\\right] = w^{2} + x^{2} + y^{2} + z^{2} = 1\\,.
 \\end{equation}
-Notice the subtle difference between Eq.&nbsp;\\eqref{eq:Q Transformation Normalization Condition} and Eq.&nbsp;\\eqref{eq:Q Vector Normalization Condition}: the former guarantees that as a transformation, \\(Q\\) does not affect scales; while the latter guarantees that as a vector, \\(Q\\) has a unit norm.
+Notice the subtle difference between Eq.&nbsp;[\\((14.7)\\)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#mjx-eqn%3Aeq%3AQ_Transformation_Normalization_Condition)\\eqref{eq:Q Transformation Normalization Condition} and Eq.&nbsp;\\eqref{eq:Q Vector Normalization Condition}: the former guarantees that as a transformation, \\(Q\\) does not affect scales; while the latter guarantees that as a vector, \\(Q\\) has a unit norm.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The tensor \\(Q\\) can be written as a \\(4D\\) vector, by sticking its columns one above the other
 \\begin{equation}
