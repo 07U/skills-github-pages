@@ -89,8 +89,18 @@ Notice that the linearity, Eq.&nbsp;\\eqref{eq:Representation Linearity}, and th
 \\begin{gather}
 	D_{1}\\!\\left(1\\right) = D_{1}\\!\\left(i\\right) = 𝟙\\,,\\\\	D_{2}\\!\\left(1\\right) = 𝟙\\,,\\ D_{2}\\!\\left(i\\right) = \\epsilon\\,,\\\\ D_{3}\\!\\left(1\\right) = -\\epsilon\\,,\\ D_{3}\\!\\left(i\\right) = 𝟙\\,,\\\\ D_{4}\\!\\left(1\\right) = \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 1 \\end{pmatrix}\\,,\\ D_{4}\\!\\left(i\\right) = \\begin{pmatrix} 0 & 0 & 0 & -1 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\end{pmatrix}\\,.
 \\end{gather}
+<br><br><br>
 
 ---
+<br>
+
+# Comments
+
+Discussion.
+<br><br><br>
+
+---
+<br>
 
 [^4]: It is assumed that the reader is familiar with these kind of operations.
 [^5]: A comment for the experts: this is the first concept that gets presented, so there is an attempt to stay in the "intuition stage". Hence, no buzz words are used, and the discussion is kept at an extremely high level.
