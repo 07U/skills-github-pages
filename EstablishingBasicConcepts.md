@@ -25,6 +25,7 @@ Groups are extremely intuitive to understand, and are relatively simple mathemat
 	\\begin{equation}
 		g \\cdot  g^{-1} = g^{-1} \\cdot g = e\\,.
 	\\end{equation}
+
 If you choose not to master Group Theory, and just want to jump into the juicy stuff, worry not! It is not a coincidence groups are being mentioned here - any time you want to think about the properties of groups, just think about rotations. Whether in \\(2D\\) or in \\(3D\\), rotations can be combined together to form another rotation, and they all have an inverse.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Let us introduce some useful groups. The group operations in all of the groups presented below is multiplication, and we define \\(M\\!\\left(N, \\mathbb{F}\\right)\\) as the set of all \\(N \\times N\\) matrices with elements in the field \\(\\mathbb{F}\\).[^7] \\(M\\!\\left(N, \\mathbb{F}\\right)\\) is not a group, because it contains non-invertible matrices.
