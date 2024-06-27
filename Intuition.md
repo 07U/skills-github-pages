@@ -87,7 +87,7 @@ Notice that the linearity, Eq.&nbsp;\\eqref{eq:Representation Linearity}, and th
 
 &nbsp;&nbsp;&nbsp;&nbsp;Usually, the concept of representations is presented later on. This intuition part, though, is a great setting to introduce what is one of the toughest concepts to understand. We end this part with a question: which one of the following maps is a representation (if any)?
 \\begin{gather}
-	D_{1}\\!\\left(1\\right) = D_{1}\\!\\left(i\\right) = 𝟙\\,,\\\\	D_{2}\\!\\left(1\\right) = 𝟙\\,,\\ D_{2}\\!\\left(i\\right) = \\epsilon\\,,\\\\ D_{3}\\!\\left(1\\right) = -\\epsilon\\,,\\ D_{3}\\!\\left(i\\right) = 𝟙\\,,\\\\ D_{4}\\!\\left(1\\right) = \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 1 \\end{pmatrix}\\,,\\ D_{4}\\!\\left(i\\right) = \\begin{pmatrix} 0 & 0 & 0 & -1 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\end{pmatrix}\\,.
+	D\_{1}\\!\\left(1\\right) = D\_{1}\\!\\left(i\\right) = 𝟙\\,,\\\\ D\_{2}\\!\\left(1\\right) = 𝟙\\,,\\ D\_{2}\\!\\left(i\\right) = \\epsilon\\,,\\\\ D\_{3}\\!\\left(1\\right) = -\\epsilon\\,,\\ D\_{3}\\!\\left(i\\right) = 𝟙\\,,\\\\ D\_{4}\\!\\left(1\\right) = \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 1 \\end{pmatrix}\\,,\\ D\_{4}\\!\\left(i\\right) = \\begin{pmatrix} 0 & 0 & 0 & -1 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\end{pmatrix}\\,.
 \\end{gather}
 <br><br><br>
 
