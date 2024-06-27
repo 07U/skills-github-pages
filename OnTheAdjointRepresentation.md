@@ -11,10 +11,10 @@ The whole intention of the previous parts was to show that one could strictly di
 &nbsp;&nbsp;&nbsp;&nbsp;Throughout the internet and literature, I could only find two algorithms for extracting the quaternion coefficients out of a rotation matrix: the na\\"ive algorithm, which involves \\(4\\) evaluations of the square-root functions; and the classic algorithm, which involves one square-root evaluation, but up to \\(3\\) branches. In Sec.&nbsp;\\ref{sec:A Branchless Matrix-To-Quaternion Translation} I would like to present a branchless algorithm, for the extraction of a quaternion from a \\(3D\\) rotation matrix, with the evaluation of only one square-root function. We do it by combining all the knowledge we had gained.
 <br>
 
-### \\(\\boldsymbol{14}\\) Deriving The Explicit Rotation Matrix Form
+### \\(\\boldsymbol{14}\\)  Deriving The Explicit Rotation Matrix Form
 <div style="display:none">\(\setSection{14}\)</div>
 
-#### 14.1 Reminder
+#### \\(\\boldsymbol{14.1}\\) Reminder
 
 In previous sections, we wrote an \\(SU\\!\\left(2\\right)\\) matrix using real parameters. We rewrite it now, using complex numbers
 \\begin{equation}
@@ -56,7 +56,7 @@ We have already established the fact that \\(Q\\) has the form of \\(S\\) in Sec
 It is all very intuitive, I know, but we would like to see it explicitly, from an equivalent but different angle.
 <br>
 
-#### 14.2 Reducible Representation
+#### \\(\\boldsymbol{14.2}\\) Reducible Representation
 
 The goal of the previous subsection was to become convinced that a quaternion can be considered as a tensor \\(Q \\sim \\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\). Or, alternatively, \\(Q\_{\\alpha \\dot{\\alpha}}\\) - where \\(\\alpha\\) and \\(\\dot{\\alpha}\\) transform under the Fundamental and Anti-Fundamental of \\(SU\\!\\left(2\\right)\\)
 \\begin{equation}
@@ -122,7 +122,7 @@ To summarize, we have shown that \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\over
 &nbsp;&nbsp;&nbsp;&nbsp;We did it. The relation between the quaternion coefficients and those of a rotation matrix is fully understood. We also understand why the matrix elements depend on the multiplication of two of the quaternion's components - it is a result of a tensor multiplication. The translation of a quaternion into a matrix is done easily enough by using Eq.&nbsp;\\eqref{eq:Quaternion Adjoint Representation}. However, when one wishes to extract the quaternion's coefficients out of a rotation matrix, there is "hard work" involved.
 <br>
 
-### 15 A Branchless Matrix-To-Quaternion Translation
+### \\(\\boldsymbol{15}\\) A Branchless Matrix-To-Quaternion Translation
 <div style="display:none">\(\setSection{15}\)</div>
 
 The quaternion Adjoint representation, Eq.&nbsp;\\eqref{eq:Quaternion Adjoint Representation}, is the dictionary for extracting the transformation's principle axes out of a quaternion. But what about the inverse translation? How can we extract the quaternion coefficients out of a generic rotation matrix[^17]
