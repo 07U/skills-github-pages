@@ -34,6 +34,6 @@
 
 # [\\(\\text{V}\\ \\) On The Adjoint Representation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation)
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(14\\ \\) Deriving The Explicit Rotation Matrix Form](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#14--deriving-the-explicit-rotation-matrix-form)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(14.1\\ \\) Reminder](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#141--reminder)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(14.2\\ \\) Reducible Representation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#142--reducible-representation)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(14.1\\ \\) Reminder](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#141--reminder)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(14.2\\ \\) Reducible Representation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#142--reducible-representation)
 ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(15\\ \\) A Branchless Matrix-To-Quaternion Translation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#15--a-branchless-matrix-to-quaternion-translation)
