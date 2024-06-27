@@ -1,6 +1,6 @@
 <script src="load-mathjax.js" async></script> 
 
-# IV The Connection To 3D Rotations
+## IV The Connection To 3D Rotations
 
 In Part&nbsp;\\ref{part:Intuition}, we had established a connection between the imaginary complex number and the elements of \\(SO\\!\\left(2\\right)\\). In Part&nbsp;\\ref{part:Establishing Basic Concepts}, a connection between imaginary quaternions and the \\(SU\\!\\left(2\\right)\\) group was established: we first chose a matrix *representation* for the quaternion base elements, and then inserted it in the [exponential map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) to get a \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) matrix. I was teasing you that the imaginary quaternions, \\(\\underline{i}\\), \\(\\underline{j}\\) and \\(\\underline{k}\\), are the *generators* of \\(SU\\!\\left(2\\right)\\), hopefully not leaving you too confused.
 
@@ -10,7 +10,8 @@ In Part&nbsp;\\ref{part:Intuition}, we had established a connection between the 
 
 &nbsp;&nbsp;&nbsp;&nbsp;We are purely going to deal with matrices from now on, revisiting quaternions only in the next and final part, Part&nbsp;\\ref{part:On The Adjoint Representation}, where we would see how to extract quaternion coefficients out of a rotation matrix.
 
-## 10 Representations
+<br>
+### 10 Representations
 <div style="display:none">\(\setSection{10}\)</div>
 
 We have arrived to the most important link of the chain, which may also be one of the most complex to understand - especially without being rigorous. In Sec.&nbsp;\\ref{sec:A Glimpse Into The Future} we already defined representations, and also met a specific type of representation of \\(SO\\!\\left(2\\right)\\), called the Fundamental. This section elaborates more on the subject of representations (definitely not in a complete way), and also answers the questions:
@@ -58,7 +59,8 @@ To matrix-vector multiplication, the expression inside the quotation marks, is p
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Tensor representation reveals how an \\(SU\\!\\left(2\\right)\\) element can act on a completely different vector space - one in which the vectors are \\(2 \\times 2\\) matrices. Could you connect the dots?[^14]
 
-## 11 The SU(2) Algebra And Generators
+<br>
+### 11 The SU(2) Algebra And Generators
 <div style="display:none">\(\setSection{11}\)</div>
 
 The *algebra* of \\(SU\\!\\left(2\\right)\\), denoted \\(\\mathfrak{su}\\!\\left(2\\right)\\), is spanned by the basis matrices[^15]
@@ -97,7 +99,8 @@ The vector \\(V\\) is of the form
 \\end{equation}
 where \\(v_{i}\\) are chosen to be *real*, otherwise \\(V\\) will not be skew-Hermitian. This is to say that \\(\\mathfrak{su}\\!\\left(2\\right)\\) is a real vector space - just like our \\(3D\\) Euclidean space!
 
-## 12 The Connection Between SU(2) And SO(3)
+<br>
+### 12 The Connection Between SU(2) And SO(3)
 <div style="display:none">\(\setSection{12}\)</div>
 
 Some of you may already be familiar with what follows, and for others it may be the first time seeing this derivation. In Sec.&nbsp;\\ref{sec:The SU(2) Algebra And Generators}, we defined the action of \\(SU\\!\\left(2\\right)\\) on its algebra \\(\\mathfrak{su}\\!\\left(2\\right)\\), which is a \\(3\\)-dimensional real vector space. We would like to show now that this action is equivalent to a \\(3\\)-dimensional rotation. First, associate \\(3\\)-dimensional vectors with \\(2 \\times 2\\) traceless and skew-Hermitian matrices by
@@ -121,7 +124,8 @@ To get it, just transform \\(V\\) in Eq.&nbsp;\\eqref{eq:SU(2)-SO(3) Isomorphism
 
 &nbsp;&nbsp;&nbsp;&nbsp;The association presented in Eq.&nbsp;\\eqref{eq:SU(2)-SO(3) Isomorphism} is similar to the one that we do when we treat the imaginary part of the quaternion as a \\(3\\)-dimensional vector. Now, we know why it indeed transforms as a vector, and even have a name for its vector space! More on this in Part&nbsp;\\ref{part:On The Adjoint Representation}.
 
-## 13 Summary
+<br>
+### 13 Summary
 <div style="display:none">\(\setSection{13}\)</div>
 
 This part is the most intense one in this text, and I feel a summary section is necessary. What did we achieve up until this point?
