@@ -82,7 +82,7 @@ with \\(\\alpha\\) a real parameter, and \\(\\hat{n}\\) a real unit vector. Usin
 	\\label{eq:QuaterniEuler's Formula}
 	e^{\\vec{I} \\cdot \\vec{\\alpha}} = \\cos\\!\\left(\\alpha\\right) + \\vec{I} \\cdot \\hat{n} \\sin\\!\\left(\\alpha\\right)\\,.
 \\end{equation}
-Setting \\(\\hat{n}^{T} = \\begin{pmatrix} 0 & 1 & 0 \\end{pmatrix}\\),[^10]{As we will see, the quaternion \\(\\underline{j}\\) is actually "closer" to the complex \\(i\\). However, one could choose any imaginary element, as they all behave the same, and all of the expressions in this text are basis-dependent anyways.} one recovers Euler's formula. Nice! But what do this formula and \\(q\\) represent?
+Setting \\(\\hat{n}^{T} = \\begin{pmatrix} 0 & 1 & 0 \\end{pmatrix}\\),[^10] one recovers Euler's formula. Nice! But what do this formula and \\(q\\) represent?
 
 <br>
 #### 8.2 Quaternions As Matrices
@@ -92,7 +92,7 @@ In Sec.&nbsp;\\ref{sec:A Glimpse Into The Future} of the intuition part, Part&nb
 	\\label{eq:SO(2) 3D Representation}
 	D\\!\\left(1\\right) = 𝟙\\,,\\ D\\!\\left(i\\right) = \\begin{pmatrix} 0 & -1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}\\,.
 \\end{equation}
-Throughout the text, starting now, the size of \\(𝟙\\) is determined by the context. Evaluating the exponent using these matrices, one gets a \\(3\\)-dimensional equivalent to the \\(2\\)-dimensional rotation matrix presented in Eq.&nbsp;\\eqref{eq:2D Rotation Matrix}. We can generalize this procedure to any number of dimensions.[^11]{This also shows that \\(SO\\!\\left(2\\right)\\) is a [*subgroup*](https://en.wikipedia.org/wiki/Subgroup) of \\(SO\\!\\left(N\\right)\\), with \\(N \\geq 2\\).}
+Throughout the text, starting now, the size of \\(𝟙\\) is determined by the context. Evaluating the exponent using these matrices, one gets a \\(3\\)-dimensional equivalent to the \\(2\\)-dimensional rotation matrix presented in Eq.&nbsp;\\eqref{eq:2D Rotation Matrix}. We can generalize this procedure to any number of dimensions.[^11]
 
 &nbsp;&nbsp;&nbsp;&nbsp;We take a look at the quaternion group definition, Eq.&nbsp;\\eqref{eq:Quaternion Group Definition}, once more, and ask: what matrices could represent these objects? Luckily, it just happens that the next line contains exactly what we look for
 \\begin{equation}
@@ -142,3 +142,5 @@ As a unit-quaternion, it has \\(3\\) degrees of freedom, but they represent a \\
 [^7]: The concept of a [*field*](https://en.wikipedia.org/wiki/Field_(mathematics)) will not be cover here as well. We are going to replace the generic \\(\\mathbb{F}\\) with the real numbers, \\(\\mathbb{R}\\), or the complex numbers, \\(\\mathbb{C}\\).
 [^8]: \\(\\mathbb{C}^{2}\\) is a vector space of column vectors that have two rows, where in each row resides a complex number.
 [^9]: A name I just came up with. Do not use it, unless you would like people to think you are weird.
+[^10]: As we will see, the quaternion \\(\\underline{j}\\) is actually "closer" to the complex \\(i\\). However, one could choose any imaginary element, as they all behave the same, and all of the expressions in this text are basis-dependent anyways.
+[^11]: This also shows that \\(SO\\!\\left(2\\right)\\) is a [*subgroup*](https://en.wikipedia.org/wiki/Subgroup) of \\(SO\\!\\left(N\\right)\\), with \\(N \\geq 2\\).
