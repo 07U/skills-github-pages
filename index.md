@@ -1,5 +1,8 @@
 <script src="load-mathjax.js" async></script>
 
+<p align = "center">Author: Oz Davidi</p>
+<p align = "center"><a src = "https://www.linkedin.com/in/Oz-Davidi/">https://www.linkedin.com/in/Oz-Davidi</a></p>
+
 # [I Preamble](https://07u.github.io/skills-github-pages/Preamble)
 ## &nbsp;&nbsp;&nbsp;&nbsp;[1 Introduction](https://07u.github.io/skills-github-pages/Preamble#1-introduction)
 ## &nbsp;&nbsp;&nbsp;&nbsp;[2 Prerequisites And Goals](https://07u.github.io/skills-github-pages/Preamble#2-prerequisites-and-goals)
