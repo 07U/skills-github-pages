@@ -1,6 +1,6 @@
 <script src="load-mathjax.js" async></script> 
 
-# V On The Adjoint Representation
+## V On The Adjoint Representation
 
 The whole intention of the previous parts was to show that one could strictly discuss the \\(3D\\) imaginary quaternion subspace. This is the one which we exponentiate (to get the unit-quaternion as a transformation object), and the one which we act on (as a \\(3\\)-dimensional vector).
 
@@ -10,10 +10,11 @@ The whole intention of the previous parts was to show that one could strictly di
 
 &nbsp;&nbsp;&nbsp;&nbsp;Throughout the internet and literature, I could only find two algorithms for extracting the quaternion coefficients out of a rotation matrix: the na\\"ive algorithm, which involves \\(4\\) evaluations of the square-root functions; and the classic algorithm, which involves one square-root evaluation, but up to \\(3\\) branches. In Sec.&nbsp;\\ref{sec:A Branchless Matrix-To-Quaternion Translation} I would like to present a branchless algorithm, for the extraction of a quaternion from a \\(3D\\) rotation matrix, with the evaluation of only one square-root function. We do it by combining all the knowledge we had gained.
 
-## 14 Deriving The Explicit Rotation Matrix Form
+<br>
+### 14 Deriving The Explicit Rotation Matrix Form
 <div style="display:none">\(\setSection{14}\)</div>
 
-### 14.1 Reminder
+#### 14.1 Reminder
 
 In previous sections, we wrote an \\(SU\\!\\left(2\\right)\\) matrix using real parameters. We rewrite it now, using complex numbers
 \\begin{equation}
@@ -54,7 +55,8 @@ We have already established the fact that \\(Q\\) has the form of \\(S\\) in Sec
 \\end{equation}
 It is all very intuitive, I know, but we would like to see it explicitly, from an equivalent but different angle.
 
-### 14.2 Reducible Representation
+<br>
+#### 14.2 Reducible Representation
 
 The goal of the previous subsection was to become convinced that a quaternion can be considered as a tensor \\(Q \\sim \\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\). Or, alternatively, \\(Q_{\\alpha \\dot{\\alpha}}\\) - where \\(\\alpha\\) and \\(\\dot{\\alpha}\\) transform under the Fundamental and Anti-Fundamental of \\(SU\\!\\left(2\\right)\\)
 \\begin{equation}
@@ -119,10 +121,11 @@ To summarize, we have shown that \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\over
 
 &nbsp;&nbsp;&nbsp;&nbsp;We did it. The relation between the quaternion coefficients and those of a rotation matrix is fully understood. We also understand why the matrix elements depend on the multiplication of two of the quaternion's components - it is a result of a tensor multiplication. The translation of a quaternion into a matrix is done easily enough by using Eq.&nbsp;\\eqref{eq:Quaternion Adjoint Representation}. However, when one wishes to extract the quaternion's coefficients out of a rotation matrix, there is "hard work" involved.
 
-## 15 A Branchless Matrix-To-Quaternion Translation
+<br>
+### 15 A Branchless Matrix-To-Quaternion Translation
 <div style="display:none">\(\setSection{15}\)</div>
 
-The quaternion Adjoint representation, Eq.&nbsp;\\eqref{eq:Quaternion Adjoint Representation}, is the dictionary for extracting the transformation's principle axes out of a quaternion. But what about the inverse translation? How can we extract the quaternion coefficients out of a generic rotation matrix[^17]{This section is mostly about the algorithm, implemented in \\(C\\text{++}\\) at the end, so we use zero-based indices.}
+The quaternion Adjoint representation, Eq.&nbsp;\\eqref{eq:Quaternion Adjoint Representation}, is the dictionary for extracting the transformation's principle axes out of a quaternion. But what about the inverse translation? How can we extract the quaternion coefficients out of a generic rotation matrix[^17]
 \\begin{equation}
 	O = \\begin{pmatrix} O_{00} & O_{01} & O_{02} \\\\ O_{10} & O_{11} & O_{12} \\\\ O_{20} & O_{21} & O_{22} \\end{pmatrix}\\,?
 \\end{equation}
@@ -138,7 +141,7 @@ Furthermore, the off-diagonal elements are composed of symmetric and anti-symmet
 \\begin{equation}
 	w = \\cos\\!\\left(\\frac{\\theta}{2}\\right)\\,.
 \\end{equation}
-We thus deduce that when[^18]{\\(\\tau\\) is the *Cyclicality Constant*&nbsp;\\cite{Palais2001,TheTauManifesto}.}
+We thus deduce that when[^18]
 \\begin{equation}
 	\\label{eq:Branching Condition}
 	\\left|\\theta\\right|\\mod \\tau < 2 \\arccos\\!\\left(\\frac{1}{2}\\right) = \\frac{\\tau}{3}\\,,
@@ -238,3 +241,10 @@ Quaternion ToQuaternion(const Matrix& O)
     return q;
 }
 ```
+
+---
+
+[^17]: This section is mostly about the algorithm, implemented in \\(C\\text{++}\\) at the end, so we use zero-based indices.
+[^18]: \\(\\tau\\) is the *Cyclicality Constant*[^19][^20].
+[^19]: Robert Palais. \\(\\pi\\) is wrong! *The Mathematical Intelligencer*, 23(3):7–8, 2001. [doi:10.1007/BF03026846](https://doi.org/10.1007/BF03026846).
+[^20]: Michael Hartl. The Tau Manifesto. URL: [http://tauday.com/tau-manifesto](http://tauday.com/tau-manifesto).
