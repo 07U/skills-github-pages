@@ -48,7 +48,7 @@ Let us introduce even more notation, because... why not? We denote the Fundament
 &nbsp;&nbsp;&nbsp;&nbsp;With this set of notation, we can compose representations to build the *Tensor* representation. For instance, a tensor \\(T \\sim \\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\) transforms as
 \\begin{equation}
 	\\label{eq:Index Tensor Representation}
-	T_{\\alpha \\dot{\\alpha}} \\longmapsto \\sum_{\\beta = 1}^{2} \\sum_{\\dot{\\beta} = 1}^{2}\\,,
+	T_{\\alpha \\dot{\\alpha}} \\longmapsto \\sum_{\\beta = 1}^{2} \\sum_{\\dot{\\beta} = 1}^{2} U_{\\alpha \\beta} U^{\\ast}_{\\dot{\\alpha} \\dot{\\beta}}\\,,
 \\end{equation}
 and in matrix notation, it reads
 \\begin{equation}
