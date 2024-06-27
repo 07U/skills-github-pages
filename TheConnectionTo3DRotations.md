@@ -9,7 +9,7 @@ In Part&nbsp;\\ref{part:Intuition}, we had established a connection between the 
 &nbsp;&nbsp;&nbsp;&nbsp;What we called the Fundamental representation of \\(SO\\!\\left(2\\right)\\), Eq.&nbsp;\\eqref{eq:i Fundamental Representation}, is what connects the complex numbers to rotations in \\(2\\) dimensions. The representation for quaternions in Eq.&nbsp;\\eqref{eq:2D Quaternion Representation} connects them to \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) matrices. This later representation is also "fundamental". In Sec.&nbsp;\\ref{sec:Representations} we define the Fundamental representation in more details, and introduce even more representations. Sec.&nbsp;\\ref{sec:The SU(2) Algebra And Generators} introduces the \\(3\\)-dimensional Euclidean space that hides inside \\(SU\\!\\left(2\\right)\\). Sec.&nbsp;\\ref{sec:The Connection Between SU(2) And SO(3)} connects rotations in \\(3D\\) space, represented by \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrices, to \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) transformations. With the results of Part&nbsp;\\ref{part:Establishing Basic Concepts}, this leads to a direct connection between quaternions and rotations in our physical world. Sec.&nbsp;\\ref{sec:Summary} provides a short summary.
 
 &nbsp;&nbsp;&nbsp;&nbsp;We are purely going to deal with matrices from now on, revisiting quaternions only in the next and final part, Part&nbsp;\\ref{part:On The Adjoint Representation}, where we would see how to extract quaternion coefficients out of a rotation matrix.
-<br>
+<br><br>
 
 ### \\(10\\ \\) Representations
 <div style="display:none">\(\setSection{10}\)</div>
@@ -58,7 +58,7 @@ and in matrix notation, it reads
 To matrix-vector multiplication, the expression inside the quotation marks, is properly derived in Part&nbsp;\\ref{part:On The Adjoint Representation}. One could build any tensor with as many indices in any representation they like. The \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\) one is of particular significance to us.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Tensor representation reveals how an \\(SU\\!\\left(2\\right)\\) element can act on a completely different vector space - one in which the vectors are \\(2 \\times 2\\) matrices. Could you connect the dots?[^14]
-<br>
+<br><br>
 
 ### \\(11\\ \\) The \\(SU\\!\\left(2\\right)\\) Algebra And Generators
 <div style="display:none">\(\setSection{11}\)</div>
@@ -98,7 +98,7 @@ The vector \\(V\\) is of the form
 	V = v\_{1} X\_{1} + v\_{2} X\_{2} + v\_{3} X\_{3}\\,,
 \\end{equation}
 where \\(v\_{i}\\) are chosen to be *real*, otherwise \\(V\\) will not be skew-Hermitian. This is to say that \\(\\mathfrak{su}\\!\\left(2\\right)\\) is a real vector space - just like our \\(3D\\) Euclidean space!
-<br>
+<br><br>
 
 ### \\(12\\ \\) The Connection Between \\(SU\\!\\left(2\\right)\\) And \\(SO\\!\\left(3\\right)\\)
 <div style="display:none">\(\setSection{12}\)</div>
@@ -123,7 +123,7 @@ To get it, just transform \\(V\\) in Eq.&nbsp;\\eqref{eq:SU(2)-SO(3) Isomorphism
 &nbsp;&nbsp;&nbsp;&nbsp;The construction above gives a map function \\(\\phi\\!: SU\\!\\left(2\\right) \\longrightarrow SO\\!\\left(3\\right)\\). The interesting observation is that \\(\\phi\\!\\left(U\\right) = \\phi\\!\\left(-U\\right)\\), so there are two elements in \\(SU\\!\\left(2\\right)\\) which are being mapped to the same element of \\(SO\\!\\left(3\\right)\\). In fact, \\(\\phi\\) is \\(2\\)-to-\\(1\\). We thus say that \\(SU\\!\\left(2\\right)\\) is a double-cover of \\(SO\\!\\left(3\\right)\\).
 
 &nbsp;&nbsp;&nbsp;&nbsp;The association presented in Eq.&nbsp;\\eqref{eq:SU(2)-SO(3) Isomorphism} is similar to the one that we do when we treat the imaginary part of the quaternion as a \\(3\\)-dimensional vector. Now, we know why it indeed transforms as a vector, and even have a name for its vector space! More on this in Part&nbsp;\\ref{part:On The Adjoint Representation}.
-<br>
+<br><br>
 
 ### \\(13\\ \\) Summary
 <div style="display:none">\(\setSection{13}\)</div>
