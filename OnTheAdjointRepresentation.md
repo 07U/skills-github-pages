@@ -224,8 +224,7 @@ Quaternion ToQuaternion(const Matrix& O)
     const int sign12 = sign01 * sign20;
 
     // There is a pattern to the permutation of quaternion elements in
-    // their multiplication table. It is incorporated in index
-    // manipulations.
+    // their multiplication table. It is incorporated in index manipulations.
 
     // i ^ 0b10 is the transformation 0 <-> 2 and 1 <-> 3.
     p[i ^ 0b10] = normalization * (O.m02 - sign20 * O.m20);
