@@ -1,12 +1,14 @@
 <script src="load-mathjax.js" async></script> 
 
+# Intuition
+
 Before we dive into analyzing quaternions in Part&nbsp;\\ref{part:Establishing Basic Concepts}, we review in Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers} what is already known to us about complex numbers, and their relation to rotations. In Sec.&nbsp;\\ref{sec:A Glimpse Into The Future} we are going to familiarize ourselves with some advanced topics, which will be covered in more details in Part&nbsp;\\ref{part:The Connection To 3D Rotations}.
 
 &nbsp;&nbsp;&nbsp;&nbsp;This part is going to serves as a comparison point. All of the results and definitions presented later in the text, in the context of quaternions, can be applied also to the complex numbers, with more ease. Hence, I encourage you to always come back here and try to understand the definitions in the context of complex numbers, even when not instructed to do so in the text.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Let us start.
 
-# 5. Rotations With Complex Numbers
+## 5. Rotations With Complex Numbers
 <div style="display:none">\(\setSection{5}\)</div>
 
 [Euler](https://en.wikipedia.org/wiki/Leonhard_Euler) already posted his famous [Euler's Formula](https://en.wikipedia.org/wiki/Euler%27s_formula) on LinkedIn,
@@ -57,7 +59,7 @@ with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.
 	e^{-\\epsilon \\theta} = \\cos\\!\\left(\\theta\\right) 𝟙 + \\sin\\!\\left(\\theta\\right) \\left(-\\epsilon\\right) \\equiv \\rho\\!\\left(\\theta\\right)\\,.
 \\end{equation}
 
-# 6. A Glimpse Into The Future
+## 6. A Glimpse Into The Future
 <div style="display:none">\(\setSection{6}\)</div>
 
 \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\) acts as a great example to introduce some definitions and common terms. This similarity to \\(i^{2} = -1\\) is an important property, which is a part of the definition of...
