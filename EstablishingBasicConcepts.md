@@ -7,7 +7,7 @@ In Part&nbsp;\\ref{part:Intuition}, we reviewed the intuitive connection between
 &nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;\\ref{sec:Groups}, the mathematical structure of Groups is going to be discussed. We also start analyzing quaternions, and derive an analogous result to Euler's formula in Sec.&nbsp;\\ref{sec:Fun With Quaternions}.
 <br>
 
-### \\(\\boldsymbol{7}\\ \\) Groups
+### \\(7\\ \\) Groups
 <div style="display:none">\(\setSection{7}\)</div>
 
 Groups are extremely intuitive to understand, and are relatively simple mathematical structures. Here is the definition: a [*group*](https://en.wikipedia.org/wiki/Group_(mathematics)) is a pair of a set \\(G\\) and an operation \\(\\cdot\\),[^6] with the following properties:
