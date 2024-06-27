@@ -53,7 +53,7 @@ Let us introduce even more notation, because... why not? We denote the Fundament
 and in matrix notation, it reads
 \\begin{equation}
 	\\label{eq:Tensor Representation}
-	T \\longmapsto \\mlq D\_{\\text{T}}\\!\\left(U\\right) T \\mrq = U T U^{\\dagger}\\,.
+	T \\longmapsto \\textrm{``} D\_{\\text{T}}\\!\\left(U\\right) T \\textrm{''} = U T U^{\\dagger}\\,.
 \\end{equation}
 To matrix-vector multiplication, the expression inside the quotation marks, is properly derived in Part&nbsp;\\ref{part:On The Adjoint Representation}. One could build any tensor with as many indices in any representation they like. The \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\) one is of particular significance to us.
 
