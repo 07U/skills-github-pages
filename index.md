@@ -18,11 +18,11 @@
 ### [8.3 What Is A Quaternion Exponentiation?](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#83-what-is-a-quaternion-exponentiation)
 ## [9 Closing Remarks](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#9-closing-remarks)
 
-# []()
-## []()
-## []()
-## []()
-## []()
+# [IV The Connection To 3D Rotations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations)
+## [10 Representations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#10-representations)
+## [11 The SU(2) Algebra And Generators](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#11-the-su2-algebra-and-generators)
+## [12 The Connection Between SU(2) And SO(3)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#12-the-connection-between-su2-and-so3)
+## [13 Summary](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#13-summary)
 
 # []()
 ## []()
