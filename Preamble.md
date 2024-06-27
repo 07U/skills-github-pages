@@ -70,6 +70,12 @@ Part&nbsp;[II](https://07u.github.io/skills-github-pages/Intuition) serves as an
 <div style="display:none">\(\setSection{4}\)</div>
 
 Want your LinkedIn profile to appear here? Please join the conversation and contribute! At the end of each part, there is a back reference to the post on LinkedIn regarding that part. Please add your comments and insights there.
+
+---
+
+# Comments
+
+Discussion.
 <br><br><br>
 
 ---
@@ -77,9 +83,3 @@ Want your LinkedIn profile to appear here? Please join the conversation and cont
 [^1]: Please do it after you read this text, as it makes it obsolete in some sense haha
 [^2]: Pun was not intended.
 [^3]: There are claims on the internet that a quaternion with a negative real part performs a rotation according to the left-hand rule, but that is not quite accurate.
-
----
-
-# Comments
-
-Discussion.
