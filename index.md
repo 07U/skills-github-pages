@@ -24,8 +24,8 @@
 ## [12 The Connection Between SU(2) And SO(3)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#12-the-connection-between-su2-and-so3)
 ## [13 Summary](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#13-summary)
 
-# []()
-## []()
-### []()
-### []()
-## []()
+# [V On The Adjoint Representation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation)
+## [14 Deriving The Explicit Rotation Matrix Form](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#14-deriving-the-explicit-rotation-matrix-form)
+### [14.1 Reminder](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#141-reminder)
+### [14.2 Reducible Representation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#142-reducible-representation)
+## [15 A Branchless Matrix-To-Quaternion Translation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#15-a-branchless-matrix-to-quaternion-translation)
