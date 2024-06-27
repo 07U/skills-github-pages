@@ -1,6 +1,6 @@
 <script src="load-mathjax.js" async></script> 
 
-## IV The Connection To 3D Rotations
+## IV The Connection To \\(3D\\) Rotations
 
 In Part&nbsp;\\ref{part:Intuition}, we had established a connection between the imaginary complex number and the elements of \\(SO\\!\\left(2\\right)\\). In Part&nbsp;\\ref{part:Establishing Basic Concepts}, a connection between imaginary quaternions and the \\(SU\\!\\left(2\\right)\\) group was established: we first chose a matrix *representation* for the quaternion base elements, and then inserted it in the [exponential map](https://en.wikipedia.org/wiki/Exponential_map_(Lie_theory)) to get a \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) matrix. I was teasing you that the imaginary quaternions, \\(\\underline{i}\\), \\(\\underline{j}\\) and \\(\\underline{k}\\), are the *generators* of \\(SU\\!\\left(2\\right)\\), hopefully not leaving you too confused.
 
@@ -100,7 +100,7 @@ The vector \\(V\\) is of the form
 where \\(v\_{i}\\) are chosen to be *real*, otherwise \\(V\\) will not be skew-Hermitian. This is to say that \\(\\mathfrak{su}\\!\\left(2\\right)\\) is a real vector space - just like our \\(3D\\) Euclidean space!
 
 <br>
-### 12 The Connection Between SU(2) And SO(3)
+### 12 The Connection Between \\(SU\\!\\left(2\\right)\\) And \\(SO\\!\\left(3\\right)\\)
 <div style="display:none">\(\setSection{12}\)</div>
 
 Some of you may already be familiar with what follows, and for others it may be the first time seeing this derivation. In Sec.&nbsp;\\ref{sec:The SU(2) Algebra And Generators}, we defined the action of \\(SU\\!\\left(2\\right)\\) on its algebra \\(\\mathfrak{su}\\!\\left(2\\right)\\), which is a \\(3\\)-dimensional real vector space. We would like to show now that this action is equivalent to a \\(3\\)-dimensional rotation. First, associate \\(3\\)-dimensional vectors with \\(2 \\times 2\\) traceless and skew-Hermitian matrices by
