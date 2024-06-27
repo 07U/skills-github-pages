@@ -1,6 +1,6 @@
 <script src="load-mathjax.js" async></script> 
 
-## \\(\\text{III}\\) Establishing Basic Concepts
+## \\(\\text{III}\\ \\) Establishing Basic Concepts
 
 In Part&nbsp;\\ref{part:Intuition}, we reviewed the intuitive connection between complex numbers (specifically the imaginary number, \\(i\\)) and \\(2D\\) rotations in linear algebra.
 
