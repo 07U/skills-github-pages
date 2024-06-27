@@ -1,6 +1,6 @@
 <script src="load-mathjax.js" async></script> 
 
-## V On The Adjoint Representation
+## \\(V\\) On The Adjoint Representation
 
 The whole intention of the previous parts was to show that one could strictly discuss the \\(3D\\) imaginary quaternion subspace. This is the one which we exponentiate (to get the unit-quaternion as a transformation object), and the one which we act on (as a \\(3\\)-dimensional vector).
 
@@ -11,7 +11,7 @@ The whole intention of the previous parts was to show that one could strictly di
 &nbsp;&nbsp;&nbsp;&nbsp;Throughout the internet and literature, I could only find two algorithms for extracting the quaternion coefficients out of a rotation matrix: the na\\"ive algorithm, which involves \\(4\\) evaluations of the square-root functions; and the classic algorithm, which involves one square-root evaluation, but up to \\(3\\) branches. In Sec.&nbsp;\\ref{sec:A Branchless Matrix-To-Quaternion Translation} I would like to present a branchless algorithm, for the extraction of a quaternion from a \\(3D\\) rotation matrix, with the evaluation of only one square-root function. We do it by combining all the knowledge we had gained.
 <br>
 
-### 14 Deriving The Explicit Rotation Matrix Form
+### \\(14\\) Deriving The Explicit Rotation Matrix Form
 <div style="display:none">\(\setSection{14}\)</div>
 
 #### 14.1 Reminder
@@ -73,7 +73,7 @@ With this dot-product, we clearly see that \\(Q\\), now as a vector, is normaliz
 	\\label{eq:Q Vector Normalization Condition}
 	\\left|Q\\right|^{2} = Q \\cdot Q = \\frac{1}{2} \\mathrm{Tr}\\!\\left[Q Q^{\\dagger}\\right] = w^{2} + x^{2} + y^{2} + z^{2} = 1\\,.
 \\end{equation}
-Notice the subtle difference between Eq.&nbsp;[\\(\\left(14.7\\right)\\)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#mjx-eqn%3Aeq%3AQ_Transformation_Normalization_Condition)\\eqref{eq:Q Transformation Normalization Condition} and Eq.&nbsp;\\eqref{eq:Q Vector Normalization Condition}: the former guarantees that as a transformation, \\(Q\\) does not affect scales; while the latter guarantees that as a vector, \\(Q\\) has a unit norm.
+Notice the subtle difference between Eq.&nbsp;\\eqref{eq:Q Transformation Normalization Condition} and Eq.&nbsp;\\eqref{eq:Q Vector Normalization Condition}: the former guarantees that as a transformation, \\(Q\\) does not affect scales; while the latter guarantees that as a vector, \\(Q\\) has a unit norm.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The tensor \\(Q\\) can be written as a \\(4D\\) vector, by sticking its columns one above the other
 \\begin{equation}
