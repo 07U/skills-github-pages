@@ -35,14 +35,14 @@ If you choose not to master Group Theory, and just want to jump into the juicy s
 &nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers}, we already encountered \\(SO\\!\\left(2\\right)\\). Let us give the general definition for any integer \\(N\\). The [Special Orthogonal](https://en.wikipedia.org/wiki/Orthogonal_group#Special_orthogonal_group) group is
 \\begin{equation}
 	\\label{eq:SO(N) Definition}
-	SO\\!\\left(N\\right) = \\Set{\\!O \\in M\\!\\left(N, \\mathbb{R}\\right) | O^{T} O = 𝟙\_{N \\times N}\\,,\\ \\det\\!\\left[O\\right] = 1\\!}\\,.
+	SO\\!\\left(N\\right) = \\Set{O \\in M\\!\\left(N, \\mathbb{R}\\right) | O^{T} O = 𝟙\_{N \\times N}\\,,\\ \\det\\!\\left[O\\right] = 1}\\,.
 \\end{equation}
 \\(SO\\!\\left(N\\right)\\) describes rotations in the \\(N\\)-dimensional Euclidean space. The goal of this text is to establish the connection between quaternions and \\(SO\\!\\left(3\\right)\\).
 
 &nbsp;&nbsp;&nbsp;&nbsp;Another important group, which is presented here with no clear reason, is the [Special Unitary](https://en.wikipedia.org/wiki/Special_unitary_group) group. Its definition is
 \\begin{equation}
 	\\label{eq:SU(N) Definition}
-	SU\\!\\left(N\\right) = \\Set{\\!U \\in M\\!\\left(N, \\mathbb{C}\\right) | U^{\\dagger} U = 𝟙\_{N \\times N}\\,,\\ \\det\\!\\left[U\\right] = 1\\!}\\,.
+	SU\\!\\left(N\\right) = \\Set{U \\in M\\!\\left(N, \\mathbb{C}\\right) | U^{\\dagger} U = 𝟙\_{N \\times N}\\,,\\ \\det\\!\\left[U\\right] = 1}\\,.
 \\end{equation}
 Notice! \\(SU\\!\\left(N\\right)\\) is composed of complex \\(N \\times N\\) matrices! The \\(\\dagger\\) represents \\(T\\ast\\), meaning both taking the transpose of the matrix and the complex conjugate of its elements. What does this family of matrices represent? We do not care. Not currently, and not ever - as we are *not* interested in complex spaces. We are interested in rotations, which are applied in real spaces, with real coordinates. The complex plane is merely a tool, as the generalization of the complex numbers - the quaternions - are merely a tool. We are not interested in their operation on their respective spaces, but solely in the Euclidean space.
 
