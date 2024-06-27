@@ -141,8 +141,18 @@ This part is the most intense one in this text, and I feel a summary section is 
 If you understood everything between the two bold words, I am satisfied.
 
 &nbsp;&nbsp;&nbsp;&nbsp;In Part&nbsp;\\ref{part:On The Adjoint Representation}, the last part of this text, we will derive \\(O\\) explicitly, hopefully closing any loose ends you may have.
+<br><br><br>
 
 ---
+<br>
+
+# Comments
+
+Discussion.
+<br><br><br>
+
+---
+<br>
 
 [^12]: Reminder: a representations is a map of group elements to matrices that operate on a vector space - not the operation itself!
 [^13]: It was not shown that the \\(SO\\!\\left(2\\right)\\) Fundamental representation is an identity map, as it was originally presented in Eq.&nbsp;\\eqref{eq:i Fundamental Representation} as a map of \\(i\\) and not as a map of the group elements. However, the resulting matrix after exponentiation, Eq.&nbsp;\\eqref{eq:Fundamental Representation of Euler's Formula}, was exactly \\(\\rho\\!\\left(\\theta\\right)\\), as defined in Eq.&nbsp;\\eqref{eq:2D Rotation Matrix}. Meaning that, in this setting, \\(D\\!\\left(\\rho\\right) = \\rho\\).
