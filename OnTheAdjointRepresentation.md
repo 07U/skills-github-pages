@@ -32,7 +32,7 @@ S \\longmapsto e^{U V U^{\\dagger}} = \\cdots = U e^{V} U^{\\dagger} = U S U^{\\
 \\end{equation}
 As expected, this is just a change of basis transformation for \\(S\\) (as it was for \\(V\\)).
 
-&nbsp;&nbsp;&nbsp;&nbsp;In a similar way, remember that exponentiating the imaginary subspace of the quaternion space results in a unit-quaternion (Eq.&nbsp;\\eqref{eq:QuaterniEuler's Formula} in Sec.&nbsp;\\ref{ssec:Intuition?})
+&nbsp;&nbsp;&nbsp;&nbsp;In a similar way, remember that exponentiating the imaginary subspace of the quaternion space results in a unit-quaternion (Eq.&nbsp;[(14.7)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#mjx-eqn%3Aeq%3AQ_Transformation_Normalization_Condition)\\eqref{eq:QuaterniEuler's Formula} in Sec.&nbsp;\\ref{ssec:Intuition?})
 \\begin{equation}
 	\\label{eq:QuaterniEuler's Formula Theta}
 	q = e^{\\frac{1}{2} \\vec{I} \\cdot \\vec{\\theta}} = \\cos\\!\\left(\\frac{\\theta}{2}\\right) \\underline{1} + \\vec{I} \\cdot \\hat{n} \\sin\\!\\left(\\frac{\\theta}{2}\\right)\\,,
