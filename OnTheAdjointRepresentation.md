@@ -41,7 +41,7 @@ where we introduced a factor of half, so we can interpret \\(\\theta\\) as our a
 
 &nbsp;&nbsp;&nbsp;&nbsp;We write \\(q\\) in matrix form, using the Fundamental representation
 \\begin{align}
-	Q \\equiv D_{\\text{F}}\\!\\left(q\\right) = &\\ w D_{\\text{F}}\\!\\left(\\underline{1}\\right) + x D_{\\text{F}}\\!\\left(\\underline{i}\\right) + y D_{\\text{F}}\\!\\left(\\underline{j}\\right) + z D_{\\text{F}}\\!\\left(\\underline{k}\\right) \\\\ = & \\begin{pmatrix} w + i z & -y + i x \\\\ y + i x & w - i z \\end{pmatrix}\\,.
+	Q \\equiv D\_{\\text{F}}\\!\\left(q\\right) = &\\ w D\_{\\text{F}}\\!\\left(\\underline{1}\\right) + x D\_{\\text{F}}\\!\\left(\\underline{i}\\right) + y D\_{\\text{F}}\\!\\left(\\underline{j}\\right) + z D\_{\\text{F}}\\!\\left(\\underline{k}\\right) \\\\ = & \\begin{pmatrix} w + i z & -y + i x \\\\ y + i x & w - i z \\end{pmatrix}\\,.
 \\end{align}
 \\(q\\)'s coefficients are, of course, all real. Notice that the condition for a unit-quaternion, as an \\(SU\\!\\left(2\\right)\\) transformation, is
 \\begin{equation}
@@ -58,12 +58,12 @@ It is all very intuitive, I know, but we would like to see it explicitly, from a
 
 #### 14.2 Reducible Representation
 
-The goal of the previous subsection was to become convinced that a quaternion can be considered as a tensor \\(Q \\sim \\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\). Or, alternatively, \\(Q_{\\alpha \\dot{\\alpha}}\\) - where \\(\\alpha\\) and \\(\\dot{\\alpha}\\) transform under the Fundamental and Anti-Fundamental of \\(SU\\!\\left(2\\right)\\)
+The goal of the previous subsection was to become convinced that a quaternion can be considered as a tensor \\(Q \\sim \\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\). Or, alternatively, \\(Q\_{\\alpha \\dot{\\alpha}}\\) - where \\(\\alpha\\) and \\(\\dot{\\alpha}\\) transform under the Fundamental and Anti-Fundamental of \\(SU\\!\\left(2\\right)\\)
 \\begin{equation}
-	Q_{\\alpha \\dot{\\alpha}} \\longmapsto \\sum_{\\beta = 1}^{2} \\sum_{\\dot{\\beta} = 1}^{2} U_{\\alpha \\beta} U^{\\ast}_{\\dot{\\alpha} \\dot{\\beta}} Q_{\\beta \\dot{\\beta}}\\,.
+	Q\_{\\alpha \\dot{\\alpha}} \\longmapsto \\sum\_{\\beta = 1}^{2} \\sum\_{\\dot{\\beta} = 1}^{2} U\_{\\alpha \\beta} U^{\\ast}\_{\\dot{\\alpha} \\dot{\\beta}} Q\_{\\beta \\dot{\\beta}}\\,.
 \\end{equation}
 
-&nbsp;&nbsp;&nbsp;&nbsp;\\(Q\\) is also a vector in a \\(4\\)-dimensional vector space, spanned by \\(\\Set{𝟙,X_{1},X_{2},X_{3}}\\). The dot-product between two vectors in this space, \\(M\\) and \\(N\\), is the same one presented in Sec.&nbsp;\\ref{sec:The Connection Between SU(2) And SO(3)},
+&nbsp;&nbsp;&nbsp;&nbsp;\\(Q\\) is also a vector in a \\(4\\)-dimensional vector space, spanned by \\(\\Set{𝟙,X\_{1},X\_{2},X\_{3}}\\). The dot-product between two vectors in this space, \\(M\\) and \\(N\\), is the same one presented in Sec.&nbsp;\\ref{sec:The Connection Between SU(2) And SO(3)},
 \\begin{equation}
 	\\label{eq:Dot Product}
 	M \\cdot N = \\frac{1}{2} \\mathrm{Tr}\\!\\left[M N^{\\dagger}\\right]\\,.
@@ -77,15 +77,15 @@ Notice the subtle difference between Eq.&nbsp;[\\((14.7)\\)](https://07u.github.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The tensor \\(Q\\) can be written as a \\(4D\\) vector, by sticking its columns one above the other
 \\begin{equation}
-	\\vec{Q} = \\begin{pmatrix} \\begin{pmatrix} Q_{11} \\\\ Q_{21} \\end{pmatrix} \\\\ \\begin{pmatrix} Q_{12} \\\\ Q_{22} \\end{pmatrix} \\end{pmatrix} = \\begin{pmatrix} w + i z \\\\ y + i x \\\\ -y + i x \\\\ w - i z \\end{pmatrix}\\,.
+	\\vec{Q} = \\begin{pmatrix} \\begin{pmatrix} Q\_{11} \\\\ Q\_{21} \\end{pmatrix} \\\\ \\begin{pmatrix} Q\_{12} \\\\ Q\_{22} \\end{pmatrix} \\end{pmatrix} = \\begin{pmatrix} w + i z \\\\ y + i x \\\\ -y + i x \\\\ w - i z \\end{pmatrix}\\,.
 \\end{equation}
-In this \\(4D\\) space, the tensor representation \\(D_{\\text{T}}\\!\\left(U\\right) \\equiv U \\otimes U^{\\ast}\\) is written as
+In this \\(4D\\) space, the tensor representation \\(D\_{\\text{T}}\\!\\left(U\\right) \\equiv U \\otimes U^{\\ast}\\) is written as
 \\begin{equation}
-	D_{\\text{T}}\\!\\left(U\\right) = \\begin{pmatrix} \\left(U_{11} \\cdot U^{\\ast}\\right) & \\left(U_{12} \\cdot U^{\\ast}\\right) \\\\ \\left(U_{21} \\cdot U^{\\ast}\\right) & \\left(U_{22} \\cdot U^{\\ast}\\right) \\end{pmatrix} = \\begin{pmatrix} \\left|a\\right|^{2} & -a b & -b^{\\ast} a^{\\ast} & \\left|b\\right|^{2} \\\\ a b^{\\ast} & a^{2} & -b^{\\ast2} & -b^{\\ast} a \\\\ b a^{\\ast} & -b^{2} & a^{\\ast2} & -a^{\\ast} b \\\\ \\left|b\\right|^{2} & b a & a^{\\ast} b^{\\ast} & \\left|a\\right|^{2} \\end{pmatrix}\\,.
+	D\_{\\text{T}}\\!\\left(U\\right) = \\begin{pmatrix} \\left(U\_{11} \\cdot U^{\\ast}\\right) & \\left(U\_{12} \\cdot U^{\\ast}\\right) \\\\ \\left(U\_{21} \\cdot U^{\\ast}\\right) & \\left(U\_{22} \\cdot U^{\\ast}\\right) \\end{pmatrix} = \\begin{pmatrix} \\left|a\\right|^{2} & -a b & -b^{\\ast} a^{\\ast} & \\left|b\\right|^{2} \\\\ a b^{\\ast} & a^{2} & -b^{\\ast2} & -b^{\\ast} a \\\\ b a^{\\ast} & -b^{2} & a^{\\ast2} & -a^{\\ast} b \\\\ \\left|b\\right|^{2} & b a & a^{\\ast} b^{\\ast} & \\left|a\\right|^{2} \\end{pmatrix}\\,.
 \\end{equation}
 There is an equivalence of transformations
 \\begin{equation}
-	D_{\\text{T}}\\!\\left(U\\right) \\vec{Q} \\ \\longleftrightarrow\\ U Q U^{\\dagger}\\,.
+	D\_{\\text{T}}\\!\\left(U\\right) \\vec{Q} \\ \\longleftrightarrow\\ U Q U^{\\dagger}\\,.
 \\end{equation}
 We have replaced the sandwich operation with the known matrix-vector multiplication.
 
@@ -101,13 +101,13 @@ Well, this factor of \\(\\sqrt{2}\\) is awkward. The reason for its appearance i
 \\begin{equation}
 	\\left|\\vec{Q}\\right|^{2} \\equiv \\frac{1}{2} \\vec{Q} \\cdot \\vec{Q} = w^{2} + x^{2} + y^{2} + z^{2} = 1\\,.
 \\end{equation}
-But do not be bothered by this too much. Prepare to say Hocus-Pocus, as the real magic happens when applying the transformation to \\(D_{\\text{T}}\\!\\left(U\\right)\\)
+But do not be bothered by this too much. Prepare to say Hocus-Pocus, as the real magic happens when applying the transformation to \\(D\_{\\text{T}}\\!\\left(U\\right)\\)
 \\begin{equation}
 	\\label{eq:Reducable Representation}
-	\\!\\!\\!\\!D_{\\text{T}}\\!\\left(U\\right) \\longmapsto B D_{\\text{T}}\\!\\left(U\\right) B^{\\dagger} \\!=\\! \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & \\mathfrak{Re}\\!\\left[a^{2} \\!-\\! b^{2}\\right] & \\mathfrak{Im}\\!\\left[a^{2} \\!-\\! b^{2}\\right] & 2 \\mathfrak{Re}\\!\\left[a b^{\\ast}\\right] \\\\ 0 & -\\mathfrak{Im}\\!\\left[a^{2} \\!+\\! b^{2}\\right] & \\mathfrak{Re}\\!\\left[a^{2} \\!+\\! b^{2}\\right] & -2 \\mathfrak{Im}\\!\\left[a b^{\\ast}\\right] \\\\ 0 & -2 \\mathfrak{Re}\\!\\left[a b\\right] & -2 \\mathfrak{Im}\\!\\left[a b\\right] & \\left|a\\right|^{2} \\!-\\! \\left|b\\right|^{2} \\end{pmatrix}\\,.\\!\\!\\!\\!
+	\\!\\!\\!\\!D\_{\\text{T}}\\!\\left(U\\right) \\longmapsto B D\_{\\text{T}}\\!\\left(U\\right) B^{\\dagger} \\!=\\! \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & \\mathfrak{Re}\\!\\left[a^{2} \\!-\\! b^{2}\\right] & \\mathfrak{Im}\\!\\left[a^{2} \\!-\\! b^{2}\\right] & 2 \\mathfrak{Re}\\!\\left[a b^{\\ast}\\right] \\\\ 0 & -\\mathfrak{Im}\\!\\left[a^{2} \\!+\\! b^{2}\\right] & \\mathfrak{Re}\\!\\left[a^{2} \\!+\\! b^{2}\\right] & -2 \\mathfrak{Im}\\!\\left[a b^{\\ast}\\right] \\\\ 0 & -2 \\mathfrak{Re}\\!\\left[a b\\right] & -2 \\mathfrak{Im}\\!\\left[a b\\right] & \\left|a\\right|^{2} \\!-\\! \\left|b\\right|^{2} \\end{pmatrix}\\,.\\!\\!\\!\\!
 \\end{equation}
 We can clearly see that under this basis, the \\(4\\)-dimensional Tensor representation of \\(U\\) got decomposed into:
-* A \\(1 \\times 1\\) block - called the *Trivial Representation*, and denoted by \\(\\boldsymbol{1}\\). The Trivial representation is the map \\(D_{\\text{Triv}}\\!\\left(U\\right) \\equiv 1\\), for any \\(U\\).
+* A \\(1 \\times 1\\) block - called the *Trivial Representation*, and denoted by \\(\\boldsymbol{1}\\). The Trivial representation is the map \\(D\_{\\text{Triv}}\\!\\left(U\\right) \\equiv 1\\), for any \\(U\\).
 * A \\(3 \\times 3\\) block - ladies and gentlemen, I give you the Adjoint representation. It is denoted by \\(\\boldsymbol{3}\\).
 To summarize, we have shown that \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}} = \\boldsymbol{1} \\oplus \\boldsymbol{3}\\).
 
@@ -116,7 +116,7 @@ To summarize, we have shown that \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\over
 &nbsp;&nbsp;&nbsp;&nbsp;As a final step, let us derive the (well-known form of the) Adjoint representation of \\(q\\). For that, the relation between \\(a\\) and \\(b\\), and the quaternion coefficients, Eq.&nbsp;\\eqref{eq:Q to S}, is inserted into the Adjoint block of Eq.&nbsp;\\eqref{eq:Reducable Representation}
 \\begin{equation}
 	\\label{eq:Quaternion Adjoint Representation}
-	D_{\\text{Ad}}\\!\\left(q\\right) = \\begin{pmatrix} 2 \\left(w^{2} + x^{2}\\right) - 1 & 2 \\left(x y + w z\\right) & 2 \\left(x z - w y\\right) \\\\ 2 \\left(x y - w z\\right) & 2 \\left(w^{2} + y^{2}\\right) - 1 & 2 \\left(y z + w x\\right) \\\\ 2 \\left(x z + w y\\right) & 2 \\left(y z - w x\\right) & 2 \\left(w^{2} + z^{2}\\right) - 1 \\end{pmatrix}\\,.
+	D\_{\\text{Ad}}\\!\\left(q\\right) = \\begin{pmatrix} 2 \\left(w^{2} + x^{2}\\right) - 1 & 2 \\left(x y + w z\\right) & 2 \\left(x z - w y\\right) \\\\ 2 \\left(x y - w z\\right) & 2 \\left(w^{2} + y^{2}\\right) - 1 & 2 \\left(y z + w x\\right) \\\\ 2 \\left(x z + w y\\right) & 2 \\left(y z - w x\\right) & 2 \\left(w^{2} + z^{2}\\right) - 1 \\end{pmatrix}\\,.
 \\end{equation}
 
 &nbsp;&nbsp;&nbsp;&nbsp;We did it. The relation between the quaternion coefficients and those of a rotation matrix is fully understood. We also understand why the matrix elements depend on the multiplication of two of the quaternion's components - it is a result of a tensor multiplication. The translation of a quaternion into a matrix is done easily enough by using Eq.&nbsp;\\eqref{eq:Quaternion Adjoint Representation}. However, when one wishes to extract the quaternion's coefficients out of a rotation matrix, there is "hard work" involved.
@@ -127,10 +127,10 @@ To summarize, we have shown that \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\over
 
 The quaternion Adjoint representation, Eq.&nbsp;\\eqref{eq:Quaternion Adjoint Representation}, is the dictionary for extracting the transformation's principle axes out of a quaternion. But what about the inverse translation? How can we extract the quaternion coefficients out of a generic rotation matrix[^17]
 \\begin{equation}
-	O = \\begin{pmatrix} O_{00} & O_{01} & O_{02} \\\\ O_{10} & O_{11} & O_{12} \\\\ O_{20} & O_{21} & O_{22} \\end{pmatrix}\\,?
+	O = \\begin{pmatrix} O\_{00} & O\_{01} & O\_{02} \\\\ O\_{10} & O\_{11} & O\_{12} \\\\ O\_{20} & O\_{21} & O\_{22} \\end{pmatrix}\\,?
 \\end{equation}
 
-&nbsp;&nbsp;&nbsp;&nbsp;Comparing \\(O\\) to \\(D_{\\text{Ad}}\\!\\left(q\\right)\\), one finds
+&nbsp;&nbsp;&nbsp;&nbsp;Comparing \\(O\\) to \\(D\_{\\text{Ad}}\\!\\left(q\\right)\\), one finds
 \\begin{equation}
 	\\label{eq:Adjoint Trace}
 	\\text{Tr}\\!\\left[O\\right] = 4 w^{2} - 1 \\quad\\Longrightarrow\\quad w = \\frac{\\sqrt{1 + \\text{Tr}\\!\\left[O\\right]}}{2}\\,.
@@ -162,16 +162,16 @@ The key observation is that multiplying \\(O\\) by a certain transformation woul
 and the transformed input matrix is, surprise surprise,
 \\begin{equation}
 	\\label{eq:Transformed O}
-	R O = \\begin{pmatrix} -O_{00} & -O_{01} & -O_{02} \\\\ -O_{10} & -O_{11} & -O_{12} \\\\ O_{20} & O_{21} & O_{22} \\end{pmatrix}\\,.
+	R O = \\begin{pmatrix} -O\_{00} & -O\_{01} & -O\_{02} \\\\ -O\_{10} & -O\_{11} & -O\_{12} \\\\ O\_{20} & O\_{21} & O\_{22} \\end{pmatrix}\\,.
 \\end{equation}
 The trace of the transformed input matrix is
 \\begin{equation}
 	\\label{eq:Transformed Trace}
-	\\text{Tr}\\!\\left[R O\\right] = O_{22} - O_{00} - O_{11}\\,.
+	\\text{Tr}\\!\\left[R O\\right] = O\_{22} - O\_{00} - O\_{11}\\,.
 \\end{equation}
 This is the exact same expression computed by one of the classic algorithm's branches. We see then that the algebraic approach actually "applies" a rotation of the input matrix. We considered here only a rotation around the \\(\\hat{z}\\) direction, however the discussion applies also for the other directions - each corresponds to a different path. You will probably not be surprised if I tell you that the further algebraic manipulation of the off-diagonal elements are the same as described above, only using the transformed elements. Meaning that we can forget about different *expressions* (*i.e.*, whether we add or subtract elements), and think of different *transformations* (we have the same expressions to evaluate, but feed it with different input parameters). This is a way of thinking which we like in programming, mostly because it allows us to avoid code duplication.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Now comes another crucial part. Assume we get an input matrix \\(O\\), and we apply (or not) a transformation to it, to make its trace positive. We then perform the classic algorithm with the transformed matrix, getting back a quaternion. We now have to transform the quaternion with the inverse transformation, to get the correct quaternion that represents \\(O\\). Luckily for us, the transformation (and its inverse) is a multiplication by one of the basis elements! In the example above, it would be a multiplication by \\(\\underline{k}\\). The multiplication table of the basis elements (or the \\(Q_{8}\\) group, presented in Eq.&nbsp;\\eqref{eq:Quaternion Group Definition}), is easy to master, and a pattern can be easily retrieved. This transformation is just a permutation of the quaternion coefficients, up to a sign (which also follows a pattern).
+&nbsp;&nbsp;&nbsp;&nbsp;Now comes another crucial part. Assume we get an input matrix \\(O\\), and we apply (or not) a transformation to it, to make its trace positive. We then perform the classic algorithm with the transformed matrix, getting back a quaternion. We now have to transform the quaternion with the inverse transformation, to get the correct quaternion that represents \\(O\\). Luckily for us, the transformation (and its inverse) is a multiplication by one of the basis elements! In the example above, it would be a multiplication by \\(\\underline{k}\\). The multiplication table of the basis elements (or the \\(Q\_{8}\\) group, presented in Eq.&nbsp;\\eqref{eq:Quaternion Group Definition}), is easy to master, and a pattern can be easily retrieved. This transformation is just a permutation of the quaternion coefficients, up to a sign (which also follows a pattern).
 
 &nbsp;&nbsp;&nbsp;&nbsp;Before a representative implementation of the algorithm is shown, let us present the outline of the branchless algorithm:
 1.\\label{item:Transform} Determine whether a transformation is needed. If it is, create an appropriate rotation matrix, and multiply the input matrix by it.
