@@ -22,38 +22,38 @@ We have arrived to the most important link of the chain, which may also be one o
 
 &nbsp;&nbsp;&nbsp;&nbsp;Remember that \\(U \\in SU\\!\\left(2\\right)\\), as a \\(2 \\times 2\\) matrix, could act on the \\(2\\)-dimensional complex vector space, \\(\\mathbb{C}^{2}\\)? Yes, we still do not care *what* this transformation actually does to the space, but we would like to identify two ways it could act on it. In other words, we would like to find two different representations.[^12] We build them through examples - it is your responsibility to make sure they are proper representation.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Let \\(\\vec{v}, \\vec{w} \\in \\mathbb{C}^{2}\\). We call \\(D_{\\text{F}}\\!\\left(U\\right)\\) the *Fundamental* representation if it acts on \\(\\vec{v}\\) in the following way
+&nbsp;&nbsp;&nbsp;&nbsp;Let \\(\\vec{v}, \\vec{w} \\in \\mathbb{C}^{2}\\). We call \\(D\_{\\text{F}}\\!\\left(U\\right)\\) the *Fundamental* representation if it acts on \\(\\vec{v}\\) in the following way
 \\begin{equation}
 	\\label{eq:Fundamental Representation}
-	\\vec{v} \\longmapsto D_{\\text{F}}\\!\\left(U\\right) \\vec{v} = U \\vec{v}\\,.
+	\\vec{v} \\longmapsto D\_{\\text{F}}\\!\\left(U\\right) \\vec{v} = U \\vec{v}\\,.
 \\end{equation}
 Just like we had a Fundamental representation for \\(SO\\!\\left(2\\right)\\), the \\(SU\\!\\left(2\\right)\\) Fundamental representation is the identity map.[^13] Although we defined the representation as the function \\(D\\), we will sometime abuse this word. For example, we may say that \\(\\vec{v}\\) transforms under the Fundamental - meaning that under the operation of an \\(SU\\!\\left(2\\right)\\) element, \\(\\vec{v}\\) has the above-mentioned transformation rule.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Apparently, there are other representations that we could have chosen. We call \\(D_{\\text{AF}}\\!\\left(U\\right)\\) the *Anti-Fundamental* representation if it acts on \\(\\vec{w}\\) in the following way
+&nbsp;&nbsp;&nbsp;&nbsp;Apparently, there are other representations that we could have chosen. We call \\(D\_{\\text{AF}}\\!\\left(U\\right)\\) the *Anti-Fundamental* representation if it acts on \\(\\vec{w}\\) in the following way
 \\begin{equation}
 	\\label{eq:Anti-Fundamental Representation}
-	\\vec{w} \\longmapsto D_{\\text{AF}}\\!\\left(U\\right) \\vec{w} = U^{\\ast} \\vec{w}\\,.
+	\\vec{w} \\longmapsto D\_{\\text{AF}}\\!\\left(U\\right) \\vec{w} = U^{\\ast} \\vec{w}\\,.
 \\end{equation}
 The Anti-Fundamental representation maps the group element \\(U\\) to its complex-conjugate. \\(\\vec{w}\\) is said to transform under the Anti-Fundamental.
 
 &nbsp;&nbsp;&nbsp;&nbsp;With the Fundamental and Anti-Fundamental representations, we see how an \\(SU\\!\\left(2\\right)\\) element can act differently on the same vector space. Unfortunately, there is no relevant example I can show you for its usefulness, but fortunately, we do not need one. As was mentioned before, the complex space \\(\\mathbb{C}^{2}\\) is not of importance to us. With that said, we would use these two representations in a moment.
 
-&nbsp;&nbsp;&nbsp;&nbsp;It would be much easier to encode the information about the representation in the vector indices. We use an undotted and dotted index notation, and write \\(v_{\\alpha}\\) and \\(w_{\\dot{\\alpha}}\\), to say that \\(\\vec{v}\\) and \\(\\vec{w}\\) transform under the Fundamental and Anti-Fundamental, respectively. The transformation rules are
+&nbsp;&nbsp;&nbsp;&nbsp;It would be much easier to encode the information about the representation in the vector indices. We use an undotted and dotted index notation, and write \\(v\_{\\alpha}\\) and \\(w\_{\\dot{\\alpha}}\\), to say that \\(\\vec{v}\\) and \\(\\vec{w}\\) transform under the Fundamental and Anti-Fundamental, respectively. The transformation rules are
 \\begin{equation}
 	\\label{eq:Index Fundamental and Anti-Fundamental Representations}
-	v_{\\alpha} \\longmapsto \\sum_{\\beta = 1}^{2} U_{\\alpha \\beta} v_{\\beta}\\,,\\quad w_{\\dot{\\alpha}} \\longmapsto \\sum_{\\dot{\\beta} = 1}^{2} U^{\\ast}_{\\dot{\\alpha} \\dot{\\beta}} w_{\\dot{\\beta}}\\,.
+	v\_{\\alpha} \\longmapsto \\sum\_{\\beta = 1}^{2} U\_{\\alpha \\beta} v\_{\\beta}\\,,\\quad w\_{\\dot{\\alpha}} \\longmapsto \\sum\_{\\dot{\\beta} = 1}^{2} U^{\\ast}\_{\\dot{\\alpha} \\dot{\\beta}} w\_{\\dot{\\beta}}\\,.
 \\end{equation}
 Let us introduce even more notation, because... why not? We denote the Fundamental representation of \\(SU\\!\\left(2\\right)\\) by \\(\\boldsymbol{2}\\), and the Anti-Fundamental representation by \\(\\boldsymbol{\\overline{2}}\\). We could then alternatively write \\(\\vec{v} \\sim \\boldsymbol{2}\\) and \\(\\vec{w} \\sim \\boldsymbol{\\overline{2}}\\).
 
 &nbsp;&nbsp;&nbsp;&nbsp;With this set of notation, we can compose representations to build the *Tensor* representation. For instance, a tensor \\(T \\sim \\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\) transforms as
 \\begin{equation}
 	\\label{eq:Index Tensor Representation}
-	T_{\\alpha \\dot{\\alpha}} \\longmapsto \\sum_{\\beta = 1}^{2} \\sum_{\\dot{\\beta} = 1}^{2} U_{\\alpha \\beta} U^{\\ast}_{\\dot{\\alpha} \\dot{\\beta}}\\,,
+	T\_{\\alpha \\dot{\\alpha}} \\longmapsto \\sum\_{\\beta = 1}^{2} \\sum\_{\\dot{\\beta} = 1}^{2} U\_{\\alpha \\beta} U^{\\ast}\_{\\dot{\\alpha} \\dot{\\beta}} T\_{\\beta \\dot{\\beta}}\\,,
 \\end{equation}
 and in matrix notation, it reads
 \\begin{equation}
 	\\label{eq:Tensor Representation}
-	T \\longmapsto ``D_{\\text{T}}\\!\\left(U\\right) T'' = U T U^{\\dagger}\\,.
+	T \\longmapsto ``D\_{\\text{T}}\\!\\left(U\\right) T'' = U T U^{\\dagger}\\,.
 \\end{equation}
 To matrix-vector multiplication, the expression inside the quotation marks, is properly derived in Part&nbsp;\\ref{part:On The Adjoint Representation}. One could build any tensor with as many indices in any representation they like. The \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\) one is of particular significance to us.
 
@@ -66,13 +66,13 @@ To matrix-vector multiplication, the expression inside the quotation marks, is p
 The *algebra* of \\(SU\\!\\left(2\\right)\\), denoted \\(\\mathfrak{su}\\!\\left(2\\right)\\), is spanned by the basis matrices[^15]
 \\begin{equation}
 	\\label{eq:su(2) Basis}
-	X_{1} \\!\\equiv\\! D\\!\\left(\\underline{i}\\right) \\!=\\! \\begin{pmatrix} 0 & i \\\\ i & 0 \\end{pmatrix}\\,,\\  X_{2} \\!\\equiv\\! D\\!\\left(\\underline{j}\\right) \\!=\\! \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\,,\\  X_{3} \\!\\equiv\\! D\\!\\left(\\underline{k}\\right) \\!=\\! \\begin{pmatrix} i & 0 \\\\ 0 & -i \\end{pmatrix}\\,.
+	X\_{1} \\!\\equiv\\! D\\!\\left(\\underline{i}\\right) \\!=\\! \\begin{pmatrix} 0 & i \\\\ i & 0 \\end{pmatrix}\\,,\\  X\_{2} \\!\\equiv\\! D\\!\\left(\\underline{j}\\right) \\!=\\! \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\,,\\  X\_{3} \\!\\equiv\\! D\\!\\left(\\underline{k}\\right) \\!=\\! \\begin{pmatrix} i & 0 \\\\ 0 & -i \\end{pmatrix}\\,.
 \\end{equation}
-\\(X_{i}\\) are called the *generators*. The concept of an algebra is not going to be covered here. What is important for us, though, is that the algebra is a vector space. The dot-product between two vectors, \\(V,W \\in \\mathfrak{su}\\!\\left(2\\right)\\) is[^16]
+\\(X\_{i}\\) are called the *generators*. The concept of an algebra is not going to be covered here. What is important for us, though, is that the algebra is a vector space. The dot-product between two vectors, \\(V,W \\in \\mathfrak{su}\\!\\left(2\\right)\\) is[^16]
 \\begin{equation}
 	V \\cdot W = \\frac{1}{2} \\mathrm{Tr}\\!\\left[V W^{\\dagger}\\right]\\,.
 \\end{equation}
-\\(X_{i}\\) form an orthonormal base under this dot-product.
+\\(X\_{i}\\) form an orthonormal base under this dot-product.
 
 &nbsp;&nbsp;&nbsp;&nbsp;\\(\\mathfrak{su}\\!\\left(2\\right)\\) is a vector space with a property that is of importance to us. Can you see it? Yes, it is a vector space of size 3! I assume you can see what we wish to do now - treat this space as our Euclidean one. We did a step in the right direction, but there is still some work to be done.
 
@@ -81,7 +81,7 @@ The *algebra* of \\(SU\\!\\left(2\\right)\\), denoted \\(\\mathfrak{su}\\!\\left
 &nbsp;&nbsp;&nbsp;&nbsp;As a vector space, one could act on \\(\\mathfrak{su}\\!\\left(2\\right)\\), and transform its vectors. When transforming this space, we would like to transform it onto itself. Observing the generators, we note that they possess two special properties - they are traceless and [Skew-Hermitian](https://en.wikipedia.org/wiki/Skew-Hermitian_matrix), namely
 \\begin{equation}
 	\\label{eq:Generators Properties}
-	\\mathrm{Tr}\\!\\left[X_{i}\\right] = 0\\,,\\quad X_{i}^{\\dagger} = -X_{i}\\,,
+	\\mathrm{Tr}\\!\\left[X\_{i}\\right] = 0\\,,\\quad X\_{i}^{\\dagger} = -X\_{i}\\,,
 \\end{equation}
 for \\(i = 1, 2, 3\\). Any other \\(2 \\times 2\\) matrix with these properties can be written as a linear combination of the generators. The only way to preserve these properties is to transform the generators under the \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\) Tensor representation.
 
@@ -95,9 +95,9 @@ V \\longmapsto\\ U V U^{\\dagger}\\,.
 The vector \\(V\\) is of the form
 \\begin{equation}
 	\\label{eq:V}
-	V = v_{1} X_{1} + v_{2} X_{2} + v_{3} X_{3}\\,,
+	V = v\_{1} X\_{1} + v\_{2} X\_{2} + v\_{3} X\_{3}\\,,
 \\end{equation}
-where \\(v_{i}\\) are chosen to be *real*, otherwise \\(V\\) will not be skew-Hermitian. This is to say that \\(\\mathfrak{su}\\!\\left(2\\right)\\) is a real vector space - just like our \\(3D\\) Euclidean space!
+where \\(v\_{i}\\) are chosen to be *real*, otherwise \\(V\\) will not be skew-Hermitian. This is to say that \\(\\mathfrak{su}\\!\\left(2\\right)\\) is a real vector space - just like our \\(3D\\) Euclidean space!
 
 <br>
 ### 12 The Connection Between SU(2) And SO(3)
@@ -106,17 +106,17 @@ where \\(v_{i}\\) are chosen to be *real*, otherwise \\(V\\) will not be skew-He
 Some of you may already be familiar with what follows, and for others it may be the first time seeing this derivation. In Sec.&nbsp;\\ref{sec:The SU(2) Algebra And Generators}, we defined the action of \\(SU\\!\\left(2\\right)\\) on its algebra \\(\\mathfrak{su}\\!\\left(2\\right)\\), which is a \\(3\\)-dimensional real vector space. We would like to show now that this action is equivalent to a \\(3\\)-dimensional rotation. First, associate \\(3\\)-dimensional vectors with \\(2 \\times 2\\) traceless and skew-Hermitian matrices by
 \\begin{equation}
 	\\label{eq:SU(2)-SO(3) Isomorphism}
-	\\vec{v} \\longrightarrow V \\equiv \\sum_{n = 1}^{3} v_{n} X_{n} = \\begin{pmatrix} i v_{3} & -v_{2} + i v_{1} \\\\ v_{2} + i v_{1} & -i v_{3} \\end{pmatrix}\\,.
+	\\vec{v} \\longrightarrow V \\equiv \\sum\_{n = 1}^{3} v\_{n} X\_{n} = \\begin{pmatrix} i v\_{3} & -v\_{2} + i v\_{1} \\\\ v\_{2} + i v\_{1} & -i v\_{3} \\end{pmatrix}\\,.
 \\end{equation}
 This is a \\(1\\)-to-\\(1\\) mapping - the inverse map is obviously given using the dot-product, namely projecting onto the basis vectors
 \\begin{equation}
 	\\label{eq:SU(2)-SO(3) Isomorphism Inverse}
-	V \\longrightarrow v_{m} = \\frac{1}{2} \\mathrm{Tr}\\!\\left[X_{m} V^{\\dagger}\\right]\\,.
+	V \\longrightarrow v\_{m} = \\frac{1}{2} \\mathrm{Tr}\\!\\left[X\_{m} V^{\\dagger}\\right]\\,.
 \\end{equation}
 
 &nbsp;&nbsp;&nbsp;&nbsp;As \\(V \\sim \\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\), its transformation induces a representation on \\(3\\)-dimensional real vectors by
 \\begin{equation}
-	v_{m} \\longmapsto \\sum_{n = 1}^{3} O_{mn} v_{n}\\,,\\quad O_{mn} = \\frac{1}{2} \\mathrm{Tr}\\!\\left[X_{m} U X_{n}^{\\dagger} U^{\\dagger}\\right]\\,.
+	v\_{m} \\longmapsto \\sum\_{n = 1}^{3} O\_{mn} v\_{n}\\,,\\quad O\_{mn} = \\frac{1}{2} \\mathrm{Tr}\\!\\left[X\_{m} U X\_{n}^{\\dagger} U^{\\dagger}\\right]\\,.
 \\end{equation}
 To get it, just transform \\(V\\) in Eq.&nbsp;\\eqref{eq:SU(2)-SO(3) Isomorphism Inverse}. The claim, which is not proven here, is that \\(O\\) is a rotation matrix. Check this claim!
 
