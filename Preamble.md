@@ -2,7 +2,6 @@
 
 ## I Preamble
 
-<br>
 ### 1 Introduction
 <div style="display:none">\(\setSection{1}\)</div>
 
@@ -72,7 +71,9 @@ Part&nbsp;[II](https://07u.github.io/skills-github-pages/Intuition) serves as an
 
 Want your LinkedIn profile to appear here? Please join the conversation and contribute! At the end of each part, there is a back reference to the post on LinkedIn regarding that part. Please add your comments and insights there.
 
+<br>
 ---
+<br>
 
 [^1]: Please do it after you read this text, as it makes it obsolete in some sense haha
 [^2]: Pun was not intended.
