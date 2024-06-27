@@ -73,7 +73,6 @@ Want your LinkedIn profile to appear here? Please join the conversation and cont
 
 <br>
 ---
-<br>
 
 [^1]: Please do it after you read this text, as it makes it obsolete in some sense haha
 [^2]: Pun was not intended.
