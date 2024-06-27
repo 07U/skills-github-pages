@@ -4,7 +4,7 @@
   <p align = "center">Author: Oz Davidi</p>
 </h1>
 <h3>
-  <p align = "center"><a src = "https://www.linkedin.com/in/Oz-Davidi/">https://www.linkedin.com/in/Oz-Davidi</a></p>
+  <p align = "center"><a trg = "https://www.linkedin.com/in/Oz-Davidi/">https://www.linkedin.com/in/Oz-Davidi</a></p>
 </h3>
 <br>
 
