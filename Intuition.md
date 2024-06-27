@@ -30,7 +30,7 @@ the matrix form of the rotation above is
 The similarity symbol, \\(\\sim\\), is used to show that we speak about the same element, but in different points of view. Above, the left hand side is the complex plane point of view, and the right hand side is the \\(2\\)-dimensional Euclidean vector space. They are equivalent. \\(\\rho\\!\\left(\\theta\\right)\\) is a generic form of an element in a set we call \\(SO\\!\\left(2\\right)\\). \\(SO\\!\\left(2\\right)\\) is more than just a set - it is a *group*. Groups are reviewed in more details in Sec.&nbsp;\\ref{sec:Groups} of Part&nbsp;\\ref{part:Establishing Basic Concepts}. Right now, for the sake of completeness, we define the \\(SO\\!\\left(2\\right)\\) group
 \\begin{equation}
 	\\label{eq:SO(2) Definition}
-	SO\\!\\left(2\\right) = \\Set{\\!O = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} | a,b,c,d \\in \\mathbb{R}\\,,\\ O^{T} O = 𝟙\\,,\\ \\det\\!\\left[O\\right] = 1\\!}\\,,
+	SO\\!\\left(2\\right) = \\Set{O = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} | a,b,c,d \\in \\mathbb{R}\\,,\\ O^{T} O = 𝟙\\,,\\ \\det\\!\\left[O\\right] = 1}\\,,
 \\end{equation}
 where \\(O^{T}\\) is the transpose of \\(O\\), and \\(𝟙\\) is the \\(2 \\times 2\\) unit matrix. Above, we were just describing the correspondence
 \\begin{equation}
