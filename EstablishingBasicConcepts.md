@@ -1,6 +1,7 @@
 <script src="load-mathjax.js" async></script> 
 
 ## III Establishing Basic Concepts
+
 In Part&nbsp;\\ref{part:Intuition}, we reviewed the intuitive connection between complex numbers (specifically the imaginary number, \\(i\\)) and \\(2D\\) rotations in linear algebra.
 
 &nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;\\ref{sec:Groups}, the mathematical structure of Groups is going to be discussed. We also start analyzing quaternions, and derive an analogous result to Euler's formula in Sec.&nbsp;\\ref{sec:Fun With Quaternions}.
