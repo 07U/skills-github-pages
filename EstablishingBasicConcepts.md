@@ -6,7 +6,7 @@ In Part&nbsp;\\ref{part:Intuition}, we reviewed the intuitive connection between
 
 &nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;\\ref{sec:Groups}, the mathematical structure of Groups is going to be discussed. We also start analyzing quaternions, and derive an analogous result to Euler's formula in Sec.&nbsp;\\ref{sec:Fun With Quaternions}.
 
-# 7 Groups
+## 7 Groups
 <div style="display:none">\(\setSection{7}\)</div>
 
 Groups are extremely intuitive to understand, and are relatively simple mathematical structures. Here is the definition: a [*group*](https://en.wikipedia.org/wiki/Group_(mathematics)) is a pair of a set \\(G\\) and an operation \\(\\cdot\\),[^6] with the following properties:
@@ -61,7 +61,7 @@ We use the underline mark for the sake of brevity. Later in the text, we are goi
 #8 Fun With Quaternions
 <div style="display:none">\(\setSection{8}\)</div>
 
-## 8.1 Intuition?
+### 8.1 Intuition?
 
 We take a break from advance mathematical definitions, and return to some examples. Specifically, we do whatever is done throughout mathematics (and science in general) - we apply what already worked in the intuition stage to another case.
 
@@ -82,7 +82,7 @@ with \\(\\alpha\\) a real parameter, and \\(\\hat{n}\\) a real unit vector. Usin
 \\end{equation}
 Setting \\(\\hat{n}^{T} = \\begin{pmatrix} 0 & 1 & 0 \\end{pmatrix}\\),[^10]{As we will see, the quaternion \\(\\underline{j}\\) is actually "closer" to the complex \\(i\\). However, one could choose any imaginary element, as they all behave the same, and all of the expressions in this text are basis-dependent anyways.} one recovers Euler's formula. Nice! But what do this formula and \\(q\\) represent?
 
-## 8.2 Quaternions As Matrices
+### 8.2 Quaternions As Matrices
 
 In Sec.&nbsp;\\ref{sec:A Glimpse Into The Future} of the intuition part, Part&nbsp;\\ref{part:Intuition}, we defined the concept of representations. At the end of it, few maps were presented, some of which are legitimate representations. If you had your suspicions then (or have them now) that there are infinitely many representations, you are not mistaken. Without getting too deep into Representation Theory, consider the complex numbers once more. We saw that they rotate the \\(2\\)-dimensional Euclidean plane. What about a \\(3\\)-dimensional Euclidean space? We can always ignore one of the dimensions, for example the \\(z\\) direction, and choose
 \\begin{equation}
@@ -98,7 +98,7 @@ Throughout the text, starting now, the size of \\(𝟙\\) is determined by the c
 \\end{equation}
 \\(D\\!\\left(\\underline{1}\\right) = 𝟙\\) and \\(D\\!\\left(\\underline{j}\\right) = -\\epsilon\\), recovering the complex representation, defined in Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers}. We could have chosen larger matrices, but why not keep it minimal? As an exercise, try to think of a strictly real representation that maps to \\(4 \\times 4\\) matrices.
 
-## 8.3 What Is A Quaternion Exponentiation?}\\label{ssec:What Is A Quaternion Exponentiation?}
+### 8.3 What Is A Quaternion Exponentiation?}\\label{ssec:What Is A Quaternion Exponentiation?}
 
 We have arrived to the final step of our exponentiation derivation - transforming the QuaterniEuler's formula, Eq.&nbsp;\\eqref{eq:QuaterniEuler's Formula}, into matrix form. We define the general direction
 \\begin{equation}
@@ -116,7 +116,7 @@ Prepare to say Abracadabra, because here comes the magic. Defining
 \\end{align}
 we get a matrix that exactly matches the definition of an \\(SU\\!\\left(2\\right)\\) matrix, as is defined in Eq.&nbsp;\\eqref{eq:SU(2) Matrix}!
 
-# 9 Closing Remarks
+## 9 Closing Remarks
 <div style="display:none">\(\setSection{9}\)</div>
 
 Please notice that quaternions, in general, are *not* \\(SU\\!\\left(2\\right)\\) transformations. It is important for me to emphasize this, because that is how we *naturally* strip one dimension away from our mathematical description. Why naturally? Our quaternion satisfies
