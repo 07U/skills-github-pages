@@ -7,8 +7,8 @@ Before we dive into analyzing quaternions in Part&nbsp;\\ref{part:Establishing B
 &nbsp;&nbsp;&nbsp;&nbsp;This part is going to serves as a comparison point. All of the results and definitions presented later in the text, in the context of quaternions, can be applied also to the complex numbers, with more ease. Hence, I encourage you to always come back here and try to understand the definitions in the context of complex numbers, even when not instructed to do so in the text.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Let us start.
-
 <br>
+
 ### 5 Rotations With Complex Numbers
 <div style="display:none">\(\setSection{5}\)</div>
 
@@ -59,8 +59,8 @@ with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.
 	\\label{eq:2x2 Euler Formula}
 	e^{-\\epsilon \\theta} = \\cos\\!\\left(\\theta\\right) 𝟙 + \\sin\\!\\left(\\theta\\right) \\left(-\\epsilon\\right) \\equiv \\rho\\!\\left(\\theta\\right)\\,.
 \\end{equation}
-
 <br>
+
 ### 6 A Glimpse Into The Future
 <div style="display:none">\(\setSection{6}\)</div>
 
