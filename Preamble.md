@@ -12,7 +12,7 @@ This set of articles was written to serve several purposes. The first is my urge
 &nbsp;&nbsp;&nbsp;&nbsp;A lot of people try to understand (and explain) quaternions in \\(4D\\). As an excellent former lecturer of mine describes it - our brain was designed to make us run from lions in the Savanna, and not for comprehending the \\(4^{\\text{th}}\\) dimension. I would like to show that although quaternions are \\(4\\)-dimensional objects, we do not need the \\(4^{\\text{th}}\\) dimension in order to fully understand how they rotate \\(3D\\) spaces.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Okay, but why is it on LinkedIn? Well, I wanted to "publish" it somewhere, and the concepts that are going to be reviewed are well known in the scientific community. However, in a practical industry like the video games one, some of the concepts covered here may not be familiar to some. I would also like to allow for a potential discussion about the text, and a social media as LinkedIn looks like a good platform to have one with other professionals. Lastly, I hope that the algorithm I present at the end of this series could be helpful, even if just on the conceptual level, for other developers.
-<br>
+<br><br>
 
 ### \\(2\\ \\) Prerequisites And Goals
 <div style="display:none">\(\setSection{2}\)</div>
@@ -52,7 +52,7 @@ with the conjugation operation negating \\(i\\), \\(j\\), and \\(k\\). Hence, th
 &nbsp;&nbsp;&nbsp;&nbsp;At the end of this article set, I hope you would also be able to: understand the potential issues in quaternion linear interpolation (without even performing one!); be able to criticize any text/video on this subject (even this one!); and if you are going to really pay attention, understand what determines the direction of rotation (which seems to always be done according to the right-hand rule[^3]). This last point is extremely subtle, and I know I did not quite understand the technicalities until now.
 
 &nbsp;&nbsp;&nbsp;&nbsp;As stated before, nothing here is new. I do hope that it will provide a refreshing point of view to some readers, and help others. The derivations are also not rigorous, as I hope the small details skipped are easily reproducible by the reader, and because I wanted to release the text at some point. With that said, this is the internet - if something is missing, or some jump is too big, please write to me and I will make sure to improve and clarify the text. The amount of rigor is kept to some low threshold also because LinkedIn does not support mathematical expressions, and the creation and maintenance of any such expression involves some more work on my side.
-<br>
+<br><br>
 
 ### \\(3\\ \\) Overview
 <div style="display:none">\(\setSection{3}\)</div>
@@ -64,7 +64,7 @@ Part&nbsp;[II](https://07u.github.io/skills-github-pages/Intuition) serves as an
 &nbsp;&nbsp;&nbsp;&nbsp;Part&nbsp;\\ref{part:The Connection To 3D Rotations} goes almost till the end, where we establish the first connection between quaternions and rotations in \\(3\\)-dimensional space. It is the most technical part, and it starts with a bang. Sec.&nbsp;\\ref{sec:Representations} dives into more details about *representations*. Sec.&nbsp;\\ref{sec:The SU(2) Algebra And Generators} clarifies this above-mentioned hidden role of imaginary quaternions, where we briefly mention the concepts of an *algebra* and *generators*. In Sec.&nbsp;\\ref{sec:The Connection Between SU(2) And SO(3)} we finally derive an implicit connection between quaternions and \\(3D\\) rotations. Sec.&nbsp;\\ref{sec:Summary} summarizes.
 
 &nbsp;&nbsp;&nbsp;&nbsp;But we are not done yet! Part&nbsp;\\ref{part:On The Adjoint Representation} serves as the ultimate part. Sec.&nbsp;\\ref{sec:Deriving The Explicit Rotation Matrix Form} applies all the knowledge we have gained, showing explicitly how a \\(3\\)-dimensional rotation matrix emerges out of a quaternion. Sec.&nbsp;\\ref{sec:A Branchless Matrix-To-Quaternion Translation} discusses the inverse process of extracting a quaternion out of a rotation matrix, and presents a branchless implementation for doing this.
-<br>
+<br><br>
 
 ### \\(4\\ \\) Acknowledgments
 <div style="display:none">\(\setSection{4}\)</div>
