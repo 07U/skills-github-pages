@@ -9,7 +9,7 @@ In Part&nbsp;\\ref{part:Intuition}, we reviewed the intuitive connection between
 # 7 Groups
 <div style="display:none">\(\setSection{7}\)</div>
 
-Groups are extremely intuitive to understand, and are relatively simple mathematical structures. Here is the definition: a [*group*](https://en.wikipedia.org/wiki/Group_(mathematics)) is a pair of a set \\(G\\) and an operation \\(\\cdot\\),[^6]{The \\(\\cdot\\) is just a placeholder, and the operation is not necessarily multiplication (although in all of our examples, it is). There are groups where the operation is addition, and in general it could be any operation that satisfies the group properties.} with the following properties:
+Groups are extremely intuitive to understand, and are relatively simple mathematical structures. Here is the definition: a [*group*](https://en.wikipedia.org/wiki/Group_(mathematics)) is a pair of a set \\(G\\) and an operation \\(\\cdot\\),[^6] with the following properties:
 1. Closure - for any two elements \\(g_{1}, g_{2} \\in G\\):
 	\\begin{equation}
 		g_{1} \\cdot g_{2} \\in G\\,.
@@ -28,7 +28,7 @@ Groups are extremely intuitive to understand, and are relatively simple mathemat
 	\\end{equation}
 If you choose not to master Group Theory, and just want to jump into the juicy stuff, worry not! It is not a coincidence groups are being mentioned here - any time you want to think about the properties of groups, just think about rotations. Whether in \\(2D\\) or in \\(3D\\), rotations can be combined together to form another rotation, and they all have an inverse.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Let us introduce some useful groups. The group operations in all of the groups presented below is multiplication, and we define \\(M\\!\\left(N, \\mathbb{F}\\right)\\) as the set of all \\(N \\times N\\) matrices with elements in the field \\(\\mathbb{F}\\).[^7]{The concept of a [*field*](https://en.wikipedia.org/wiki/Field_(mathematics)) will not be cover here as well. We are going to replace the generic \\(\\mathbb{F}\\) with the real numbers, \\(\\mathbb{R}\\), or the complex numbers, \\(\\mathbb{C}\\)} \\(M\\!\\left(N, \\mathbb{F}\\right)\\) is not a group, because it contains non-invertible matrices.
+&nbsp;&nbsp;&nbsp;&nbsp;Let us introduce some useful groups. The group operations in all of the groups presented below is multiplication, and we define \\(M\\!\\left(N, \\mathbb{F}\\right)\\) as the set of all \\(N \\times N\\) matrices with elements in the field \\(\\mathbb{F}\\).[^7] \\(M\\!\\left(N, \\mathbb{F}\\right)\\) is not a group, because it contains non-invertible matrices.
 
 &nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers}, we already encountered \\(SO\\!\\left(2\\right)\\). Let us give the general definition for any integer \\(N\\). The [Special Orthogonal](https://en.wikipedia.org/wiki/Orthogonal_group#Special_orthogonal_group) group is
 \\begin{equation}
@@ -44,7 +44,7 @@ If you choose not to master Group Theory, and just want to jump into the juicy s
 \\end{equation}
 Notice! \\(SU\\!\\left(N\\right)\\) is composed of complex \\(N \\times N\\) matrices! The \\(\\dagger\\) represents \\(T\\ast\\), meaning both taking the transpose of the matrix and the complex conjugate of its elements. What does this family of matrices represent? We do not care. Not currently, and not ever - as we are *not* interested in complex spaces. We are interested in rotations, which are applied in real spaces, with real coordinates. The complex plane is merely a tool, as the generalization of the complex numbers - the quaternions - are merely a tool. We are not interested in their operation on their respective spaces, but solely in the Euclidean space.
 
-&nbsp;&nbsp;&nbsp;&nbsp;\\(SU\\!\\left(N\\right)\\) plays an important role, with \\(N = 2\\). Again, it feels unnatural to discuss about a \\(2\\)-dimensional space with a total of \\(4\\) real degrees of freedom,[^8]{\\(\\mathbb{C}^{2}\\) is a vector space of column vectors that have two rows, where in each row resides a complex number.} so we are not going to do that. Instead, we are going to examine the group elements themselves. A matrix \\(U \\in SU\\!\\left(2\\right)\\) has the form
+&nbsp;&nbsp;&nbsp;&nbsp;\\(SU\\!\\left(N\\right)\\) plays an important role, with \\(N = 2\\). Again, it feels unnatural to discuss about a \\(2\\)-dimensional space with a total of \\(4\\) real degrees of freedom,[^8] so we are not going to do that. Instead, we are going to examine the group elements themselves. A matrix \\(U \\in SU\\!\\left(2\\right)\\) has the form
 \\begin{equation}
 	\\label{eq:SU(2) Matrix}
 	U = \\begin{pmatrix} a + i b & -c + i d \\\\ c + i d & a - i b \\end{pmatrix}\\,;\\quad a, b, c, d \\in \\mathbb{R}\\,,\\ a^{2} + b^{2} + c^{2} + d^{2} = 1\\,.
@@ -75,7 +75,7 @@ and would like to generalize Euler's formula, taking
 	\\label{eq:q}
 	q \\equiv e^{\\vec{I} \\cdot \\vec{\\alpha}}\\,,\\ \\vec{\\alpha} \\equiv \\alpha \\hat{n}\\,,
 \\end{equation}
-with \\(\\alpha\\) a real parameter, and \\(\\hat{n}\\) a real unit vector. Using \\(\\left(\\vec{I} \\cdot \\vec{\\alpha}\\right)^{2} = -\\alpha^{2}\\), one arrives to the QuaterniEuler's Formula[^9]{A name I just came up with. Do not use it, unless you would like people to think you are weird.}
+with \\(\\alpha\\) a real parameter, and \\(\\hat{n}\\) a real unit vector. Using \\(\\left(\\vec{I} \\cdot \\vec{\\alpha}\\right)^{2} = -\\alpha^{2}\\), one arrives to the QuaterniEuler's Formula[^9]
 \\begin{equation}
 	\\label{eq:QuaterniEuler's Formula}
 	e^{\\vec{I} \\cdot \\vec{\\alpha}} = \\cos\\!\\left(\\alpha\\right) + \\vec{I} \\cdot \\hat{n} \\sin\\!\\left(\\alpha\\right)\\,.
@@ -130,3 +130,10 @@ As a unit-quaternion, it has \\(3\\) degrees of freedom, but they represent a \\
 &nbsp;&nbsp;&nbsp;&nbsp;So, although the final result of the exponent expression can be written as a quaternion, and can act on quaternions, we do not need the *whole* quaternion space - and attached complications - to interpret it. In my humble opinion, this is the simpler way to think about this subject.
 
 &nbsp;&nbsp;&nbsp;&nbsp;We think about (the imaginary elements of) quaternions not as \\(SU\\!\\left(2\\right)\\) group *elements*, but as its *generators*. Brace yourself - we are going to dive deeper in Part&nbsp;\\ref{part:The Connection To 3D Rotations}.
+
+---
+
+[^6]: The \\(\\cdot\\) is just a placeholder, and the operation is not necessarily multiplication (although in all of our examples, it is). There are groups where the operation is addition, and in general it could be any operation that satisfies the group properties.
+[^7]: The concept of a [*field*](https://en.wikipedia.org/wiki/Field_(mathematics)) will not be cover here as well. We are going to replace the generic \\(\\mathbb{F}\\) with the real numbers, \\(\\mathbb{R}\\), or the complex numbers, \\(\\mathbb{C}\\).
+[^8]: \\(\\mathbb{C}^{2}\\) is a vector space of column vectors that have two rows, where in each row resides a complex number.
+[^9]: A name I just came up with. Do not use it, unless you would like people to think you are weird.
