@@ -60,7 +60,7 @@ To matrix-vector multiplication, the expression inside the quotation marks, is p
 &nbsp;&nbsp;&nbsp;&nbsp;The Tensor representation reveals how an \\(SU\\!\\left(2\\right)\\) element can act on a completely different vector space - one in which the vectors are \\(2 \\times 2\\) matrices. Could you connect the dots?[^14]
 
 <br>
-### 11 The SU(2) Algebra And Generators
+### 11 The \\(SU\\!\\left(2\\right)\\) Algebra And Generators
 <div style="display:none">\(\setSection{11}\)</div>
 
 The *algebra* of \\(SU\\!\\left(2\\right)\\), denoted \\(\\mathfrak{su}\\!\\left(2\\right)\\), is spanned by the basis matrices[^15]
