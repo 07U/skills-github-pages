@@ -9,10 +9,10 @@
 <br>
 
 # [\\(\\text{I}\\ \\) Preamble](https://07u.github.io/skills-github-pages/Preamble)
-## &nbsp;&nbsp;&nbsp;&nbsp;[\\(1\\ \\) Introduction](https://07u.github.io/skills-github-pages/Preamble#1--introduction)
-## &nbsp;&nbsp;&nbsp;&nbsp;[\\(2\\ \\) Prerequisites And Goals](https://07u.github.io/skills-github-pages/Preamble#2--prerequisites-and-goals)
-## &nbsp;&nbsp;&nbsp;&nbsp;[\\(3\\ \\) Overview](https://07u.github.io/skills-github-pages/Preamble#3--overview)
-## &nbsp;&nbsp;&nbsp;&nbsp;[\\(4\\ \\) Acknowledgments](https://07u.github.io/skills-github-pages/Preamble#4--acknowledgments)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(1\\ \\) Introduction](https://07u.github.io/skills-github-pages/Preamble#1--introduction)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(2\\ \\) Prerequisites And Goals](https://07u.github.io/skills-github-pages/Preamble#2--prerequisites-and-goals)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(3\\ \\) Overview](https://07u.github.io/skills-github-pages/Preamble#3--overview)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(4\\ \\) Acknowledgments](https://07u.github.io/skills-github-pages/Preamble#4--acknowledgments)
 
 # [\\(\\text{II}\\ \\) Intuition](https://07u.github.io/skills-github-pages/Intuition)
 ## &nbsp;&nbsp;&nbsp;&nbsp;[\\(5\\ \\) Rotations With Complex Numbers](https://07u.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers)
@@ -21,9 +21,9 @@
 # [\\(\\text{III}\\ \\) Establishing Basic Concepts](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts)
 ## &nbsp;&nbsp;&nbsp;&nbsp;[\\(7\\ \\) Groups](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups)
 ## &nbsp;&nbsp;&nbsp;&nbsp;[\\(8\\ \\) Fun With Quaternions](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(8.1\\ \\) Intuition?](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#81--intuition)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(8.2\\ \\) Quaternions As Matrices](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#82--quaternions-as-matrices)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(8.3\\ \\) What Is A Quaternion Exponentiation?](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#83--what-is-a-quaternion-exponentiation)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(8.1\\ \\) Intuition?](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#81--intuition)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(8.2\\ \\) Quaternions As Matrices](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#82--quaternions-as-matrices)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(8.3\\ \\) What Is A Quaternion Exponentiation?](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#83--what-is-a-quaternion-exponentiation)
 ## &nbsp;&nbsp;&nbsp;&nbsp;[\\(9\\ \\) Closing Remarks](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#9--closing-remarks)
 
 # [\\(\\text{IV}\\ \\) The Connection To \\(3D\\) Rotations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations)
