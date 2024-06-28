@@ -1,14 +1,14 @@
-<script src="load-mathjax.js" async></script> 
+<script src="load-mathjax.js" async></script>
 
 ## \\(\\text{V}\\ \\) On The Adjoint Representation
 
 The whole intention of the previous parts was to show that one could strictly discuss the \\(3D\\) imaginary quaternion subspace. This is the one which we exponentiate (to get the unit-quaternion as a transformation object), and the one which we act on (as a \\(3\\)-dimensional vector).
 
-&nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;\\ref{sec:Deriving The Explicit Rotation Matrix Form}, we reintroduce the \\(4^{\\text{th}}\\) dimension, the one that was avoided all along. We would like to investigate how a unit-quaternion acts on other quaternions. We connect the unit-quaternion, as an \\(SU\\!\\left(2\\right)\\) transformation, to a \\(4 \\times 4\\) \\(SO\\!\\left(3\\right)\\) matrix. Yes, this is not a typo. We will see, though, that the \\(4^{\\text{th}}\\) dimension is, in fact, some sort of a side effect - the principle elements would remain \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrices.
+&nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;[\\(14\\)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#14--deriving-the-explicit-rotation-matrix-form), we reintroduce the \\(4^{\\text{th}}\\) dimension, the one that was avoided all along. We would like to investigate how a unit-quaternion acts on other quaternions. We connect the unit-quaternion, as an \\(SU\\!\\left(2\\right)\\) transformation, to a \\(4 \\times 4\\) \\(SO\\!\\left(3\\right)\\) matrix. Yes, this is not a typo. We will see, though, that the \\(4^{\\text{th}}\\) dimension is, in fact, some sort of a side effect - the principle elements would remain \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrices.
 
-&nbsp;&nbsp;&nbsp;&nbsp;In Sec.\\ref{sec:The Connection Between SU(2) And SO(3)} of Part&nbsp;\\ref{part:The Connection To 3D Rotations}, we derived a formula for extracting the \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrix elements out of the \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) matrix elements. Sec.&nbsp;\\ref{sec:Deriving The Explicit Rotation Matrix Form} closes the mathematical discussion of this text by deriving an explicit formula, also in terms of the quaternion parameters. This allows us to derive the inverse process.
+&nbsp;&nbsp;&nbsp;&nbsp;In Sec.[\\(12\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#12--the-connection-between-suleft2right-and-soleft3right), we derived a formula for extracting the \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrix elements out of the \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) matrix elements. Sec.&nbsp;[\\(14\\)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#14--deriving-the-explicit-rotation-matrix-form) closes the mathematical discussion of this text by deriving an explicit formula, also in terms of the quaternion parameters. This allows us to derive the inverse process.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Throughout the internet and literature, I could only find two algorithms for extracting the quaternion coefficients out of a rotation matrix: the na\\"ive algorithm, which involves \\(4\\) evaluations of the square-root functions; and the classic algorithm, which involves one square-root evaluation, but up to \\(3\\) branches. In Sec.&nbsp;\\ref{sec:A Branchless Matrix-To-Quaternion Translation} I would like to present a branchless algorithm, for the extraction of a quaternion from a \\(3D\\) rotation matrix, with the evaluation of only one square-root function. We do it by combining all the knowledge we had gained.
+&nbsp;&nbsp;&nbsp;&nbsp;Throughout the internet and literature, I could only find two algorithms for extracting the quaternion coefficients out of a rotation matrix: the na\\"ive algorithm, which involves \\(4\\) evaluations of the square-root functions; and the classic algorithm, which involves one square-root evaluation, but up to \\(3\\) branches. In Sec.&nbsp;[\\(15\\)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#15--a-branchless-matrix-to-quaternion-translation) I would like to present a branchless algorithm, for the extraction of a quaternion from a \\(3D\\) rotation matrix, with the evaluation of only one square-root function. We do it by combining all the knowledge we had gained.
 <br><br>
 
 ### \\(14\\ \\)  Deriving The Explicit Rotation Matrix Form
@@ -32,7 +32,7 @@ S \\longmapsto e^{U V U^{\\dagger}} = \\cdots = U e^{V} U^{\\dagger} = U S U^{\\
 \\end{equation}
 As expected, this is just a change of basis transformation for \\(S\\) (as it was for \\(V\\)).
 
-&nbsp;&nbsp;&nbsp;&nbsp;In a similar way, remember that exponentiating the imaginary subspace of the quaternion space results in a unit-quaternion (Eq.&nbsp;\\eqref{eq:QuaterniEuler's Formula} in Sec.&nbsp;\\ref{ssec:Intuition?})
+&nbsp;&nbsp;&nbsp;&nbsp;In a similar way, remember that exponentiating the imaginary subspace of the quaternion space results in a unit-quaternion (Eq.&nbsp;\\eqref{eq:QuaterniEuler's Formula} in Sec.&nbsp;[\\(8.1\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#81--intuition)
 \\begin{equation}
 	\\label{eq:QuaterniEuler's Formula Theta}
 	q = e^{\\frac{1}{2} \\vec{I} \\cdot \\vec{\\theta}} = \\cos\\!\\left(\\frac{\\theta}{2}\\right) \\underline{1} + \\vec{I} \\cdot \\hat{n} \\sin\\!\\left(\\frac{\\theta}{2}\\right)\\,,
@@ -48,7 +48,7 @@ where we introduced a factor of half, so we can interpret \\(\\theta\\) as our a
 	\\label{eq:Q Transformation Normalization Condition}
 	\\det\\!\\left[Q\\right] = \\left|q\\right|^{2} = w^{2} + x^{2} + y^{2} + z^{2} = 1\\,.
 \\end{equation}
-We have already established the fact that \\(Q\\) has the form of \\(S\\) in Sec.&nbsp;\\ref{sec:Fun With Quaternions}, hence also all quaternions (not just their imaginary part) are being transformed by a sandwich product, as was presented in Eq.&nbsp;\\eqref{eq:Unit Quaternion Transformation} of the intuition part, Part&nbsp;\\ref{part:Intuition}. The relation between \\(Q\\)'s elements and \\(S\\)'s is obvious,
+We have already established the fact that \\(Q\\) has the form of \\(S\\) in Sec.&nbsp;[\\(8\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions), hence also all quaternions (not just their imaginary part) are being transformed by a sandwich product, as was presented in Eq.&nbsp;\\eqref{eq:Unit Quaternion Transformation} of the intuition part, Part&nbsp;[\\(\\text{II}\\)](https://07u.github.io/skills-github-pages/Intuition). The relation between \\(Q\\)'s elements and \\(S\\)'s is obvious,
 \\begin{equation}
 	\\label{eq:Q to S}
 	a = w + i z\\,,\\ b = y + i x\\,.
@@ -63,7 +63,7 @@ The goal of the previous subsection was to become convinced that a quaternion ca
 	Q\_{\\alpha \\dot{\\alpha}} \\longmapsto \\sum\_{\\beta = 1}^{2} \\sum\_{\\dot{\\beta} = 1}^{2} U\_{\\alpha \\beta} U^{\\ast}\_{\\dot{\\alpha} \\dot{\\beta}} Q\_{\\beta \\dot{\\beta}}\\,.
 \\end{equation}
 
-&nbsp;&nbsp;&nbsp;&nbsp;\\(Q\\) is also a vector in a \\(4\\)-dimensional vector space, spanned by \\(\\Set{𝟙,X\_{1},X\_{2},X\_{3}}\\). The dot-product between two vectors in this space, \\(M\\) and \\(N\\), is the same one presented in Sec.&nbsp;\\ref{sec:The Connection Between SU(2) And SO(3)},
+&nbsp;&nbsp;&nbsp;&nbsp;\\(Q\\) is also a vector in a \\(4\\)-dimensional vector space, spanned by \\(\\Set{𝟙,X\_{1},X\_{2},X\_{3}}\\). The dot-product between two vectors in this space, \\(M\\) and \\(N\\), is the same one presented in Sec.&nbsp;[\\(12\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#12--the-connection-between-suleft2right-and-soleft3right),
 \\begin{equation}
 	\\label{eq:Dot Product}
 	M \\cdot N = \\frac{1}{2} \\mathrm{Tr}\\!\\left[M N^{\\dagger}\\right]\\,.
@@ -174,9 +174,9 @@ This is the exact same expression computed by one of the classic algorithm's bra
 &nbsp;&nbsp;&nbsp;&nbsp;Now comes another crucial part. Assume we get an input matrix \\(O\\), and we apply (or not) a transformation to it, to make its trace positive. We then perform the classic algorithm with the transformed matrix, getting back a quaternion. We now have to transform the quaternion with the inverse transformation, to get the correct quaternion that represents \\(O\\). Luckily for us, the transformation (and its inverse) is a multiplication by one of the basis elements! In the example above, it would be a multiplication by \\(\\underline{k}\\). The multiplication table of the basis elements (or the \\(Q\_{8}\\) group, presented in Eq.&nbsp;\\eqref{eq:Quaternion Group Definition}), is easy to master, and a pattern can be easily retrieved. This transformation is just a permutation of the quaternion coefficients, up to a sign (which also follows a pattern).
 
 &nbsp;&nbsp;&nbsp;&nbsp;Before a representative implementation of the algorithm is shown, let us present the outline of the branchless algorithm:
-1.\\label{item:Transform} Determine whether a transformation is needed. If it is, create an appropriate rotation matrix, and multiply the input matrix by it.
+1. \\label{item:Transform} Determine whether a transformation is needed. If it is, create an appropriate rotation matrix, and multiply the input matrix by it.
 2. Feed the classic algorithm (which would not branch!) with the new matrix.
-3.\\label{item:Invert} Apply the inverse transformation to the output quaternion which was received from the classic algorithm.
+3. \\label{item:Invert} Apply the inverse transformation to the output quaternion which was received from the classic algorithm.
 Of course, this is highly open to interpretation, and could be implemented in numerous ways. However, the (potential) branching is now moved to steps No.&nbsp;\\ref{item:Transform} and No.&nbsp;\\ref{item:Invert}, and it is (y)our job to implement the above in a branchless manner.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The following piece of code realizes the ideas of this section. It extracts the quaternion, up to a global sign. This global sign is important in case one would like to treat the quaternion not as a group element, but rather as a vector (*i.e.*, for linear interpolation purposes), and can be easily taken into account. The presented implementation is *not* the most efficient out of the ones I could come up with. I was trying to keep it somewhat readable (hence the use of the ternary operator), while showing the potential of bit-wise operations (which may or may not help performance). I noticed that performance highly depends on the compiler in use. Sometimes the disassembly written by the compiler was not as optimized as I would have hoped, and there is a considerable variance between compilers. I am looking forward to be amazed by the community, and the cleverness of fellow programmers!
