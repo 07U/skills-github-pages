@@ -1,8 +1,8 @@
-<script src="load-mathjax.js" async></script> 
+<script src="load-mathjax.js" async></script>
 
 ## \\(\\text{II}\\ \\) Intuition
 
-Before we dive into analyzing quaternions in Part&nbsp;\\ref{part:Establishing Basic Concepts}, we review in Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers} what is already known to us about complex numbers, and their relation to rotations. In Sec.&nbsp;\\ref{sec:A Glimpse Into The Future} we are going to familiarize ourselves with some advanced topics, which will be covered in more details in Part&nbsp;\\ref{part:The Connection To 3D Rotations}.
+Before we dive into analyzing quaternions in Part&nbsp;[\\(\\text{III}\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts), we review in Sec.&nbsp;[\\(5\\)](https://07u.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers) what is already known to us about complex numbers, and their relation to rotations. In Sec.&nbsp;[\\(6\\)](https://07u.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future) we are going to familiarize ourselves with some advanced topics, which will be covered in more details in Part&nbsp;[\\(\\text{IV}\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations).
 
 &nbsp;&nbsp;&nbsp;&nbsp;This part is going to serves as a comparison point. All of the results and definitions presented later in the text, in the context of quaternions, can be applied also to the complex numbers, with more ease. Hence, I encourage you to always come back here and try to understand the definitions in the context of complex numbers, even when not instructed to do so in the text.
 
@@ -27,7 +27,7 @@ the matrix form of the rotation above is
 	\\label{eq:2D Rotation Matrix}
 	e^{i \\theta} \\ \\sim\\  \\rho\\!\\left(\\theta\\right) \\equiv \\begin{pmatrix} \\cos\\!\\left(\\theta\\right) & -\\sin\\!\\left(\\theta\\right) \\\\ \\sin\\!\\left(\\theta\\right) & \\cos\\!\\left(\\theta\\right) \\end{pmatrix}\\,.
 \\end{equation}
-The similarity symbol, \\(\\sim\\), is used to show that we speak about the same element, but in different points of view. Above, the left hand side is the complex plane point of view, and the right hand side is the \\(2\\)-dimensional Euclidean vector space. They are equivalent. \\(\\rho\\!\\left(\\theta\\right)\\) is a generic form of an element in a set we call \\(SO\\!\\left(2\\right)\\). \\(SO\\!\\left(2\\right)\\) is more than just a set - it is a *group*. Groups are reviewed in more details in Sec.&nbsp;\\ref{sec:Groups} of Part&nbsp;\\ref{part:Establishing Basic Concepts}. Right now, for the sake of completeness, we define the \\(SO\\!\\left(2\\right)\\) group
+The similarity symbol, \\(\\sim\\), is used to show that we speak about the same element, but in different points of view. Above, the left hand side is the complex plane point of view, and the right hand side is the \\(2\\)-dimensional Euclidean vector space. They are equivalent. \\(\\rho\\!\\left(\\theta\\right)\\) is a generic form of an element in a set we call \\(SO\\!\\left(2\\right)\\). \\(SO\\!\\left(2\\right)\\) is more than just a set - it is a *group*. Groups are reviewed in more details in Sec.&nbsp;[\\(7\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups) of Part&nbsp;[\\(\\text{III}\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts). Right now, for the sake of completeness, we define the \\(SO\\!\\left(2\\right)\\) group
 \\begin{equation}
 	\\label{eq:SO(2) Definition}
 	SO\\!\\left(2\\right) = \\Set{O = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} | a,b,c,d \\in \\mathbb{R}\\,,\\ O^{T} O = 𝟙\\,,\\ \\det\\!\\left[O\\right] = 1}\\,,
