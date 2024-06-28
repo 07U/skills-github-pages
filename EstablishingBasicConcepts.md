@@ -127,7 +127,7 @@ we get a matrix that exactly matches the definition of an \\(SU\\!\\left(2\\righ
 
 Please notice that quaternions, in general, are *not* \\(SU\\!\\left(2\\right)\\) transformations. It is important for me to emphasize this, because that is how we *naturally* strip one dimension away from our mathematical description. Why naturally? Our quaternion satisfies
 \\begin{equation}
-	\\left|q\\right|^{2} = q q^{\\ast} = \\det\\!\\left[D\\!\\left(q\\right)D\\!\\left(q\\right)^{\\dagger}\\right] = \\det\\!\\left[D\\!\\left(q\\right)^{\\phantom{\\dagger\\!\\!\\!}}\\right] \\det\\!\\left[D\\!\\left(q\\right)^{\\dagger}\\right] = 1\\,.
+	\\left|q\\right|^{2} = q q^{\\ast} = \\det\\!\\left[D\\left(q\\right)D\\left(q\\right)^{\\dagger}\\right] = \\det\\!\\left[D\\!\\left(q\\right)^{\\phantom{\\dagger}}\\right] \\det\\!\\left[D\\!\\left(q\\right)^{\\dagger}\\right] = 1\\,.
 \\end{equation}
 As a unit-quaternion, it has \\(3\\) degrees of freedom, but they represent a \\(3\\)-dimensional hyper-sphere embedded in a \\(4D\\) space. Yikes! On the other hand, in order to derive \\(q\\), Eq.&nbsp;\\eqref{eq:q}, we have evaluated the exponent function of a \\(3\\)-dimensional vector, \\(\\vec{\\alpha}\\). Its \\(3\\) degrees of freedom represent a flat \\(3D\\) space. No curvature and no larger space are needed.
 
