@@ -1,5 +1,35 @@
 <script src="load-mathjax.js" async></script>
 
+# [\\(\\text{I}\\ \\) Preamble](https://07u.github.io/skills-github-pages/Preamble)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(1\\ \\) Introduction](https://07u.github.io/skills-github-pages/Preamble#1--introduction)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(2\\ \\) Prerequisites And Goals](https://07u.github.io/skills-github-pages/Preamble#2--prerequisites-and-goals)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(3\\ \\) Overview](https://07u.github.io/skills-github-pages/Preamble#3--overview)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(4\\ \\) Acknowledgments](https://07u.github.io/skills-github-pages/Preamble#4--acknowledgments)
+
+# [\\(\\text{II}\\ \\) Intuition](https://07u.github.io/skills-github-pages/Intuition)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(5\\ \\) Rotations With Complex Numbers](https://07u.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(6\\ \\) A Glimpse Into The Future](https://07u.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future)
+
+# [\\(\\text{III}\\ \\) Establishing Basic Concepts](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(7\\ \\) Groups](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(8\\ \\) Fun With Quaternions](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(8.1\\ \\) Intuition?](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#81--intuition)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(8.2\\ \\) Quaternions As Matrices](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#82--quaternions-as-matrices)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(8.3\\ \\) What Is A Quaternion Exponentiation?](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#83--what-is-a-quaternion-exponentiation)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(9\\ \\) Closing Remarks](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#9--closing-remarks)
+
+# [\\(\\text{IV}\\ \\) The Connection To \\(3D\\) Rotations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(10\\ \\) Representations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#10--representations)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(11\\ \\) The \\(SU\\!\\left(2\\right)\\) Algebra And Generators](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#11--the-suleft2right-algebra-and-generators)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(12\\ \\) The Connection Between \\(SU\\!\\left(2\\right)\\) And \\(SO\\!\\left(3\\right)\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#12--the-connection-between-suleft2right-and-soleft3right)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(13\\ \\) Summary](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#13--summary)
+
+# [\\(\\text{V}\\ \\) On The Adjoint Representation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(14\\ \\) Deriving The Explicit Rotation Matrix Form](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#14--deriving-the-explicit-rotation-matrix-form)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(14.1\\ \\) Reminder](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#141--reminder)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(14.2\\ \\) Reducible Representation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#142--reducible-representation)
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\\(15\\ \\) A Branchless Matrix-To-Quaternion Translation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#15--a-branchless-matrix-to-quaternion-translation)
+
 ## \\(\\text{I}\\ \\) Preamble
 
 ### \\(1\\ \\) Introduction
@@ -57,7 +87,7 @@ with the conjugation operation negating \\(i\\), \\(j\\), and \\(k\\). Hence, th
 ### \\(3\\ \\) Overview
 <div style="display:none">\(\setSection{3}\)</div>
 
-Part&nbsp;[II](https://07u.github.io/skills-github-pages/Intuition) serves as an appetizer for what is yet to come, and builds new concepts on top of previous knowledge. In Sec.&nbsp;\\ref{sec:Rotations With Complex Numbers} we review complex numbers and their relation to \\(2D\\) rotations. We then make a small leap, in Sec.&nbsp;\\ref{sec:A Glimpse Into The Future}, and use the complex numbers example to define an extremely important concept - the *representation* - which would allow us to look at quaternions with new and powerful glasses.
+Part&nbsp;[II](https://07u.github.io/skills-github-pages/Intuition) serves as an appetizer for what is yet to come, and builds new concepts on top of previous knowledge. In Sec.&nbsp;[\\(5\\)](https://07u.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers) we review complex numbers and their relation to \\(2D\\) rotations. We then make a small leap, in Sec.&nbsp;\\ref{sec:A Glimpse Into The Future}, and use the complex numbers example to define an extremely important concept - the *representation* - which would allow us to look at quaternions with new and powerful glasses.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Part&nbsp;\\ref{part:Establishing Basic Concepts} starts in Sec.&nbsp;\\ref{sec:Groups}, where we introduce the *group*. In Sec.&nbsp;\\ref{sec:Fun With Quaternions}, we repeat the process which was applied to complex numbers, but now with quaternions. Unfortunately, it is not as easy as with complex numbers, as it does not directly connects quaternions to rotations, but to some weird transformation in \\(4\\) dimensions. However, it reveals an interesting and somewhat hidden role of the imaginary part of quaternions. Closing remarks are made in Sec.&nbsp;\\ref{sec:Closing Remarks}.
 
