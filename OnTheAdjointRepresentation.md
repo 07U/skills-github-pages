@@ -141,7 +141,7 @@ Furthermore, the off-diagonal elements are composed of symmetric and anti-symmet
 \\begin{equation}
 	w = \\cos\\!\\left(\\frac{\\theta}{2}\\right)\\,.
 \\end{equation}
-We thus deduce that when[^18]
+We thus deduce that when[^18][^19]
 \\begin{equation}
 	\\label{eq:Branching Condition}
 	\\left|\\theta\\right|\\mod \\tau < 2 \\arccos\\!\\left(\\frac{1}{2}\\right) = \\frac{\\tau}{3}\\,,
@@ -256,6 +256,5 @@ Discussion.
 <br>
 
 [^17]: This section is mostly about the algorithm, implemented in \\(C\\text{++}\\) at the end, so we use zero-based indices.
-[^18]: \\(\\tau\\) is the *Cyclicality Constant*[^19][^20].
-[^19]: Robert Palais. \\(\\pi\\) is wrong! *The Mathematical Intelligencer*, 23(3):7–8, 2001. [doi:10.1007/BF03026846](https://doi.org/10.1007/BF03026846).
-[^20]: Michael Hartl. The Tau Manifesto. URL: [http://tauday.com/tau-manifesto](http://tauday.com/tau-manifesto).
+[^18]: Robert Palais. \\(\\pi\\) is wrong! *The Mathematical Intelligencer*, 23(3):7–8, 2001. [doi:10.1007/BF03026846](https://doi.org/10.1007/BF03026846).
+[^19]: Michael Hartl. The Tau Manifesto. URL: [http://tauday.com/tau-manifesto](http://tauday.com/tau-manifesto).
