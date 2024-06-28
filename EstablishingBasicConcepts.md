@@ -2,9 +2,9 @@
 
 ## \\(\\text{III}\\ \\) Establishing Basic Concepts
 
-In Part&nbsp;[\\(\\text{II}\\)](https://07u.github.io/skills-github-pages/Intuition), we reviewed the intuitive connection between complex numbers (specifically the imaginary number, \\(i\\)) and \\(2D\\) rotations in linear algebra.
+In Part&nbsp;[\\(\\text{II}\\)](https://07U.github.io/skills-github-pages/Intuition), we reviewed the intuitive connection between complex numbers (specifically the imaginary number, \\(i\\)) and \\(2D\\) rotations in linear algebra.
 
-&nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;[\\(7\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups), the mathematical structure of Groups is going to be discussed. We also start analyzing quaternions, and derive an analogous result to Euler's formula in Sec.&nbsp;[\\(8\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions).
+&nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;[\\(7\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups), the mathematical structure of Groups is going to be discussed. We also start analyzing quaternions, and derive an analogous result to Euler's formula in Sec.&nbsp;[\\(8\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions).
 <br><br>
 
 ### \\(7\\ \\) Groups
@@ -32,7 +32,7 @@ If you choose not to master Group Theory, and just want to jump into the juicy s
 
 &nbsp;&nbsp;&nbsp;&nbsp;Let us introduce some useful groups. The group operations in all of the groups presented below is multiplication, and we define \\(M\\!\\left(N, \\mathbb{F}\\right)\\) as the set of all \\(N \\times N\\) matrices with elements in the field \\(\\mathbb{F}\\).[^7] \\(M\\!\\left(N, \\mathbb{F}\\right)\\) is not a group, because it contains non-invertible matrices.
 
-&nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;[\\(5\\)](https://07u.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers), we already encountered \\(SO\\!\\left(2\\right)\\). Let us give the general definition for any integer \\(N\\). The [Special Orthogonal](https://en.wikipedia.org/wiki/Orthogonal_group#Special_orthogonal_group) group is
+&nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;[\\(5\\)](https://07U.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers), we already encountered \\(SO\\!\\left(2\\right)\\). Let us give the general definition for any integer \\(N\\). The [Special Orthogonal](https://en.wikipedia.org/wiki/Orthogonal_group#Special_orthogonal_group) group is
 \\begin{equation}
 	\\label{eq:SO(N) Definition}
 	SO\\!\\left(N\\right) = \\Set{O \\in M\\!\\left(N, \\mathbb{R}\\right) | O^{T} O = 𝟙\_{N \\times N}\\,,\\ \\det\\!\\left[O\\right] = 1}\\,.
@@ -88,19 +88,19 @@ Setting \\(\\hat{n}^{T} = \\begin{pmatrix} 0 & 1 & 0 \\end{pmatrix}\\),[^10] one
 
 #### \\(8.2\\ \\) Quaternions As Matrices
 
-In Sec.&nbsp;[\\(6\\)](https://07u.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future) of the intuition part, Part&nbsp;[\\(\\text{II}\\)](https://07u.github.io/skills-github-pages/Intuition), we defined the concept of representations. At the end of it, few maps were presented, some of which are legitimate representations. If you had your suspicions then (or have them now) that there are infinitely many representations, you are not mistaken. Without getting too deep into Representation Theory, consider the complex numbers once more. We saw that they rotate the \\(2\\)-dimensional Euclidean plane. What about a \\(3\\)-dimensional Euclidean space? We can always ignore one of the dimensions, for example the \\(z\\) direction, and choose
+In Sec.&nbsp;[\\(6\\)](https://07U.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future) of the intuition part, Part&nbsp;[\\(\\text{II}\\)](https://07U.github.io/skills-github-pages/Intuition), we defined the concept of representations. At the end of it, few maps were presented, some of which are legitimate representations. If you had your suspicions then (or have them now) that there are infinitely many representations, you are not mistaken. Without getting too deep into Representation Theory, consider the complex numbers once more. We saw that they rotate the \\(2\\)-dimensional Euclidean plane. What about a \\(3\\)-dimensional Euclidean space? We can always ignore one of the dimensions, for example the \\(z\\) direction, and choose
 \\begin{equation}
 	\\label{eq:SO(2) 3D Representation}
 	D\\!\\left(1\\right) = 𝟙\\,,\\ D\\!\\left(i\\right) = \\begin{pmatrix} 0 & -1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}\\,.
 \\end{equation}
-Throughout the text, starting now, the size of \\(𝟙\\) is determined by the context. Evaluating the exponent using these matrices, one gets a \\(3\\)-dimensional equivalent to the \\(2\\)-dimensional rotation matrix presented in Eq.&nbsp;[\\(\\left(5.3\\right)\\)](https://07u.github.io/skills-github-pages/Intuition#mjx-eqn%3Aeq%3A2D_Rotation_Matrix). We can generalize this procedure to any number of dimensions.[^11]
+Throughout the text, starting now, the size of \\(𝟙\\) is determined by the context. Evaluating the exponent using these matrices, one gets a \\(3\\)-dimensional equivalent to the \\(2\\)-dimensional rotation matrix presented in Eq.&nbsp;[\\(\\left(5.3\\right)\\)](https://07U.github.io/skills-github-pages/Intuition#mjx-eqn%3Aeq%3A2D_Rotation_Matrix). We can generalize this procedure to any number of dimensions.[^11]
 
 &nbsp;&nbsp;&nbsp;&nbsp;We take a look at the quaternion group definition, Eq.&nbsp;\\eqref{eq:Quaternion Group Definition}, once more, and ask: what matrices could represent these objects? Luckily, it just happens that the next line contains exactly what we look for
 \\begin{equation}
 	\\label{eq:2D Quaternion Representation}
 	\\!\\!D\\!\\left(\\underline{1}\\right) = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{i}\\right) = \\begin{pmatrix} 0 & i \\\\ i & 0 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{j}\\right) = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{k}\\right) = \\begin{pmatrix} i & 0 \\\\ 0 & -i \\end{pmatrix}\\,.\\!\\!
 \\end{equation}
-\\(D\\!\\left(\\underline{1}\\right) = 𝟙\\) and \\(D\\!\\left(\\underline{j}\\right) = -\\epsilon\\), recovering the complex representation, defined in Sec.&nbsp;[\\(5\\)](https://07u.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers). We could have chosen larger matrices, but why not keep it minimal? As an exercise, try to think of a strictly real representation that maps to \\(4 \\times 4\\) matrices.
+\\(D\\!\\left(\\underline{1}\\right) = 𝟙\\) and \\(D\\!\\left(\\underline{j}\\right) = -\\epsilon\\), recovering the complex representation, defined in Sec.&nbsp;[\\(5\\)](https://07U.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers). We could have chosen larger matrices, but why not keep it minimal? As an exercise, try to think of a strictly real representation that maps to \\(4 \\times 4\\) matrices.
 <br><br>
 
 #### \\(8.3\\ \\) What Is A Quaternion Exponentiation?
@@ -131,11 +131,11 @@ Please notice that quaternions, in general, are *not* \\(SU\\!\\left(2\\right)\\
 \\end{equation}
 As a unit-quaternion, it has \\(3\\) degrees of freedom, but they represent a \\(3\\)-dimensional hyper-sphere embedded in a \\(4D\\) space. Yikes! On the other hand, in order to derive \\(q\\), Eq.&nbsp;\\eqref{eq:q}, we have evaluated the exponent function of a \\(3\\)-dimensional vector, \\(\\vec{\\alpha}\\). Its \\(3\\) degrees of freedom represent a flat \\(3D\\) space. No curvature and no larger space are needed.
 
-&nbsp;&nbsp;&nbsp;&nbsp;If the paragraph above is not clear, try to read it again in the context of the complex numbers example of Part&nbsp;[\\(\\text{II}\\)](https://07u.github.io/skills-github-pages/Intuition). There, the unit complex number is a \\(1\\)-dimensional sphere (normal people call it a circle) embedded in a \\(2D\\) space. On the other hand, the \\(1\\)-dimensional vector in the exponent, \\(\\theta\\), was just a straight line.
+&nbsp;&nbsp;&nbsp;&nbsp;If the paragraph above is not clear, try to read it again in the context of the complex numbers example of Part&nbsp;[\\(\\text{II}\\)](https://07U.github.io/skills-github-pages/Intuition). There, the unit complex number is a \\(1\\)-dimensional sphere (normal people call it a circle) embedded in a \\(2D\\) space. On the other hand, the \\(1\\)-dimensional vector in the exponent, \\(\\theta\\), was just a straight line.
 
 &nbsp;&nbsp;&nbsp;&nbsp;So, although the final result of the exponent expression can be written as a quaternion, and can act on quaternions, we do not need the *whole* quaternion space - and attached complications - to interpret it. In my humble opinion, this is the simpler way to think about this subject.
 
-&nbsp;&nbsp;&nbsp;&nbsp;We think about (the imaginary elements of) quaternions not as \\(SU\\!\\left(2\\right)\\) group *elements*, but as its *generators*. Brace yourself - we are going to dive deeper in Part&nbsp;[\\(\\text{IV}\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations).
+&nbsp;&nbsp;&nbsp;&nbsp;We think about (the imaginary elements of) quaternions not as \\(SU\\!\\left(2\\right)\\) group *elements*, but as its *generators*. Brace yourself - we are going to dive deeper in Part&nbsp;[\\(\\text{IV}\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations).
 <br><br><br>
 
 ---
