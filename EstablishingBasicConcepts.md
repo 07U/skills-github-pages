@@ -93,7 +93,7 @@ In Sec.&nbsp;[\\(6\\)](https://07u.github.io/skills-github-pages/Intuition#6--a-
 	\\label{eq:SO(2) 3D Representation}
 	D\\!\\left(1\\right) = 𝟙\\,,\\ D\\!\\left(i\\right) = \\begin{pmatrix} 0 & -1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}\\,.
 \\end{equation}
-Throughout the text, starting now, the size of \\(𝟙\\) is determined by the context. Evaluating the exponent using these matrices, one gets a \\(3\\)-dimensional equivalent to the \\(2\\)-dimensional rotation matrix presented in Eq.&nbsp;\\eqref{eq:2D Rotation Matrix}. We can generalize this procedure to any number of dimensions.[^11]
+Throughout the text, starting now, the size of \\(𝟙\\) is determined by the context. Evaluating the exponent using these matrices, one gets a \\(3\\)-dimensional equivalent to the \\(2\\)-dimensional rotation matrix presented in Eq.&nbsp;[\\(\\left(5.3\\right)\\)](https://07u.github.io/skills-github-pages/Intuition#mjx-eqn%3Aeq%3A2D_Rotation_Matrix). We can generalize this procedure to any number of dimensions.[^11]
 
 &nbsp;&nbsp;&nbsp;&nbsp;We take a look at the quaternion group definition, Eq.&nbsp;\\eqref{eq:Quaternion Group Definition}, once more, and ask: what matrices could represent these objects? Luckily, it just happens that the next line contains exactly what we look for
 \\begin{equation}
