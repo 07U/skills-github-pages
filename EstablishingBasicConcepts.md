@@ -1,30 +1,5 @@
 <script src="load-mathjax.js" async></script>
 
-[\\(\\text{I}\\)](https://07u.github.io/skills-github-pages/Preamble)
-[\\(1\\)](https://07u.github.io/skills-github-pages/Preamble#1--introduction)
-[\\(2\\)](https://07u.github.io/skills-github-pages/Preamble#2--prerequisites-and-goals)
-[\\(3\\)](https://07u.github.io/skills-github-pages/Preamble#3--overview)
-[\\(4\\)](https://07u.github.io/skills-github-pages/Preamble#4--acknowledgments)
-
-[\\(\\text{II}\\)](https://07u.github.io/skills-github-pages/Intuition)
-[\\(5\\)](https://07u.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers)
-[\\(6\\)](https://07u.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future)
-
-[\\(\\text{III}\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts)
-[\\(7\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups)
-[\\(8\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions)
-[\\(9\\)](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts#9--closing-remarks)
-
-[\\(\\text{IV}\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations)
-[\\(10\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#10--representations)
-[\\(11\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#11--the-suleft2right-algebra-and-generators)
-[\\(12\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#12--the-connection-between-suleft2right-and-soleft3right)
-[\\(13\\)](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations#13--summary)
-
-[\\(\\text{V}\\)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation)
-[\\(14\\)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#14--deriving-the-explicit-rotation-matrix-form)
-[\\(15\\)](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation#15--a-branchless-matrix-to-quaternion-translation)
-
 ## \\(\\text{III}\\ \\) Establishing Basic Concepts
 
 In Part&nbsp;[\\(\\text{II}\\)](https://07u.github.io/skills-github-pages/Intuition), we reviewed the intuitive connection between complex numbers (specifically the imaginary number, \\(i\\)) and \\(2D\\) rotations in linear algebra.
