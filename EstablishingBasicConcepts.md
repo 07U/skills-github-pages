@@ -130,14 +130,14 @@ As a unit-quaternion, it has \\(3\\) degrees of freedom, but they represent a \\
 
 &nbsp;&nbsp;&nbsp;&nbsp;So, although the final result of the exponent expression can be written as a quaternion, and can act on quaternions, we do not need the *whole* quaternion space - and attached complications - to interpret it. In my humble opinion, this is the simpler way to think about this subject.
 
-&nbsp;&nbsp;&nbsp;&nbsp;We think about (the imaginary elements of) quaternions not as \\(SU\\!\\left(2\\right)\\) group *elements*, but as its *generators*. Brace yourself - we are going to dive deeper in Part&nbsp;[\\(\\text{IV}\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations).
+&nbsp;&nbsp;&nbsp;&nbsp;We interpret (the imaginary elements of) quaternions not as \\(SU\\!\\left(2\\right)\\) group *elements*, but as its *generators*. Brace yourself - we are going to dive deeper.
 <br><br>
 
 ---
 <br>
 
 To the previous part: [\\(\\text{II}\\ \\) Intuition](https://07u.github.io/skills-github-pages/Intuition).<br>
-To the next part: [\\(\\text{IV}\\ \\) The Connection To \\(3D\\) Rotations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations).
+To the next part: [\\(\\text{IV}\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations).
 <br><br>
 
 # Comments
