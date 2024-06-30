@@ -26,7 +26,7 @@ We have arrived to the most important link of the chain, which may also be one o
 \\begin{equation}
 	\\vec{v} \\longmapsto D\_{\\text{F}}\\!\\left(U\\right) \\vec{v} = U \\vec{v}\\,.
 \\end{equation}
-Just like we had a Fundamental representation for \\(SO\\!\\left(2\\right)\\), the \\(SU\\!\\left(2\\right)\\) Fundamental representation is the identity map.[^13] Although we defined the representation as the function \\(D\\), we will sometime abuse this word. For example, we may say that \\(\\vec{v}\\) transforms under the Fundamental - meaning that under the operation of an \\(SU\\!\\left(2\\right)\\) element, \\(\\vec{v}\\) has the above-mentioned transformation rule.
+Just like we had a Fundamental representation for \\(SO\\!\\left(2\\right)\\), the \\(SU\\!\\left(2\\right)\\) Fundamental representation is the identity map.[^13] Although we defined the representation as the function \\(D\\), we will sometime abuse this term. For example, we may say that \\(\\vec{v}\\) transforms under the Fundamental - meaning that under the operation of an \\(SU\\!\\left(2\\right)\\) element, \\(\\vec{v}\\) has the above-mentioned transformation rule.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Apparently, there are other representations that we could have chosen. We call \\(D\_{\\text{AF}}\\!\\left(U\\right)\\) the *Anti-Fundamental* representation if it acts on \\(\\vec{w}\\) in the following way
 \\begin{equation}
