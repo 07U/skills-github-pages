@@ -44,7 +44,7 @@ If you choose not to master Group Theory, and just want to jump into the juicy s
 \\end{equation}
 Notice! \\(SU\\!\\left(N\\right)\\) is composed of complex \\(N \\times N\\) matrices! The \\(\\dagger\\) represents \\(T\\ast\\), meaning both taking the transpose of the matrix and the complex conjugate of its elements. What does this family of matrices represent? We do not care. Not currently, and not ever - as we are *not* interested in complex spaces. We are interested in rotations, which are applied in real spaces, with real coordinates. The complex plane is merely a tool, as the generalization of the complex numbers - the quaternions - are merely a tool. We are not interested in their operation on their respective spaces, but solely in the Euclidean space.
 
-&nbsp;&nbsp;&nbsp;&nbsp;\\(SU\\!\\left(N\\right)\\) plays an important role, with \\(N = 2\\). Again, it feels unnatural to discuss about a \\(2\\)-dimensional space with a total of \\(4\\) real degrees of freedom,[^8] so we are not going to do that. Instead, we are going to examine the group elements themselves. A matrix \\(U \\in SU\\!\\left(2\\right)\\) has the form
+&nbsp;&nbsp;&nbsp;&nbsp;\\(SU\\!\\left(N\\right)\\) plays an important role in our discussion, with \\(N = 2\\). Again, it feels unnatural to discuss about a \\(2\\)-dimensional space with a total of \\(4\\) real degrees of freedom,[^8] so we are not going to do that. Instead, we are going to examine the group elements themselves. A matrix \\(U \\in SU\\!\\left(2\\right)\\) has the form
 \\begin{equation}
 	\\label{eq:SU(2) Matrix}
 	U = \\begin{pmatrix} a + i b & -c + i d \\\\ c + i d & a - i b \\end{pmatrix}\\,;\\quad a, b, c, d \\in \\mathbb{R}\\,,\\ a^{2} + b^{2} + c^{2} + d^{2} = 1\\,.
