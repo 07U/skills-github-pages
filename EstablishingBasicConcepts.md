@@ -51,7 +51,7 @@ Notice! \\(SU\\!\\left(N\\right)\\) is composed of complex \\(N \\times N\\) mat
 \\end{equation}
 There is a lot to say about this form. More specifically, we are going to encounter it in an extremely surprising place. Please keep it close to your heart, as it is the principle object that allows us to connect \\(SO\\!\\left(3\\right)\\) rotations and quaternions.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Speaking of quaternions, did you know that they compose a group themselves? The group definition serves as a place to also define (or remind the reader of) the basis of the quaternion space and multiplication rules. The *discrete* quaternion group, of size \\(8\\) elements, is
+&nbsp;&nbsp;&nbsp;&nbsp;Speaking of quaternions, did you know that they compose a group themselves? The group definition serves as a place to also define (or remind the reader of) the basis of the quaternion space and multiplication rules. The *discrete* [quaternion group](https://en.wikipedia.org/wiki/Quaternion_group), of size \\(8\\) elements, is
 \\begin{equation}
 	\\label{eq:Quaternion Group Definition}
 	Q\_{8} = \\Set{\\pm \\underline{1},\\ \\pm \\underline{i},\\ \\pm \\underline{j},\\ \\pm \\underline{k} | \\underline{i}^{2} = \\underline{j}^{2} = \\underline{k}^{2} = \\underline{i} \\underline{j} \\underline{k} = -\\underline{1}}\\,.
