@@ -2,7 +2,7 @@
 
 ## \\(\\text{II}\\ \\) Intuition
 
-Before we dive into analyzing quaternions in Part&nbsp;[\\(\\text{III}\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts), we review in Sec.&nbsp;[\\(5\\)](https://07U.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers) what is already known to us about complex numbers, and their relation to rotations. In Sec.&nbsp;[\\(6\\)](https://07U.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future) we are going to familiarize ourselves with some advanced topics, which will be covered in more details in Part&nbsp;[\\(\\text{IV}\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations).
+Before we dive into analyzing quaternions in Part&nbsp;[\\(\\text{III}\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts), we review in Section&nbsp;[\\(5\\)](https://07U.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers) what is already known to us about complex numbers, and their relation to rotations. In Section&nbsp;[\\(6\\)](https://07U.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future) we are going to familiarize ourselves with some advanced topics, which will be covered in more details in Part&nbsp;[\\(\\text{IV}\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations).
 
 &nbsp;&nbsp;&nbsp;&nbsp;This part is going to serves as a comparison point. All of the results and definitions presented later in the text, in the context of quaternions, can be applied also to the complex numbers, with much more ease. Hence, I encourage you to always come back here and try to understand the definitions in the context of complex numbers, even when not instructed to do so in the text.
 
@@ -27,7 +27,7 @@ the matrix form of the rotation above is
 	\\label{eq:2D Rotation Matrix}
 	e^{i \\theta} \\ \\sim\\  \\rho\\!\\left(\\theta\\right) \\equiv \\begin{pmatrix} \\cos\\!\\left(\\theta\\right) & -\\sin\\!\\left(\\theta\\right) \\\\ \\sin\\!\\left(\\theta\\right) & \\cos\\!\\left(\\theta\\right) \\end{pmatrix}\\,.
 \\end{equation}
-The similarity symbol, \\(\\sim\\), is used to show that we speak about the same element, but in different points of view. Above, the left hand side is the complex plane point of view, and the right hand side is the \\(2\\)-dimensional Euclidean vector space. They are equivalent. \\(\\rho\\!\\left(\\theta\\right)\\) is a generic form of an element in a set we call \\(SO\\!\\left(2\\right)\\). \\(SO\\!\\left(2\\right)\\) is more than just a set - it is a *group*. Groups are reviewed in more details in Sec.&nbsp;[\\(7\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups). Right now, for the sake of completeness, we define the \\(SO\\!\\left(2\\right)\\) group
+The similarity symbol, \\(\\sim\\), is used to show that we speak about the same element, but in different points of view. Above, the left hand side is the complex plane point of view, and the right hand side is the \\(2\\)-dimensional Euclidean vector space. They are equivalent. \\(\\rho\\!\\left(\\theta\\right)\\) is a generic form of an element in a set we call \\(SO\\!\\left(2\\right)\\). \\(SO\\!\\left(2\\right)\\) is more than just a set - it is a *group*. Groups are reviewed in more details in Section&nbsp;[\\(7\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups). Right now, for the sake of completeness, we define the \\(SO\\!\\left(2\\right)\\) group
 \\begin{equation}
 	SO\\!\\left(2\\right) = \\Set{O = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} | a,b,c,d \\in \\mathbb{R}\\,,\\ O^{T} O = 𝟙\\,,\\ \\det\\!\\left[O\\right] = 1}\\,,
 \\end{equation}
@@ -37,7 +37,7 @@ where \\(O^{T}\\) is the transpose of \\(O\\), and \\(𝟙\\) is the \\(2 \\time
 	e^{i \\theta} \\left(a + i b\\right) \\ \\sim\\  \\rho\\!\\left(\\theta\\right) \\left(a \\vec{1} + b \\vec{i}\\right)\\,.
 \\end{equation}
 
-&nbsp;&nbsp;&nbsp;&nbsp;This simple example allows us to build some tools for the future. We first expand the correspondence above, Eq.&nbsp;\\eqref{eq:Correspondence}, using Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula}, and the \\(2\\)-dimensional rotation matrix, Eq.&nbsp;\\eqref{eq:2D Rotation Matrix},
+&nbsp;&nbsp;&nbsp;&nbsp;This simple example allows us to build some tools for the future. We first expand the correspondence above, Equation&nbsp;\\eqref{eq:Correspondence}, using Euler's formula, Equation&nbsp;\\eqref{eq:Euler's Formula}, and the \\(2\\)-dimensional rotation matrix, Equation&nbsp;\\eqref{eq:2D Rotation Matrix},
 \\begin{equation}
 	\\left(\\cos\\!\\left(\\theta\\right) \\hat{1} + \\sin\\!\\left(\\theta\\right) \\hat{i}\\right) \\left(a 1 + b i\\right) \\ \\sim\\  \\begin{pmatrix} \\cos\\!\\left(\\theta\\right) & -\\sin\\!\\left(\\theta\\right) \\\\ \\sin\\!\\left(\\theta\\right) & \\cos\\!\\left(\\theta\\right) \\end{pmatrix} \\left(a \\vec{1} + b \\vec{i}\\right)\\,.
 \\end{equation}
@@ -45,14 +45,14 @@ There are several "different" spaces here to consider (spanned by and related to
 * The left term of the left hand side, the "hat" space, is the complex depiction of a rotation transformation.
 * The right term of the left hand side, the "scalars" space, is the complex plane, \\(\\mathbb{C}^{1}\\).
 * The left term of the right hand side, the "matrix" space, is the \\(2 \\times 2\\) matrix depiction of a rotation transformation.
-* The right term of the right hand side, the "vectors" space, is the regular \\(2D\\) Euclidean space, \\(\\mathbb{R}^{2}\\), defined in Eq.&nbsp;\\eqref{eq:2D Basis}.
+* The right term of the right hand side, the "vectors" space, is the regular \\(2D\\) Euclidean space, \\(\\mathbb{R}^{2}\\), defined in Equation&nbsp;\\eqref{eq:2D Basis}.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Eq.&nbsp;\\eqref{eq:2D Basis} defines the relation between the complex plane and the \\(2\\)-dimensional Euclidean space. What is the relation between the "hat" space and the \\(2 \\times 2\\) matrices one? It is given by
+&nbsp;&nbsp;&nbsp;&nbsp;Equation&nbsp;\\eqref{eq:2D Basis} defines the relation between the complex plane and the \\(2\\)-dimensional Euclidean space. What is the relation between the "hat" space and the \\(2 \\times 2\\) matrices one? It is given by
 \\begin{equation}
 	\\label{eq:SO(2) Basis}
 	\\hat{1} \\ \\sim\\  𝟙 \\equiv \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\,,\\quad \\hat{i} \\ \\sim\\  -\\epsilon \\equiv -\\begin{pmatrix} 0 & 1 \\\\ -1 & 0 \\end{pmatrix}\\,,
 \\end{equation}
-with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.wikipedia.org/wiki/Levi-Civita_symbol#Two_dimensions). It is easy to see that \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\), in the same way as \\(i^{2} = -1\\). It is thus tempting, and actually useful, to take the exponent of \\(-\\epsilon\\),[^4] to get the \\(2 \\times 2\\) form of Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula},
+with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.wikipedia.org/wiki/Levi-Civita_symbol#Two_dimensions). It is easy to see that \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\), in the same way as \\(i^{2} = -1\\). It is thus tempting, and actually useful, to take the exponent of \\(-\\epsilon\\),[^4] to get the \\(2 \\times 2\\) form of Euler's formula, Equation&nbsp;\\eqref{eq:Euler's Formula},
 \\begin{equation}
 	\\label{eq:2x2 Euler Formula}
 	e^{-\\epsilon \\theta} = \\cos\\!\\left(\\theta\\right) 𝟙 + \\sin\\!\\left(\\theta\\right) \\left(-\\epsilon\\right) \\equiv \\rho\\!\\left(\\theta\\right)\\,.
@@ -69,19 +69,19 @@ with \\(\\epsilon\\) the generic symbol for the [Levi-Civita tensor](https://en.
 	\\label{eq:Representation Linearity} D\\!\\left(\\alpha \\cdot a\\right) & = \\alpha D\\!\\left(a\\right)\\,,\\\\ \\label{eq:Representation Homomorphism} D\\!\\left(a \\cdot b\\right) & = D\\!\\left(a\\right) \\cdot D\\!\\left(b\\right)\\,.
 \\end{align}
 
-&nbsp;&nbsp;&nbsp;&nbsp;In our complex numbers example, what was presented as a "similarity" in Eq.&nbsp;\\eqref{eq:SO(2) Basis}, is actually a representation. It even has a special name - it is the *Fundamental* representation of \\(SO\\!\\left(2\\right)\\)
+&nbsp;&nbsp;&nbsp;&nbsp;In our complex numbers example, what was presented as a "similarity" in Equation&nbsp;\\eqref{eq:SO(2) Basis}, is actually a representation. It even has a special name - it is the *Fundamental* representation of \\(SO\\!\\left(2\\right)\\)
 \\begin{equation}
 	\\label{eq:i Fundamental Representation}
 	D\\!\\left(1\\right) = 𝟙 \\equiv \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\,,\\quad D\\!\\left(i\\right) = -\\epsilon \\equiv \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\,.
 \\end{equation}
 It is no surprise then that \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\) just like \\(i^{2} = -1\\) - the representation is the mapping that allows us to discuss similar structures with different elements.
 
-&nbsp;&nbsp;&nbsp;&nbsp;The \\(2 \\times 2\\) form of Euler's formula, Eq.&nbsp;\\eqref{eq:2x2 Euler Formula}, can now be rewritten as
+&nbsp;&nbsp;&nbsp;&nbsp;The \\(2 \\times 2\\) form of Euler's formula, Equation&nbsp;\\eqref{eq:2x2 Euler Formula}, can now be rewritten as
 \\begin{equation}
 	\\label{eq:Fundamental Representation of Euler's Formula}
 	e^{D\\!\\left(i \\theta\\right)} = e^{D\\!\\left(i\\right) \\theta} = \\cos\\!\\left(\\theta\\right) D\\!\\left(1\\right) + \\sin\\!\\left(\\theta\\right) D\\!\\left(i\\right)\\,.
 \\end{equation}
-Notice that the linearity, Eq.&nbsp;\\eqref{eq:Representation Linearity}, and the multiplication-preservation property, Eq.&nbsp;\\eqref{eq:Representation Homomorphism}, allow us to just insert \\(D\\) in the original Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula}, and get Eq.&nbsp;\\eqref{eq:Fundamental Representation of Euler's Formula}.
+Notice that the linearity, Equation&nbsp;\\eqref{eq:Representation Linearity}, and the multiplication-preservation property, Equation&nbsp;\\eqref{eq:Representation Homomorphism}, allow us to just insert \\(D\\) in the original Euler's formula, Equation&nbsp;\\eqref{eq:Euler's Formula}, and get Equation&nbsp;\\eqref{eq:Fundamental Representation of Euler's Formula}.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Usually, the concept of representations is presented later on. This intuition part, though, is a great setting to introduce what is one of the toughest concepts to understand. We end this part with a question: which one of the following maps is a representation (if any)?
 \\begin{gather}
