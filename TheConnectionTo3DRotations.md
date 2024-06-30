@@ -122,7 +122,7 @@ To get it, just transform \\(V\\) in Eq.&nbsp;\\eqref{eq:SU(2)-SO(3) Isomorphism
 
 This part is the most intense one in this text, and I feel a summary section is necessary. What did we achieve up until this point?
 * We mapped the imaginary **quaternions** to a set of matrices we call \\(X\\) that have the same multiplication properties.
-* This was originally done in Eq.&nbsp;[\\(\\left(8.5\\right)\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#mjx-eqn%3Aeq%3A2D_Quaternion_Representation), although we did not call them by name.
+	* This was originally done in Eq.&nbsp;[\\(\\left(8.5\\right)\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#mjx-eqn%3Aeq%3A2D_Quaternion_Representation), although we did not call them by name.
 * The \\(X\\)s actually serve as the basis of the \\(3\\)-dimensional vector space \\(\\mathfrak{su}\\!\\left(2\\right)\\). Exponentiating an \\(\\mathfrak{su}\\!\\left(2\\right)\\) vector results in an \\(SU\\!\\left(2\\right)\\) element.
 	* The exponentiation was discussed in Section&nbsp;[\\(8\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions).
 * We have presented different representations of the \\(SU\\!\\left(2\\right)\\) group.
