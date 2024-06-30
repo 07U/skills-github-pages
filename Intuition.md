@@ -29,7 +29,6 @@ the matrix form of the rotation above is
 \\end{equation}
 The similarity symbol, \\(\\sim\\), is used to show that we speak about the same element, but in different points of view. Above, the left hand side is the complex plane point of view, and the right hand side is the \\(2\\)-dimensional Euclidean vector space. They are equivalent. \\(\\rho\\!\\left(\\theta\\right)\\) is a generic form of an element in a set we call \\(SO\\!\\left(2\\right)\\). \\(SO\\!\\left(2\\right)\\) is more than just a set - it is a *group*. Groups are reviewed in more details in Sec.&nbsp;[\\(7\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups) of Part&nbsp;[\\(\\text{III}\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts). Right now, for the sake of completeness, we define the \\(SO\\!\\left(2\\right)\\) group
 \\begin{equation}
-	\\label{eq:SO(2) Definition}
 	SO\\!\\left(2\\right) = \\Set{O = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} | a,b,c,d \\in \\mathbb{R}\\,,\\ O^{T} O = 𝟙\\,,\\ \\det\\!\\left[O\\right] = 1}\\,,
 \\end{equation}
 where \\(O^{T}\\) is the transpose of \\(O\\), and \\(𝟙\\) is the \\(2 \\times 2\\) unit matrix. Above, we were just describing the correspondence
@@ -40,7 +39,6 @@ where \\(O^{T}\\) is the transpose of \\(O\\), and \\(𝟙\\) is the \\(2 \\time
 
 &nbsp;&nbsp;&nbsp;&nbsp;This simple example allows us to build some tools for the future. We first expand the correspondence above, Eq.&nbsp;\\eqref{eq:Correspondence}, using Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula}, and the \\(2\\)-dimensional rotation matrix, Eq.&nbsp;\\eqref{eq:2D Rotation Matrix},
 \\begin{equation}
-	\\label{eq:Correspondence Expanded}
 	\\left(\\cos\\!\\left(\\theta\\right) \\hat{1} + \\sin\\!\\left(\\theta\\right) \\hat{i}\\right) \\left(a 1 + b i\\right) \\ \\sim\\  \\begin{pmatrix} \\cos\\!\\left(\\theta\\right) & -\\sin\\!\\left(\\theta\\right) \\\\ \\sin\\!\\left(\\theta\\right) & \\cos\\!\\left(\\theta\\right) \\end{pmatrix} \\left(a \\vec{1} + b \\vec{i}\\right)\\,.
 \\end{equation}
 There are several "different" spaces here to consider (spanned by and related to the multiplicative identity, \\(1\\), and the imaginary number, \\(i\\)):
