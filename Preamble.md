@@ -72,6 +72,7 @@ Want your LinkedIn profile to appear here? Please join the conversation and cont
 <br>
 
 To the next part: [\\(\\text{II}\\ \\) Intuition](https://07U.github.io/skills-github-pages/Intuition).
+<br><br><br>
 
 ---
 <br>
