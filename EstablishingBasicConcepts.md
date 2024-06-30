@@ -92,7 +92,7 @@ In Section&nbsp;[\\(6\\)](https://07U.github.io/skills-github-pages/Intuition#6-
 \\end{equation}
 Throughout the text, starting now, the size of \\(𝟙\\) is determined by the context. Evaluating the exponent using these matrices, one gets a \\(3\\)-dimensional equivalent to the \\(2\\)-dimensional rotation matrix presented in Eq.&nbsp;[\\(\\left(5.3\\right)\\)](https://07U.github.io/skills-github-pages/Intuition#mjx-eqn%3Aeq%3A2D_Rotation_Matrix). We can generalize this procedure to any number of dimensions.[^11]
 
-&nbsp;&nbsp;&nbsp;&nbsp;We take a look at the quaternion group definition, Eq.&nbsp;\\eqref{eq:Quaternion Group Definition}, once more, and ask: what matrices could represent these objects? Luckily, it just happens that the next line contains exactly what we look for
+&nbsp;&nbsp;&nbsp;&nbsp;Once more, we take a look at the quaternion group definition, Eq.&nbsp;\\eqref{eq:Quaternion Group Definition}, and ask: what matrices could represent these objects? Luckily, it just happens that the next line contains exactly what we look for
 \\begin{equation}
 	\\label{eq:2D Quaternion Representation}
 	\\!\\!D\\!\\left(\\underline{1}\\right) = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{i}\\right) = \\begin{pmatrix} 0 & i \\\\ i & 0 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{j}\\right) = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{k}\\right) = \\begin{pmatrix} i & 0 \\\\ 0 & -i \\end{pmatrix}\\,.\\!\\!
