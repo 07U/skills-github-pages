@@ -71,6 +71,11 @@ Want your LinkedIn profile to appear here? Please join the conversation and cont
 ---
 <br>
 
+To the next part: [\\(\\text{II}\\ \\) Intuition](https://07U.github.io/skills-github-pages/Intuition).
+
+---
+<br>
+
 [^1]: Please check it after you read this text, as it makes the text obsolete in some sense 😅
 [^2]: Pun was not intended.
 [^3]: There are claims on the internet that a quaternion with a negative real part performs a rotation according to the left-hand rule, but that is not quite accurate.
