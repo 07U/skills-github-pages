@@ -6,7 +6,7 @@ In Part&nbsp;[\\(\\text{II}\\)](https://07U.github.io/skills-github-pages/Intuit
 
 &nbsp;&nbsp;&nbsp;&nbsp;In this part we are going to finally dive into the world of [Lie Algebras](https://en.wikipedia.org/wiki/Lie_algebra), [generators](https://en.wikipedia.org/wiki/Lie_algebra#Generators_and_dimension), and representations, however on an extremely high level. In order to *fully* understand what is going on behind the scenes, one needs to read a book on the subject or take a dedicated course. Because the goal of this text is for you not to do so, some things are being swept under the rug. This part of the text contains a lot of definitions, and is going to be technically challenging. However, we should stay focused and do not let some jargon confuse us - as long as the examples are understandable, the journey toward the end should remain clear.
 
-&nbsp;&nbsp;&nbsp;&nbsp;What we called the Fundamental representation of \\(SO\\!\\left(2\\right)\\), Eq.&nbsp;[\\(\\left(6.3\\right)\\)](https://07U.github.io/skills-github-pages/Intuition#mjx-eqn%3Aeq%3Ai_Fundamental_Representation), is what connects the complex numbers to rotations in \\(2\\) dimensions. The representation for quaternions in Eq.&nbsp;[\\(\\left(8.5\\right)\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#mjx-eqn%3Aeq%3A2D_Quaternion_Representation) connects them to \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) matrices. This later representation is also "fundamental". In Sec.&nbsp;[\\(10\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#10--representations) we define the Fundamental representation in more details, and introduce even more representations. Sec.&nbsp;[\\(11\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#11--the-suleft2right-algebra-and-generators) introduces the \\(3\\)-dimensional Euclidean space that hides inside \\(SU\\!\\left(2\\right)\\). Sec.&nbsp;[\\(12\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#12--the-connection-between-suleft2right-and-soleft3right) connects rotations in \\(3D\\) space, represented by \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrices, to \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) transformations. With the results of Part&nbsp;[\\(\\text{III}\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts), this leads to a direct connection between quaternions and rotations in our physical world. Sec.&nbsp;[\\(13\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#13--summary) provides a short summary.
+&nbsp;&nbsp;&nbsp;&nbsp;What we called the Fundamental representation of \\(SO\\!\\left(2\\right)\\), Eq.&nbsp;[\\(\\left(6.3\\right)\\)](https://07U.github.io/skills-github-pages/Intuition#mjx-eqn%3Aeq%3Ai_Fundamental_Representation), is what connects the complex numbers to rotations in \\(2\\) dimensions. The representation for quaternions in Eq.&nbsp;[\\(\\left(8.5\\right)\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#mjx-eqn%3Aeq%3A2D_Quaternion_Representation) connects them to \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) matrices. This later representation is also "fundamental". In Section&nbsp;[\\(10\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#10--representations) we define the Fundamental representation in more details, and introduce even more representations. Section&nbsp;[\\(11\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#11--the-suleft2right-algebra-and-generators) introduces the \\(3\\)-dimensional Euclidean space that hides inside \\(SU\\!\\left(2\\right)\\). Section&nbsp;[\\(12\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#12--the-connection-between-suleft2right-and-soleft3right) connects rotations in \\(3D\\) space, represented by \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrices, to \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) transformations. With the results of Part&nbsp;[\\(\\text{III}\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts), this leads to a direct connection between quaternions and rotations in our physical world. Section&nbsp;[\\(13\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#13--summary) provides a short summary.
 
 &nbsp;&nbsp;&nbsp;&nbsp;We are purely going to deal with matrices from now on, revisiting quaternions only in the next and final part, Part&nbsp;[\\(\\text{V}\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation), where we would see how to extract quaternion coefficients out of a rotation matrix.
 <br><br>
@@ -14,7 +14,7 @@ In Part&nbsp;[\\(\\text{II}\\)](https://07U.github.io/skills-github-pages/Intuit
 ### \\(10\\ \\) Representations
 <div style="display:none">\(\setSection{10}\)</div>
 
-We have arrived to the most important link of the chain, which may also be one of the most complex to understand - especially without being rigorous. In Sec.&nbsp;[\\(6\\)](https://07U.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future) we already defined representations, and also met a specific type of representation of \\(SO\\!\\left(2\\right)\\), called the Fundamental. This section elaborates more on the subject of representations (definitely not in a complete way), and also answers the questions:
+We have arrived to the most important link of the chain, which may also be one of the most complex to understand - especially without being rigorous. In Section&nbsp;[\\(6\\)](https://07U.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future) we already defined representations, and also met a specific type of representation of \\(SO\\!\\left(2\\right)\\), called the Fundamental. This section elaborates more on the subject of representations (definitely not in a complete way), and also answers the questions:
 1. How could a group element be applied differently on different vectors of the same space?
 2. How could a group element be applied to different vector spaces?
 
@@ -76,7 +76,7 @@ The *algebra* of \\(SU\\!\\left(2\\right)\\), denoted \\(\\mathfrak{su}\\!\\left
 
 &nbsp;&nbsp;&nbsp;&nbsp;\\(\\mathfrak{su}\\!\\left(2\\right)\\) is a vector space with a property that is of importance to us. Can you see it? Yes, it is a vector space of size 3! I assume you can see what we wish to do now - treat this space as our Euclidean one. We did a step in the right direction, but there is still some work to be done.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Eq.&nbsp;\\eqref{eq:su(2) Basis} maps the imaginary quaternion part to the generators of \\(SU\\!\\left(2\\right)\\). This explains the claim from Sec.&nbsp;[\\(9\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#9--closing-remarks), that \\(\\underline{i}\\),  \\(\\underline{j}\\) and \\(\\underline{k}\\) serve as the generators. What is actually more important to us - they serve as the basis of the vector space \\(\\mathfrak{su}\\!\\left(2\\right)\\).
+&nbsp;&nbsp;&nbsp;&nbsp;Eq.&nbsp;\\eqref{eq:su(2) Basis} maps the imaginary quaternion part to the generators of \\(SU\\!\\left(2\\right)\\). This explains the claim from Section&nbsp;[\\(9\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#9--closing-remarks), that \\(\\underline{i}\\),  \\(\\underline{j}\\) and \\(\\underline{k}\\) serve as the generators. What is actually more important to us - they serve as the basis of the vector space \\(\\mathfrak{su}\\!\\left(2\\right)\\).
 
 &nbsp;&nbsp;&nbsp;&nbsp;As a vector space, one could act on \\(\\mathfrak{su}\\!\\left(2\\right)\\), and transform its vectors. When transforming this space, we would like to transform it onto itself. Observing the generators, we note that they possess two special properties - they are traceless and [Skew-Hermitian](https://en.wikipedia.org/wiki/Skew-Hermitian_matrix), namely
 \\begin{equation}
@@ -103,7 +103,7 @@ where \\(v\_{i}\\) are chosen to be *real*, otherwise \\(V\\) will not be skew-H
 ### \\(12\\ \\) The Connection Between \\(SU\\!\\left(2\\right)\\) And \\(SO\\!\\left(3\\right)\\)
 <div style="display:none">\(\setSection{12}\)</div>
 
-Some of you may already be familiar with what follows, and for others it may be the first time seeing this derivation. In Sec.&nbsp;[\\(11\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#11--the-suleft2right-algebra-and-generators), we defined the action of \\(SU\\!\\left(2\\right)\\) on its algebra \\(\\mathfrak{su}\\!\\left(2\\right)\\), which is a \\(3\\)-dimensional real vector space. We would like to show now that this action is equivalent to a \\(3\\)-dimensional rotation. First, associate \\(3\\)-dimensional vectors with \\(2 \\times 2\\) traceless and skew-Hermitian matrices by
+Some of you may already be familiar with what follows, and for others it may be the first time seeing this derivation. In Section&nbsp;[\\(11\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#11--the-suleft2right-algebra-and-generators), we defined the action of \\(SU\\!\\left(2\\right)\\) on its algebra \\(\\mathfrak{su}\\!\\left(2\\right)\\), which is a \\(3\\)-dimensional real vector space. We would like to show now that this action is equivalent to a \\(3\\)-dimensional rotation. First, associate \\(3\\)-dimensional vectors with \\(2 \\times 2\\) traceless and skew-Hermitian matrices by
 \\begin{equation}
 	\\label{eq:SU(2)-SO(3) Isomorphism}
 	\\vec{v} \\longrightarrow V \\equiv \\sum\_{n = 1}^{3} v\_{n} X\_{n} = \\begin{pmatrix} i v\_{3} & -v\_{2} + i v\_{1} \\\\ v\_{2} + i v\_{1} & -i v\_{3} \\end{pmatrix}\\,.
@@ -132,7 +132,7 @@ This part is the most intense one in this text, and I feel a summary section is 
 * We mapped the imaginary **quaternions** to a set of matrices we call \\(X\\) that have the same multiplication properties.
 * This was originally done in Eq.&nbsp;[\\(\\left(8.5\\right)\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#mjx-eqn%3Aeq%3A2D_Quaternion_Representation), although we did not call them by name.
 * The \\(X\\)s actually serve as the basis of the \\(3\\)-dimensional vector space \\(\\mathfrak{su}\\!\\left(2\\right)\\). Exponentiating an \\(\\mathfrak{su}\\!\\left(2\\right)\\) vector results in an \\(SU\\!\\left(2\\right)\\) element.
-	* The exponentiation was discussed in Sec.&nbsp;[\\(8\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions).
+	* The exponentiation was discussed in Section&nbsp;[\\(8\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions).
 * We have presented different representations of the \\(SU\\!\\left(2\\right)\\) group.
 	* The different representations are a very important tool, as they allow us to consider a group element, and potentially apply it on new vector spaces.
 * We then showed how a Tensor representation could act on an \\(\\mathfrak{su}\\!\\left(2\\right)\\) vector.
@@ -141,15 +141,19 @@ This part is the most intense one in this text, and I feel a summary section is 
 If you understood everything between the two bold words, I am satisfied.
 
 &nbsp;&nbsp;&nbsp;&nbsp;In Part&nbsp;[\\(\\text{V}\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation), the last part of this text, we will derive \\(O\\) explicitly, hopefully closing any loose ends you may have.
-<br><br><br>
+<br><br>
 
 ---
 <br>
 
+To the previous part: [\\(\\text{III}\\ \\) Establishing Basic Concepts](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts).<br>
+To the next part: [\\(\\text{V}\\ \\) On The Adjoint Representation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation).
+<br><br>
+
 ## Comments
 
 Discussion.
-<br><br><br>
+<br><br>
 
 ---
 <br>
