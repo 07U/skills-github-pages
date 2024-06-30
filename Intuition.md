@@ -89,7 +89,7 @@ Notice that the linearity, Eq.&nbsp;\\eqref{eq:Representation Linearity}, and th
 \\begin{gather}
 	D\_{1}\\!\\left(1\\right) = D\_{1}\\!\\left(i\\right) = 𝟙\\,,\\\\ D\_{2}\\!\\left(1\\right) = 𝟙\\,,\\ D\_{2}\\!\\left(i\\right) = \\epsilon\\,,\\\\ D\_{3}\\!\\left(1\\right) = -\\epsilon\\,,\\ D\_{3}\\!\\left(i\\right) = 𝟙\\,,\\\\ D\_{4}\\!\\left(1\\right) = \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 1 \\end{pmatrix}\\,,\\ D\_{4}\\!\\left(i\\right) = \\begin{pmatrix} 0 & 0 & 0 & -1 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\end{pmatrix}\\,.
 \\end{gather}
-<br><br><br>
+<br><br>
 
 ---
 <br>
@@ -97,7 +97,7 @@ Notice that the linearity, Eq.&nbsp;\\eqref{eq:Representation Linearity}, and th
 # Comments
 
 Discussion.
-<br><br><br>
+<br><br>
 
 ---
 <br>
