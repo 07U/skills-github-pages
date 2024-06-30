@@ -18,17 +18,15 @@ The whole intention of the previous parts was to show that one could strictly di
 
 In previous sections, we wrote an \\(SU\\!\\left(2\\right)\\) matrix using real parameters. We rewrite it now, using complex numbers
 \\begin{equation}
-	\\label{eq:S in SU(2)}
 	S = \\begin{pmatrix} a & -b^{\\ast} \\\\ b & a^{\\ast} \\end{pmatrix} \\qquad \\left(a, b \\in \\mathbb{C}\\,;\\ \\left|a\\right|^{2} + \\left|b\\right|^{2} = 1\\right)\\,.
 \\end{equation}
 Remember: \\(S\\) is the result of the exponentiation of an \\(SU\\!\\left(2\\right)\\) algebra vector, \\(V \\in \\mathfrak{su}\\!\\left(2\\right)\\),
 \\begin{equation}
-	\\label{eq:S as an Exponent}
 	S = e^{V}\\,.
 \\end{equation}
 We have established the transformation rule of \\(V\\), but never discussed how \\(S \\in SU\\!\\left(2\\right)\\) transforms. Well, it is easy to derive, as we just need to transform \\(V\\). Applying \\(U \\in SU\\!\\left(2\\right)\\), this will be
 \\begin{equation}
-S \\longmapsto e^{U V U^{\\dagger}} = \\cdots = U e^{V} U^{\\dagger} = U S U^{\\dagger}\\,.
+	S \\longmapsto e^{U V U^{\\dagger}} = \\cdots = U e^{V} U^{\\dagger} = U S U^{\\dagger}\\,.
 \\end{equation}
 As expected, this is just a change of basis transformation for \\(S\\) (as it was for \\(V\\)).
 
@@ -91,7 +89,7 @@ We have replaced the sandwich operation with the known matrix-vector multiplicat
 
 &nbsp;&nbsp;&nbsp;&nbsp;However, \\(\\vec{Q}\\) has some mixing in its quaternion components. We would like to write it in the natural basis. We perform a change of basis by the complex basis transformation
 \\begin{equation}
-B = \\begin{pmatrix} \\frac{1}{\\sqrt{2}} & 0 & 0 & \\frac{1}{\\sqrt{2}} \\\\ 0 & -\\frac{i}{\\sqrt{2}} & -\\frac{i}{\\sqrt{2}} & 0 \\\\ 0 & \\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} & 0 \\\\ -\\frac{i}{\\sqrt{2}} & 0 & 0 & \\frac{i}{\\sqrt{2}} \\end{pmatrix}\\,.
+	B = \\begin{pmatrix} \\frac{1}{\\sqrt{2}} & 0 & 0 & \\frac{1}{\\sqrt{2}} \\\\ 0 & -\\frac{i}{\\sqrt{2}} & -\\frac{i}{\\sqrt{2}} & 0 \\\\ 0 & \\frac{1}{\\sqrt{2}} & -\\frac{1}{\\sqrt{2}} & 0 \\\\ -\\frac{i}{\\sqrt{2}} & 0 & 0 & \\frac{i}{\\sqrt{2}} \\end{pmatrix}\\,.
 \\end{equation}
 \\(\\vec{Q}\\) then transforms into
 \\begin{equation}
@@ -109,6 +107,7 @@ But do not be bothered by this too much. Prepare to say Hocus-Pocus, as the real
 We can clearly see that under this basis, the \\(4\\)-dimensional Tensor representation of \\(U\\) got decomposed into:
 * A \\(1 \\times 1\\) block - called the *Trivial Representation*, and denoted by \\(\\boldsymbol{1}\\). The Trivial representation is the map \\(D\_{\\text{Triv}}\\!\\left(U\\right) \\equiv 1\\), for any \\(U\\).
 * A \\(3 \\times 3\\) block - ladies and gentlemen, I give you the Adjoint representation. It is denoted by \\(\\boldsymbol{3}\\).
+
 To summarize, we have shown that \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}} = \\boldsymbol{1} \\oplus \\boldsymbol{3}\\).
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Adjoint representation is a *purely real* transformation matrix, and is equivalent to a rotation matrix! This is the object that acts on the imaginary part of the quaternion, and applies the rotation. We also clearly see that the imaginary quaternion subspace (the \\(\\left(x,y,z\\right)\\) coordinates) is an *invariant* subspace under this operation, so we can treat it as a closed \\(3D\\) Euclidean space!
@@ -132,7 +131,6 @@ The quaternion Adjoint representation, Eq.&nbsp;\\eqref{eq:Quaternion Adjoint Re
 
 &nbsp;&nbsp;&nbsp;&nbsp;Comparing \\(O\\) to \\(D\_{\\text{Ad}}\\!\\left(q\\right)\\), one finds
 \\begin{equation}
-	\\label{eq:Adjoint Trace}
 	\\text{Tr}\\!\\left[O\\right] = 4 w^{2} - 1 \\quad\\Longrightarrow\\quad w = \\frac{\\sqrt{1 + \\text{Tr}\\!\\left[O\\right]}}{2}\\,.
 \\end{equation}
 Furthermore, the off-diagonal elements are composed of symmetric and anti-symmetric terms. This means that they could be combined together by addition or subtraction to eliminate one part or the other. Having an expression to \\(w\\), we could subtract opposite off-diagonal elements, to extract the other quaternion parameters. This works well, as long as the trace is not too close to \\(-1\\), which leads to numerical inaccuracies, or infinities when it is exactly \\(-1\\). Here comes branching for the rescue. Whenever the trace is, for example, negative, one could just extract a different coefficient out of the diagonal by negating two of the diagonal elements, and sum them again. Then, the off-diagonal elements are manipulated accordingly to extract the rest of the parameters. You can find the full algorithm online with a simple search, so it is not explicitly presented here.
@@ -156,17 +154,14 @@ The key observation is that multiplying \\(O\\) by a certain transformation woul
 
 &nbsp;&nbsp;&nbsp;&nbsp;Of course, one of the problems in constructing the quaternion is finding \\(\\hat{n}\\), thus we do not know which axis is "close enough"! Let us consider a special case, which would allow us to understand the strategy later on. We ask ourselves: what effect will a \\(180^{\\circ}\\) rotation around one of the Cartesian axes has? Without loss of generality, consider a rotation around the \\(\\hat{z}\\) direction. The rotation matrix would be
 \\begin{equation}
-	\\label{eq:90 Degrees z Rotation Matrix}
 	R = \\begin{pmatrix} -1 & 0 & 0 \\\\ 0 & -1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}\\,,
 \\end{equation}
 and the transformed input matrix is, surprise surprise,
 \\begin{equation}
-	\\label{eq:Transformed O}
 	R O = \\begin{pmatrix} -O\_{00} & -O\_{01} & -O\_{02} \\\\ -O\_{10} & -O\_{11} & -O\_{12} \\\\ O\_{20} & O\_{21} & O\_{22} \\end{pmatrix}\\,.
 \\end{equation}
 The trace of the transformed input matrix is
 \\begin{equation}
-	\\label{eq:Transformed Trace}
 	\\text{Tr}\\!\\left[R O\\right] = O\_{22} - O\_{00} - O\_{11}\\,.
 \\end{equation}
 This is the exact same expression computed by one of the classic algorithm's branches. We see then that the algebraic approach actually "applies" a rotation of the input matrix. We considered here only a rotation around the \\(\\hat{z}\\) direction, however the discussion applies also for the other directions - each corresponds to a different path. You will probably not be surprised if I tell you that the further algebraic manipulation of the off-diagonal elements are the same as described above, only using the transformed elements. Meaning that we can forget about different *expressions* (*i.e.*, whether we add or subtract elements), and think of different *transformations* (we have the same expressions to evaluate, but feed it with different input parameters). This is a way of thinking which we like in programming, mostly because it allows us to avoid code duplication.
