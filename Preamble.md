@@ -21,7 +21,7 @@ This text does not serve as an introduction to [Linear Algebra](https://en.wikip
 
 &nbsp;&nbsp;&nbsp;&nbsp;The text is also not going to cover the more general subject of [Geometric Algebra](https://en.wikipedia.org/wiki/Geometric_algebra). If one wants to gain a complete picture on the algebraic representation of geometric objects, how to transform them (in any number of dimensions!), and how this can be implemented in a video game engine - this is not the place. There are good sources for material on this huge subject online. One which I really recommend is [biVector.net](https://bivector.net/) - I found the documents a little bit harder to understand for beginners, but the videos are highly recommended![^1]
 
-&nbsp;&nbsp;&nbsp;&nbsp;This was about what the text expects of you, and what you should not expect of it. The main goal of this text is to place the quaternions inside a fictional MRI machine, and see into their mechanism for rotations. As a reminder, with this mechanism, a vector \\(\\vec{v} = \\left(x, y, z\\right)\\) is rotated by defining the purely imaginary quaternion
+&nbsp;&nbsp;&nbsp;&nbsp;This was about what the text expects of you, and what you should not expect of it. The main goal of this text is to place the quaternions inside a fictional MRI machine, and see into their mechanism for rotations. As a reminder, with this mechanism, a vector \\(\\vec{v} \\in \\mathbb{R}^{3}\\) is rotated by defining the purely imaginary quaternion
 \\begin{equation}
 	\\vec{v} = \\begin{pmatrix}(x \\\\ y \\\\ z\\end{pmatrix} \\longleftrightarrow p = x i + y j + z k\\,,
 \\end{equation}
