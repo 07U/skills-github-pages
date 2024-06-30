@@ -83,7 +83,7 @@ It is no surprise then that \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\) just lik
 \\end{equation}
 Notice that the linearity, Eq.&nbsp;\\eqref{eq:Representation Linearity}, and the multiplication-preservation property, Eq.&nbsp;\\eqref{eq:Representation Homomorphism}, allow us to just insert \\(D\\) in the original Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula}, and get Eq.&nbsp;\\eqref{eq:Fundamental Representation of Euler's Formula}.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Usually, the concept of representations is presented later on. This intuition part, though, is a great setting to introduce what is one of the toughest concepts to understand. We end this part with a question: which one of the following maps is a representation (if any)?
+&nbsp;&nbsp;&nbsp;&nbsp;Usually, the concept of representations is presented later on. This intuition part, though, is a great setting to introduce what is one of the toughest concepts to understand. We end this part with a question: which one of the following maps could be a representation (if any)?
 \\begin{gather}
 	D\_{1}\\!\\left(1\\right) = D\_{1}\\!\\left(i\\right) = 𝟙\\,,\\\\ D\_{2}\\!\\left(1\\right) = 𝟙\\,,\\ D\_{2}\\!\\left(i\\right) = \\epsilon\\,,\\\\ D\_{3}\\!\\left(1\\right) = -\\epsilon\\,,\\ D\_{3}\\!\\left(i\\right) = 𝟙\\,,\\\\ D\_{4}\\!\\left(1\\right) = \\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 1 \\end{pmatrix}\\,,\\ D\_{4}\\!\\left(i\\right) = \\begin{pmatrix} 0 & 0 & 0 & -1 \\\\ 0 & 0 & -1 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\end{pmatrix}\\,.
 \\end{gather}
