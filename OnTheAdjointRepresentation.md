@@ -4,11 +4,11 @@
 
 The whole intention of the previous parts was to show that one could strictly discuss the \\(3D\\) imaginary quaternion subspace. This is the one which we exponentiate (to get the unit-quaternion as a transformation object), and the one which we act on (as a \\(3\\)-dimensional vector).
 
-&nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;[\\(14\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation#14--deriving-the-explicit-rotation-matrix-form), we reintroduce the \\(4^{\\text{th}}\\) dimension, the one that was avoided all along. We would like to investigate how a unit-quaternion acts on other quaternions. We connect the unit-quaternion, as an \\(SU\\!\\left(2\\right)\\) transformation, to a \\(4 \\times 4\\) \\(SO\\!\\left(3\\right)\\) matrix. Yes, this is not a typo. We will see, though, that the \\(4^{\\text{th}}\\) dimension is, in fact, some sort of a side effect - the principle elements would remain \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrices.
+&nbsp;&nbsp;&nbsp;&nbsp;In Section&nbsp;[\\(14\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation#14--deriving-the-explicit-rotation-matrix-form), we reintroduce the \\(4^{\\text{th}}\\) dimension, the one that was avoided all along. We would like to investigate how a unit-quaternion acts on other quaternions. We connect the unit-quaternion, as an \\(SU\\!\\left(2\\right)\\) transformation, to a \\(4 \\times 4\\) \\(SO\\!\\left(3\\right)\\) matrix. Yes, this is not a typo. We will see, though, that the \\(4^{\\text{th}}\\) dimension is, in fact, some sort of a side effect - the principle elements would remain \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrices.
 
-&nbsp;&nbsp;&nbsp;&nbsp;In Sec.[\\(12\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#12--the-connection-between-suleft2right-and-soleft3right), we derived a formula for extracting the \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrix elements out of the \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) matrix elements. Sec.&nbsp;[\\(14\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation#14--deriving-the-explicit-rotation-matrix-form) closes the mathematical discussion of this text by deriving an explicit formula, also in terms of the quaternion parameters. This allows us to derive the inverse process.
+&nbsp;&nbsp;&nbsp;&nbsp;In Section[\\(12\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#12--the-connection-between-suleft2right-and-soleft3right), we derived a formula for extracting the \\(3 \\times 3\\) \\(SO\\!\\left(3\\right)\\) matrix elements out of the \\(2 \\times 2\\) \\(SU\\!\\left(2\\right)\\) matrix elements. Section&nbsp;[\\(14\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation#14--deriving-the-explicit-rotation-matrix-form) closes the mathematical discussion of this text by deriving an explicit formula, also in terms of the quaternion parameters. This allows us to derive the inverse process.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Throughout the internet and literature, I could only find two algorithms for extracting the quaternion coefficients out of a rotation matrix: the na\\"ive algorithm, which involves \\(4\\) evaluations of the square-root functions; and the classic algorithm, which involves one square-root evaluation, but up to \\(3\\) branches. In Sec.&nbsp;[\\(15\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation#15--a-branchless-matrix-to-quaternion-translation) I would like to present a branchless algorithm, for the extraction of a quaternion from a \\(3D\\) rotation matrix, with the evaluation of only one square-root function. We do it by combining all the knowledge we had gained.
+&nbsp;&nbsp;&nbsp;&nbsp;Throughout the internet and literature, I could only find two algorithms for extracting the quaternion coefficients out of a rotation matrix: the na\\"ive algorithm, which involves \\(4\\) evaluations of the square-root functions; and the classic algorithm, which involves one square-root evaluation, but up to \\(3\\) branches. In Section&nbsp;[\\(15\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation#15--a-branchless-matrix-to-quaternion-translation) I would like to present a branchless algorithm, for the extraction of a quaternion from a \\(3D\\) rotation matrix, with the evaluation of only one square-root function. We do it by combining all the knowledge we had gained.
 <br><br>
 
 ### \\(14\\ \\) Deriving The Explicit Rotation Matrix Form
@@ -48,7 +48,7 @@ where we introduced a factor of half, so we can interpret \\(\\theta\\) as our a
 	\\label{eq:Q Transformation Normalization Condition}
 	\\det\\!\\left[Q\\right] = \\left|q\\right|^{2} = w^{2} + x^{2} + y^{2} + z^{2} = 1\\,.
 \\end{equation}
-We have already established the fact that \\(Q\\) has the form of \\(S\\) in Sec.&nbsp;[\\(8\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions), hence also all quaternions (not just their imaginary part) are being transformed by a sandwich product, as was presented in Eq.&nbsp;[\\(\\left(2.5\\right)\\\)](https://07U.github.io/skills-github-pages/Preamble#mjx-eqn%3Aeq%3AUnit_Quaternion_Transformation). The relation between \\(Q\\)'s elements and \\(S\\)'s is obvious,
+We have already established the fact that \\(Q\\) has the form of \\(S\\) in Section&nbsp;[\\(8\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions), hence also all quaternions (not just their imaginary part) are being transformed by a sandwich product, as was presented in Eq.&nbsp;[\\(\\left(2.5\\right)\\\)](https://07U.github.io/skills-github-pages/Preamble#mjx-eqn%3Aeq%3AUnit_Quaternion_Transformation). The relation between \\(Q\\)'s elements and \\(S\\)'s is obvious,
 \\begin{equation}
 	\\label{eq:Q to S}
 	a = w + i z\\,,\\ b = y + i x\\,.
@@ -63,7 +63,7 @@ The goal of the previous subsection was to become convinced that a quaternion ca
 	Q\_{\\alpha \\dot{\\alpha}} \\longmapsto \\sum\_{\\beta = 1}^{2} \\sum\_{\\dot{\\beta} = 1}^{2} U\_{\\alpha \\beta} U^{\\ast}\_{\\dot{\\alpha} \\dot{\\beta}} Q\_{\\beta \\dot{\\beta}}\\,.
 \\end{equation}
 
-&nbsp;&nbsp;&nbsp;&nbsp;\\(Q\\) is also a vector in a \\(4\\)-dimensional vector space, spanned by \\(\\Set{𝟙,X\_{1},X\_{2},X\_{3}}\\). The dot-product between two vectors in this space, \\(M\\) and \\(N\\), is the same one presented in Sec.&nbsp;[\\(12\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#12--the-connection-between-suleft2right-and-soleft3right),
+&nbsp;&nbsp;&nbsp;&nbsp;\\(Q\\) is also a vector in a \\(4\\)-dimensional vector space, spanned by \\(\\Set{𝟙,X\_{1},X\_{2},X\_{3}}\\). The dot-product between two vectors in this space, \\(M\\) and \\(N\\), is the same one presented in Section&nbsp;[\\(12\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations#12--the-connection-between-suleft2right-and-soleft3right),
 \\begin{equation}
 	\\label{eq:Dot Product}
 	M \\cdot N = \\frac{1}{2} \\mathrm{Tr}\\!\\left[M N^{\\dagger}\\right]\\,.
@@ -246,6 +246,9 @@ Quaternion ToQuaternion(const Matrix& O)
 
 ---
 <br>
+
+To the previous part: [\\(\\text{IV}\\ \\) The Connection To \\(3D\\) Rotations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations).
+<br><br>
 
 # Comments
 
