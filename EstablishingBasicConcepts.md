@@ -108,7 +108,7 @@ We have arrived to the final step of our exponentiation derivation - transformin
 \\end{equation}
 so the matrix form of \\(q\\), Eq.&nbsp;\\eqref{eq:q}, is
 \\begin{equation}
-	\\!\\!\\!\\!D\\!\\left(q\\right) \\!=\\! \\begin{pmatrix}\\! \\cos\\!\\left(\\alpha\\right) \\!+\\! i \\sin\\!\\left(\\alpha\\right) \\cos\\!\\left(\\theta\\right) \\!&\\! \\sin\\!\\left(\\alpha\\right) \\sin\\!\\left(\\theta\\right) \\left(-\\!\\sin\\!\\left(\\varphi\\right) \\!+\\! i \\cos\\!\\left(\\varphi\\right)\\right) \\!\\\\\\! \\sin\\!\\left(\\alpha\\right) \\sin\\!\\left(\\theta\\right) \\left(\\sin\\!\\left(\\varphi\\right) \\!+\\! i \\cos\\!\\left(\\varphi\\right)\\right) \\!&\\! \\cos\\!\\left(\\alpha\\right) \\!-\\! i \\sin\\!\\left(\\alpha\\right) \\cos\\!\\left(\\theta\\right) \\!\\end{pmatrix}\\,.\\!\\!\\!\\!
+	\\!\\!\\!\\!D\\!\\left(q\\right) \\!=\\! \\begin{pmatrix} \\cos\\!\\left(\\alpha\\right) \\!+\\! i \\sin\\!\\left(\\alpha\\right) \\cos\\!\\left(\\theta\\right) & \\sin\\!\\left(\\alpha\\right) \\sin\\!\\left(\\theta\\right) \\left(-\\!\\sin\\!\\left(\\varphi\\right) \\!+\\! i \\cos\\!\\left(\\varphi\\right)\\right) \\\\ \\sin\\!\\left(\\alpha\\right) \\sin\\!\\left(\\theta\\right) \\left(\\sin\\!\\left(\\varphi\\right) \\!+\\! i \\cos\\!\\left(\\varphi\\right)\\right) & \\cos\\!\\left(\\alpha\\right) \\!-\\! i \\sin\\!\\left(\\alpha\\right) \\cos\\!\\left(\\theta\\right) \\end{pmatrix}\\,.\\!\\!\\!\\!
 \\end{equation}
 Prepare to say Abracadabra, because here comes the magic. Defining
 \\begin{align}
