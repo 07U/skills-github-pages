@@ -130,6 +130,7 @@ This part is the most intense one in this text, and I feel a summary section is 
 * We then showed how a Tensor representation could act on an \\(\\mathfrak{su}\\!\\left(2\\right)\\) vector.
 	* Combining with the above points, this shows that quaternions can be used to both represent a \\(3\\)-dimensional vector space, and a transformation that acts on it.
 * Lastly, without an explicit proof, we derived a translation from the \\(SU\\!\\left(2\\right)\\) Tensor representation to the Fundamental representation of \\(SO\\!\\left(3\\right)\\), which are **rotations** in \\(3D\\) space.
+
 If you understood everything between the two bold words, I am satisfied.
 
 &nbsp;&nbsp;&nbsp;&nbsp;In Part&nbsp;[\\(\\text{V}\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation), the last part of this text, we will derive \\(O\\) explicitly, hopefully closing any loose ends you may have.
