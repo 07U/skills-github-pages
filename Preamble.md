@@ -27,10 +27,9 @@ This text does not serve as an introduction to [Linear Algebra](https://en.wikip
 \\end{equation}
 and applying the sandwich product
 \\begin{equation}
-	\\label{eq:Quaternion Transformation}
 	p \\longmapsto q p q^{-1}\\,,
 \\end{equation}
-with some quaternion \\(q\\). Don't worry, we will go over the definition of quaternion multiplications again. I would like to state at this stage, though, that because, by definition,
+with some quaternion \\(q\\) (the rotation quaternion). Don't worry, we will go over the definition of quaternion multiplications again. I would like to state at this stage, though, that because, by definition,
 \\begin{equation}
 	\\label{eq:Quaternion Inverse}
 	q q^{-1} = 1\\,,
