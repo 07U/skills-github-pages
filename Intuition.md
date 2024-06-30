@@ -79,7 +79,7 @@ It is no surprise then that \\(\\left(-\\epsilon\\right)^{2} = -𝟙\\) just lik
 &nbsp;&nbsp;&nbsp;&nbsp;The \\(2 \\times 2\\) form of Euler's formula, Eq.&nbsp;\\eqref{eq:2x2 Euler Formula}, can now be rewritten as
 \\begin{equation}
 	\\label{eq:Fundamental Representation of Euler's Formula}
-	e^{D\\!\\left(i \\theta\\right)} = e^{D\\!\\left(i\\right) \\theta} = \\cos\\!\\left(\\theta\\right) D\\!\\left(1\\right) + \\sin\\!\\left(\\theta\\right) D\\!\\left(i\\right)\\,.
+	e^{D\\left(i \\theta\\right)} = e^{D\\left(i\\right) \\theta} = \\cos\\!\\left(\\theta\\right) D\\!\\left(1\\right) + \\sin\\!\\left(\\theta\\right) D\\!\\left(i\\right)\\,.
 \\end{equation}
 Notice that the linearity, Eq.&nbsp;\\eqref{eq:Representation Linearity}, and the multiplication-preservation property, Eq.&nbsp;\\eqref{eq:Representation Homomorphism}, allow us to just insert \\(D\\) in the original Euler's formula, Eq.&nbsp;\\eqref{eq:Euler's Formula}, and get Eq.&nbsp;\\eqref{eq:Fundamental Representation of Euler's Formula}.
 
