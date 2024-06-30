@@ -4,7 +4,7 @@
 
 Before we dive into analyzing quaternions in Part&nbsp;[\\(\\text{III}\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts), we review in Sec.&nbsp;[\\(5\\)](https://07U.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers) what is already known to us about complex numbers, and their relation to rotations. In Sec.&nbsp;[\\(6\\)](https://07U.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future) we are going to familiarize ourselves with some advanced topics, which will be covered in more details in Part&nbsp;[\\(\\text{IV}\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations).
 
-&nbsp;&nbsp;&nbsp;&nbsp;This part is going to serves as a comparison point. All of the results and definitions presented later in the text, in the context of quaternions, can be applied also to the complex numbers, with more ease. Hence, I encourage you to always come back here and try to understand the definitions in the context of complex numbers, even when not instructed to do so in the text.
+&nbsp;&nbsp;&nbsp;&nbsp;This part is going to serves as a comparison point. All of the results and definitions presented later in the text, in the context of quaternions, can be applied also to the complex numbers, with much more ease. Hence, I encourage you to always come back here and try to understand the definitions in the context of complex numbers, even when not instructed to do so in the text.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Let us start.
 <br><br>
