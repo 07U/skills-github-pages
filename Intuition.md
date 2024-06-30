@@ -12,7 +12,7 @@ Before we dive into analyzing quaternions in Part&nbsp;[\\(\\text{III}\\)](https
 ### \\(5\\ \\) Rotations With Complex Numbers
 <div style="display:none">\(\setSection{5}\)</div>
 
-[Euler](https://en.wikipedia.org/wiki/Leonhard_Euler) already posted his famous [Euler's Formula](https://en.wikipedia.org/wiki/Euler%27s_formula) on LinkedIn,
+[Leonhard Euler](https://en.wikipedia.org/wiki/Leonhard_Euler) already posted his famous [Euler's Formula](https://en.wikipedia.org/wiki/Euler%27s_formula) on LinkedIn,
 \\begin{equation}
 	\\label{eq:Euler's Formula}
 	e^{i \\theta} = \\cos\\!\\left(\\theta\\right) + i \\sin\\!\\left(\\theta\\right)\\,.
