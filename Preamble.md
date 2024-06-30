@@ -66,7 +66,7 @@ Part&nbsp;[\\(\\text{II}\\)](https://07U.github.io/skills-github-pages/Intuition
 <div style="display:none">\(\setSection{4}\)</div>
 
 Want your LinkedIn profile to appear here? Please join the conversation and contribute! At the end of each part, there is a reference to the post on LinkedIn regarding that part. Please add your comments and insights there. You could also write to me directly in my [LinkedIn profile](https://www.linkedin.com/in/Oz-Davidi/).
-<br><br><br>
+<br><br>
 
 ---
 <br>
