@@ -75,6 +75,6 @@ Want your LinkedIn profile to appear here? Please join the conversation and cont
 ---
 <br>
 
-[^1]: Please do it after you read this text, as it makes it obsolete in some sense haha
+[^1]: Please check it after you read this text, as it makes the text obsolete in some sense 😅
 [^2]: Pun was not intended.
 [^3]: There are claims on the internet that a quaternion with a negative real part performs a rotation according to the left-hand rule, but that is not quite accurate.
