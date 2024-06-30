@@ -136,8 +136,8 @@ As a unit-quaternion, it has \\(3\\) degrees of freedom, but they represent a \\
 ---
 <br>
 
-To the previous part: [\\(\\text{II}\\ \\) Intuition](https://07u.github.io/skills-github-pages/Intuition).<br>
-To the next part: [\\(\\text{IV}\\ \\) The Connection To \\(3D\\) Rotations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations).
+To the previous part: [\\(\\text{II}\\ \\) Intuition](https://07U.github.io/skills-github-pages/Intuition).<br>
+To the next part: [\\(\\text{IV}\\ \\) The Connection To \\(3D\\) Rotations](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations).
 <br><br>
 
 # Comments
