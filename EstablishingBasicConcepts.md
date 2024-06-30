@@ -4,7 +4,7 @@
 
 In Part&nbsp;[\\(\\text{II}\\)](https://07U.github.io/skills-github-pages/Intuition), we reviewed the intuitive connection between complex numbers (specifically the imaginary number, \\(i\\)) and \\(2D\\) rotations in linear algebra.
 
-&nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;[\\(7\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups), the mathematical structure of Groups is going to be discussed. We also start analyzing quaternions, and derive an analogous result to Euler's formula in Sec.&nbsp;[\\(8\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions).
+&nbsp;&nbsp;&nbsp;&nbsp;In Section&nbsp;[\\(7\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups), the mathematical structure of Groups is going to be discussed. We also start analyzing quaternions, and derive an analogous result to Euler's formula in Section&nbsp;[\\(8\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions).
 <br><br>
 
 ### \\(7\\ \\) Groups
@@ -32,7 +32,7 @@ If you choose not to master Group Theory, and just want to jump into the juicy s
 
 &nbsp;&nbsp;&nbsp;&nbsp;Let us introduce some useful groups. The group operations in all of the groups presented below is multiplication, and we define \\(M\\!\\left(N, \\mathbb{F}\\right)\\) as the set of all \\(N \\times N\\) matrices with elements in the field \\(\\mathbb{F}\\).[^7] \\(M\\!\\left(N, \\mathbb{F}\\right)\\) is not a group, because it contains non-invertible matrices.
 
-&nbsp;&nbsp;&nbsp;&nbsp;In Sec.&nbsp;[\\(5\\)](https://07U.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers), we already encountered \\(SO\\!\\left(2\\right)\\). Let us give the general definition for any integer \\(N\\). The [Special Orthogonal](https://en.wikipedia.org/wiki/Orthogonal_group#Special_orthogonal_group) group is
+&nbsp;&nbsp;&nbsp;&nbsp;In Section&nbsp;[\\(5\\)](https://07U.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers), we already encountered \\(SO\\!\\left(2\\right)\\). Let us give the general definition for any integer \\(N\\). The [Special Orthogonal](https://en.wikipedia.org/wiki/Orthogonal_group#Special_orthogonal_group) group is
 \\begin{equation}
 	\\label{eq:SO(N) Definition}
 	SO\\!\\left(N\\right) = \\Set{O \\in M\\!\\left(N, \\mathbb{R}\\right) | O^{T} O = 𝟙\_{N \\times N}\\,,\\ \\det\\!\\left[O\\right] = 1}\\,.
@@ -88,7 +88,7 @@ Setting \\(\\hat{n}^{T} = \\begin{pmatrix} 0 & 1 & 0 \\end{pmatrix}\\),[^10] one
 
 #### \\(8.2\\ \\) Quaternions As Matrices
 
-In Sec.&nbsp;[\\(6\\)](https://07U.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future) of the intuition part, Part&nbsp;[\\(\\text{II}\\)](https://07U.github.io/skills-github-pages/Intuition), we defined the concept of representations. At the end of it, few maps were presented, some of which are legitimate representations. If you had your suspicions then (or have them now) that there are infinitely many representations, you are not mistaken. Without getting too deep into Representation Theory, consider the complex numbers once more. We saw that they rotate the \\(2\\)-dimensional Euclidean plane. What about a \\(3\\)-dimensional Euclidean space? We can always ignore one of the dimensions, for example the \\(z\\) direction, and choose
+In Section&nbsp;[\\(6\\)](https://07U.github.io/skills-github-pages/Intuition#6--a-glimpse-into-the-future) of the intuition part, Part&nbsp;[\\(\\text{II}\\)](https://07U.github.io/skills-github-pages/Intuition), we defined the concept of representations. At the end of it, few maps were presented, some of which are legitimate representations. If you had your suspicions then (or have them now) that there are infinitely many representations, you are not mistaken. Without getting too deep into Representation Theory, consider the complex numbers once more. We saw that they rotate the \\(2\\)-dimensional Euclidean plane. What about a \\(3\\)-dimensional Euclidean space? We can always ignore one of the dimensions, for example the \\(z\\) direction, and choose
 \\begin{equation}
 	\\label{eq:SO(2) 3D Representation}
 	D\\!\\left(1\\right) = 𝟙\\,,\\ D\\!\\left(i\\right) = \\begin{pmatrix} 0 & -1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}\\,.
@@ -100,7 +100,7 @@ Throughout the text, starting now, the size of \\(𝟙\\) is determined by the c
 	\\label{eq:2D Quaternion Representation}
 	\\!\\!D\\!\\left(\\underline{1}\\right) = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{i}\\right) = \\begin{pmatrix} 0 & i \\\\ i & 0 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{j}\\right) = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix}\\,,\\ D\\!\\left(\\underline{k}\\right) = \\begin{pmatrix} i & 0 \\\\ 0 & -i \\end{pmatrix}\\,.\\!\\!
 \\end{equation}
-\\(D\\!\\left(\\underline{1}\\right) = 𝟙\\) and \\(D\\!\\left(\\underline{j}\\right) = -\\epsilon\\), recovering the complex representation, defined in Sec.&nbsp;[\\(5\\)](https://07U.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers). We could have chosen larger matrices, but why not keep it minimal? As an exercise, try to think of a strictly real representation that maps to \\(4 \\times 4\\) matrices.
+\\(D\\!\\left(\\underline{1}\\right) = 𝟙\\) and \\(D\\!\\left(\\underline{j}\\right) = -\\epsilon\\), recovering the complex representation, defined in Section&nbsp;[\\(5\\)](https://07U.github.io/skills-github-pages/Intuition#5--rotations-with-complex-numbers). We could have chosen larger matrices, but why not keep it minimal? As an exercise, try to think of a strictly real representation that maps to \\(4 \\times 4\\) matrices.
 <br><br>
 
 #### \\(8.3\\ \\) What Is A Quaternion Exponentiation?
@@ -136,15 +136,19 @@ As a unit-quaternion, it has \\(3\\) degrees of freedom, but they represent a \\
 &nbsp;&nbsp;&nbsp;&nbsp;So, although the final result of the exponent expression can be written as a quaternion, and can act on quaternions, we do not need the *whole* quaternion space - and attached complications - to interpret it. In my humble opinion, this is the simpler way to think about this subject.
 
 &nbsp;&nbsp;&nbsp;&nbsp;We think about (the imaginary elements of) quaternions not as \\(SU\\!\\left(2\\right)\\) group *elements*, but as its *generators*. Brace yourself - we are going to dive deeper in Part&nbsp;[\\(\\text{IV}\\)](https://07U.github.io/skills-github-pages/TheConnectionTo3DRotations).
-<br><br><br>
+<br><br>
 
 ---
 <br>
 
+To the previous part: [\\(\\text{I}\\ \\) Preamble](https://07u.github.io/skills-github-pages/Preamble).<br>
+To the next part: [\\(\\text{III}\\ \\) Establishing Basic Concepts](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts).
+<br><br>
+
 # Comments
 
 Discussion.
-<br><br><br>
+<br><br>
 
 ---
 <br>
