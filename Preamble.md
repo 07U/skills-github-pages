@@ -31,12 +31,10 @@ and applying the sandwich product
 \\end{equation}
 with some quaternion \\(q\\) - the rotating quaternion. Don't worry, we will go over the definition of quaternion multiplications again. I would like to state at this stage, though, that because, by definition,
 \\begin{equation}
-	\\label{eq:Quaternion Inverse}
 	q q^{-1} = 1\\,,
 \\end{equation}
 the global scale does not play any role. It is thus customary and makes total sense to consider only unit-quaternions, *i.e.* those that satisfy
 \\begin{equation}
-	\\label{eq:Unit Quaternion Inverse}
 	\\left|q\\right|^{2} = q q^{\\ast} = 1 \\quad\\longleftrightarrow\\quad q^{-1} = q^{\\ast}\\,,
 \\end{equation}
 with the conjugation operation negating \\(i\\), \\(j\\), and \\(k\\). Hence, the main goal for us would be to observe the matrix-code that runs[^2]
