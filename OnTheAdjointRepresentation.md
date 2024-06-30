@@ -11,7 +11,7 @@ The whole intention of the previous parts was to show that one could strictly di
 &nbsp;&nbsp;&nbsp;&nbsp;Throughout the internet and literature, I could only find two algorithms for extracting the quaternion coefficients out of a rotation matrix: the na\\"ive algorithm, which involves \\(4\\) evaluations of the square-root functions; and the classic algorithm, which involves one square-root evaluation, but up to \\(3\\) branches. In Sec.&nbsp;[\\(15\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation#15--a-branchless-matrix-to-quaternion-translation) I would like to present a branchless algorithm, for the extraction of a quaternion from a \\(3D\\) rotation matrix, with the evaluation of only one square-root function. We do it by combining all the knowledge we had gained.
 <br><br>
 
-### \\(14\\ \\)  Deriving The Explicit Rotation Matrix Form
+### \\(14\\ \\) Deriving The Explicit Rotation Matrix Form
 <div style="display:none">\(\setSection{14}\)</div>
 
 #### \\(14.1\\ \\) Reminder
