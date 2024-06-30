@@ -139,8 +139,8 @@ If you understood everything between the two bold words, I am satisfied.
 ---
 <br>
 
-To the previous part: [\\(\\text{III}\\ \\) Establishing Basic Concepts](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts).<br>
-To the next part: [\\(\\text{V}\\ \\) On The Adjoint Representation](https://07u.github.io/skills-github-pages/OnTheAdjointRepresentation).
+To the previous part: [\\(\\text{III}\\ \\) Establishing Basic Concepts](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts).<br>
+To the next part: [\\(\\text{V}\\ \\) On The Adjoint Representation](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation).
 <br><br>
 
 ## Comments
