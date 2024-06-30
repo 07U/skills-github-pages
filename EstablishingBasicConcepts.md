@@ -23,7 +23,7 @@ Groups are extremely intuitive to understand, and are relatively simple mathemat
 	\\begin{equation}
 		e \\cdot  g = g \\cdot e = g\\,.
 	\\end{equation}
-4. Inverse - for all elements \\(g \\in G\\), exists an element \\(g^{-1} \\in G\\), such that:
+4. Inverse - for any element \\(g \\in G\\), exists an element \\(g^{-1} \\in G\\), such that:
 	\\begin{equation}
 		g \\cdot  g^{-1} = g^{-1} \\cdot g = e\\,.
 	\\end{equation}
