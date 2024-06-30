@@ -104,7 +104,7 @@ Throughout the text, starting now, the size of \\(𝟙\\) is determined by the c
 
 We have arrived to the final step of our exponentiation derivation - transforming the QuaterniEuler's formula, Eq.&nbsp;\\eqref{eq:QuaterniEuler's Formula}, into matrix form. We define the general direction
 \\begin{equation}
-	\\hat{n}  = \\begin{pmatrix} \\sin\\!\\left(\\theta\\right) \\cos\\!\\left(\\varphi\\right) \\\\ \\sin\\!\\left(\\theta\\right) \\sin\\!\\left(\\varphi\\right) \\\\ \\cos\\!\\left(\\theta\\right)\\end{pmatrix}\\,
+	\\hat{n}  = \\begin{pmatrix} \\sin\\!\\left(\\theta\\right) \\cos\\!\\left(\\varphi\\right) \\\\ \\sin\\!\\left(\\theta\\right) \\sin\\!\\left(\\varphi\\right) \\\\ \\cos\\!\\left(\\theta\\right)\\end{pmatrix}\\,,
 \\end{equation}
 so the matrix form of \\(q\\), Eq.&nbsp;\\eqref{eq:q}, is
 \\begin{equation}
