@@ -92,8 +92,8 @@ Notice that the linearity, Eq.&nbsp;\\eqref{eq:Representation Linearity}, and th
 ---
 <br>
 
-To the previous part: [\\(\\text{I}\\ \\) Preamble](https://07u.github.io/skills-github-pages/Preamble).<br>
-To the next part: [\\(\\text{III}\\ \\) Establishing Basic Concepts](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts).
+To the previous part: [\\(\\text{I}\\ \\) Preamble](https://07U.github.io/skills-github-pages/Preamble).<br>
+To the next part: [\\(\\text{III}\\ \\) Establishing Basic Concepts](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts).
 <br><br>
 
 # Comments
