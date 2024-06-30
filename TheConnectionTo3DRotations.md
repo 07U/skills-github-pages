@@ -50,7 +50,7 @@ and in matrix notation, it reads
 \\begin{equation}
 	T \\longmapsto \\text{"\\(\\displaystyle{D\_{\\text{T}}\\!\\left(U\\right) T}\\)"} = U T U^{\\dagger}\\,.
 \\end{equation}
-To matrix-vector multiplication, the expression inside the quotation marks, is properly derived in Part&nbsp;[\\(\\text{V}\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation). One could build any tensor with as many indices in any representation they like. The \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\) one is of particular significance to us.
+The matrix-vector multiplication - the expression inside the quotation marks - is properly derived in Part&nbsp;[\\(\\text{V}\\)](https://07U.github.io/skills-github-pages/OnTheAdjointRepresentation). One could build any tensor with as many indices in any representation they like. The \\(\\boldsymbol{2} \\otimes \\boldsymbol{\\overline{2}}\\) one is of particular significance to us.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Tensor representation reveals how an \\(SU\\!\\left(2\\right)\\) element can act on a completely different vector space - one in which the vectors are \\(2 \\times 2\\) matrices. Could you connect the dots?[^14]
 <br><br>
