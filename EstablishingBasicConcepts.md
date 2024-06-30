@@ -4,7 +4,7 @@
 
 In Part&nbsp;[\\(\\text{II}\\)](https://07U.github.io/skills-github-pages/Intuition), we reviewed the intuitive connection between complex numbers (specifically the imaginary number, \\(i\\)) and \\(2D\\) rotations in linear algebra.
 
-&nbsp;&nbsp;&nbsp;&nbsp;In Section&nbsp;[\\(7\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups), the mathematical structure of Groups is going to be discussed. We also start analyzing quaternions, and derive an analogous result to Euler's formula in Section&nbsp;[\\(8\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions).
+&nbsp;&nbsp;&nbsp;&nbsp;In Section&nbsp;[\\(7\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#7--groups), the mathematical structure of *groups* is going to be discussed. We also start analyzing quaternions, and derive an analogous result to Euler's formula in Section&nbsp;[\\(8\\)](https://07U.github.io/skills-github-pages/EstablishingBasicConcepts#8--fun-with-quaternions).
 <br><br>
 
 ### \\(7\\ \\) Groups
@@ -141,8 +141,8 @@ As a unit-quaternion, it has \\(3\\) degrees of freedom, but they represent a \\
 ---
 <br>
 
-To the previous part: [\\(\\text{I}\\ \\) Preamble](https://07u.github.io/skills-github-pages/Preamble).<br>
-To the next part: [\\(\\text{III}\\ \\) Establishing Basic Concepts](https://07u.github.io/skills-github-pages/EstablishingBasicConcepts).
+To the previous part: [\\(\\text{II}\\ \\) Intuition](https://07u.github.io/skills-github-pages/Intuition).<br>
+To the next part: [\\(\\text{IV}\\ \\) The Connection To \\(3D\\) Rotations](https://07u.github.io/skills-github-pages/TheConnectionTo3DRotations).
 <br><br>
 
 # Comments
