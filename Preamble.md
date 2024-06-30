@@ -23,7 +23,7 @@ This text does not serve as an introduction to [Linear Algebra](https://en.wikip
 
 &nbsp;&nbsp;&nbsp;&nbsp;This was about what the text expects of you, and what you should not expect of it. The main goal of this text is to place the quaternions inside a fictional MRI machine, and see into their mechanism for rotations. As a reminder, with this mechanism, a vector \\(\\vec{v} \\in \\mathbb{R}^{3}\\) is rotated by defining the purely imaginary quaternion
 \\begin{equation}
-	\\vec{v} = \\begin{pmatrix}(x \\\\ y \\\\ z\\end{pmatrix} \\longleftrightarrow p = x i + y j + z k\\,,
+	\\vec{v} = \\begin{pmatrix}x \\\\ y \\\\ z\\end{pmatrix} \\quad\\longleftrightarrow\\quad p = x i + y j + z k\\,,
 \\end{equation}
 and applying the sandwich product
 \\begin{equation}
