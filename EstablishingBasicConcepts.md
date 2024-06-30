@@ -104,12 +104,10 @@ Throughout the text, starting now, the size of \\(𝟙\\) is determined by the c
 
 We have arrived to the final step of our exponentiation derivation - transforming the QuaterniEuler's formula, Eq.&nbsp;\\eqref{eq:QuaterniEuler's Formula}, into matrix form. We define the general direction
 \\begin{equation}
-	\\label{eq:Alpha Direction}
 	\\hat{n}  = \\begin{pmatrix} \\sin\\!\\left(\\theta\\right) \\cos\\!\\left(\\varphi\\right) \\\\ \\sin\\!\\left(\\theta\\right) \\sin\\!\\left(\\varphi\\right) \\\\ \\cos\\!\\left(\\theta\\right)\\end{pmatrix}\\,
 \\end{equation}
 so the matrix form of \\(q\\), Eq.&nbsp;\\eqref{eq:q}, is
 \\begin{equation}
-	\\label{eq:q Matrix Form}
 	\\!\\!\\!\\!D\\!\\left(q\\right) \\!=\\! \\begin{pmatrix}\\! \\cos\\!\\left(\\alpha\\right) \\!+\\! i \\sin\\!\\left(\\alpha\\right) \\cos\\!\\left(\\theta\\right) \\!&\\! \\sin\\!\\left(\\alpha\\right) \\sin\\!\\left(\\theta\\right) \\left(-\\!\\sin\\!\\left(\\varphi\\right) \\!+\\! i \\cos\\!\\left(\\varphi\\right)\\right) \\!\\\\\\! \\sin\\!\\left(\\alpha\\right) \\sin\\!\\left(\\theta\\right) \\left(\\sin\\!\\left(\\varphi\\right) \\!+\\! i \\cos\\!\\left(\\varphi\\right)\\right) \\!&\\! \\cos\\!\\left(\\alpha\\right) \\!-\\! i \\sin\\!\\left(\\alpha\\right) \\cos\\!\\left(\\theta\\right) \\!\\end{pmatrix}\\,.\\!\\!\\!\\!
 \\end{equation}
 Prepare to say Abracadabra, because here comes the magic. Defining
